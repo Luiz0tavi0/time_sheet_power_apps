@@ -239,7 +239,7 @@ login As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =If(Toggle_Cpf_Or_Cnpj.Value,varColorDefauts.colaborador, varColorDefauts.empresa)
+        Fill: =If(Toggle_Cpf_Or_Cnpj.Value,varColorDefauts.empresa,varColorDefauts.colaborador)
         FocusedBorderThickness: =4
         Height: =80
         HoverFill: =RGBA(0, 120, 212, 1)
