@@ -1,0 +1,91 @@
+{
+  "0231a2ce-81a0-4ca3-abe3-d1a85fafc381": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-125.westus.logic.azure.com:443/workflows/204baabe4cde402abdc48cf31c213fbe/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vnaCLbZZfhwYOeDBrQKK3XCefM_ZI88eCEBraF1APww",
+      "workflowEndpoint": "/subscriptions/e9bc7b8d-bb95-4e7a-baf8-230462d93177/resourceGroups/cf72e2bd7a2b4783bdeb39d57b07f76f-57519c2e09f94f7d99dcbab90ea5629c/providers/Microsoft.Logic/workflows/873ad239-6eca-4922-9194-0d647eaa3927",
+      "workflowName": "873ad239-6eca-4922-9194-0d647eaa3927",
+      "workflowPath": "/subscriptions/e9bc7b8d-bb95-4e7a-baf8-230462d93177/resourceGroups/cf72e2bd7a2b4783bdeb39d57b07f76f-57519c2e09f94f7d99dcbab90ea5629c/providers/Microsoft.Logic/workflows/873ad239-6eca-4922-9194-0d647eaa3927"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "e9312235-b10c-467c-b556-e87d7fdaa901": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "873ad239-6eca-4922-9194-0d647eaa3927"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "e9312235-b10c-467c-b556-e87d7fdaa901"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "873ad239-6eca-4922-9194-0d647eaa3927"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Send_an_email_invite"
+    ],
+    "dependencies": {
+      "shared_office365": "e9312235-b10c-467c-b556-e87d7fdaa901"
+    },
+    "dependents": [],
+    "id": "0231a2ce-81a0-4ca3-abe3-d1a85fafc381"
+  },
+  "e9312235-b10c-467c-b556-e87d7fdaa901": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "0231a2ce-81a0-4ca3-abe3-d1a85fafc381"
+    ],
+    "id": "e9312235-b10c-467c-b556-e87d7fdaa901"
+  },
+  "f177bcf3-acb3-4f46-ad2c-88e77cf88c58": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet": {
+        "dataSources": {
+          "Rastreador de despesas": {
+            "tableName": "1f45e595-a84c-4b19-be16-428eba17a792"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Rastreador de despesas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f177bcf3-acb3-4f46-ad2c-88e77cf88c58"
+  }
+}
