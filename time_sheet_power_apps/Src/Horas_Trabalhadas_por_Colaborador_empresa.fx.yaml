@@ -11,7 +11,7 @@ Horas_Trabalhadas_por_Colaborador_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =360
-        Y: =560
+        Y: =1056
         ZIndex: =2
 
     Label20306 As label:
@@ -34,7 +34,7 @@ Horas_Trabalhadas_por_Colaborador_empresa As screen:
             Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
         VerticalAlign: =VerticalAlign.Top
         Width: =364
-        Y: =572
+        Y: =1056
         ZIndex: =3
 
     Rectangle20308 As rectangle:
@@ -43,29 +43,11 @@ Horas_Trabalhadas_por_Colaborador_empresa As screen:
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(2, 4, 48, 1)
         FocusedBorderThickness: =4
-        Height: =80
+        Height: =97
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
+        Width: =640
         ZIndex: =5
-
-    Image20310 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =20
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20310
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16
-        X: =308
-        Y: =30
-        ZIndex: =7
 
     Label20311 As label:
         Align: =Align.Center
@@ -76,16 +58,16 @@ Horas_Trabalhadas_por_Colaborador_empresa As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         FontWeight: =FontWeight.Bold
-        Height: =23
+        Height: =43
         LineHeight: =1.171875
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
-        Size: =15
+        Size: =20
         Text: ="<login>"
         VerticalAlign: =VerticalAlign.Top
-        Width: =70
+        Width: =134
         X: =35
         Y: =30
         ZIndex: =8
@@ -603,4 +585,24 @@ Horas_Trabalhadas_por_Colaborador_empresa As screen:
         X: =230
         Y: =161
         ZIndex: =53
+
+    Icon1 As icon.Leave:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =36
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Leave
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =36
+        X: =546
+        Y: =33
+        ZIndex: =54
 
