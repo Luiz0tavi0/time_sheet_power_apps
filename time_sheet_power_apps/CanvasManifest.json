@@ -110,6 +110,7 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
+    "login",
     "Horas_Trabalhadas_por_Colaborador_empresa",
     "Visualizar_Projeto_empresa",
     "Conta_Alterada",
@@ -128,7 +129,6 @@
     "editarexcuir_Projeto_empresa",
     "colaborador_-_criar_Projeto",
     "criar_Projeto_empresa",
-    "login",
     "editar_cadastro_colaborador",
     "cadastro_colaborador",
     "empresa_-_atualizar_dados",
