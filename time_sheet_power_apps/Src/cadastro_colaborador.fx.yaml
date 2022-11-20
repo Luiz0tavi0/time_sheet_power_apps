@@ -1,42 +1,6 @@
 cadastro_colaborador As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle20441 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        Y: =560
-        ZIndex: =2
-
-    Label20442 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =68
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: |-
-            ="Grupo 3 - 
-            Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-        VerticalAlign: =VerticalAlign.Top
-        Width: =364
-        Y: =572
-        ZIndex: =3
-
     Rectangle20444 As rectangle:
         BorderColor: =RGBA(110, 164, 191, 1)
         BorderThickness: =1
@@ -47,8 +11,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =25
-        Y: =495
+        X: =162
+        Y: =747
         ZIndex: =5
 
     Label20445 As label:
@@ -69,8 +33,8 @@ cadastro_colaborador As screen:
         Text: ="Criar conta"
         VerticalAlign: =VerticalAlign.Top
         Width: =104
-        X: =120
-        Y: =505
+        X: =257
+        Y: =757
         ZIndex: =6
 
     Rectangle20451 As rectangle:
@@ -83,8 +47,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =371
+        X: =165
+        Y: =623
         ZIndex: =8
 
     Label20452 As label:
@@ -104,8 +68,8 @@ cadastro_colaborador As screen:
         Text: ="11999999999"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =38
-        Y: =380
+        X: =175
+        Y: =632
         ZIndex: =9
 
     Label20453 As label:
@@ -125,8 +89,8 @@ cadastro_colaborador As screen:
         Text: ="Telefone"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =28
-        Y: =352
+        X: =165
+        Y: =604
         ZIndex: =10
 
     Rectangle281001 As rectangle:
@@ -139,8 +103,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =436
+        X: =165
+        Y: =688
         ZIndex: =12
 
     Label281002 As label:
@@ -160,8 +124,8 @@ cadastro_colaborador As screen:
         Text: ="xxx@xxx.xxx"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =38
-        Y: =445
+        X: =175
+        Y: =697
         ZIndex: =13
 
     Label281003 As label:
@@ -181,8 +145,8 @@ cadastro_colaborador As screen:
         Text: ="e-mail"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =28
-        Y: =417
+        X: =165
+        Y: =669
         ZIndex: =14
 
     Rectangle20455 As rectangle:
@@ -195,8 +159,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =306
+        X: =165
+        Y: =558
         ZIndex: =16
 
     Label20456 As label:
@@ -217,8 +181,8 @@ cadastro_colaborador As screen:
             ="Ex: Projetista, Desenvolvedor"
         VerticalAlign: =VerticalAlign.Top
         Width: =237
-        X: =38
-        Y: =315
+        X: =175
+        Y: =567
         ZIndex: =17
 
     Label20457 As label:
@@ -238,8 +202,8 @@ cadastro_colaborador As screen:
         Text: ="Cargo"
         VerticalAlign: =VerticalAlign.Top
         Width: =157
-        X: =28
-        Y: =287
+        X: =165
+        Y: =539
         ZIndex: =18
 
     Rectangle20459 As rectangle:
@@ -252,8 +216,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =241
+        X: =165
+        Y: =493
         ZIndex: =20
 
     Label20460 As label:
@@ -273,8 +237,8 @@ cadastro_colaborador As screen:
         Text: ="Senha"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =28
-        Y: =222
+        X: =165
+        Y: =474
         ZIndex: =21
 
     Label20461 As label:
@@ -294,8 +258,8 @@ cadastro_colaborador As screen:
         Text: ="*********"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =38
-        Y: =250
+        X: =175
+        Y: =502
         ZIndex: =22
 
     Rectangle20463 As rectangle:
@@ -308,8 +272,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =176
+        X: =165
+        Y: =428
         ZIndex: =24
 
     Label20464 As label:
@@ -329,8 +293,8 @@ cadastro_colaborador As screen:
         Text: ="CPF"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =28
-        Y: =157
+        X: =165
+        Y: =409
         ZIndex: =25
 
     Label20465 As label:
@@ -350,39 +314,9 @@ cadastro_colaborador As screen:
         Text: ="somente números"
         VerticalAlign: =VerticalAlign.Top
         Width: =153
-        X: =38
-        Y: =185
+        X: =175
+        Y: =437
         ZIndex: =26
-
-    Rectangle20467 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        ZIndex: =28
-
-    Image20469 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =16.0098876953125
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20469
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =311.994201660156
-        Y: =31.9959106445313
-        ZIndex: =30
 
     Rectangle20471 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -394,8 +328,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =188
-        Y: =100
+        X: =325
+        Y: =352
         ZIndex: =32
 
     Label20472 As label:
@@ -416,8 +350,8 @@ cadastro_colaborador As screen:
         Text: ="Colaborador"
         VerticalAlign: =VerticalAlign.Top
         Width: =97
-        X: =223
-        Y: =111
+        X: =360
+        Y: =363
         ZIndex: =33
 
     Image20474 As image:
@@ -434,8 +368,8 @@ cadastro_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =19.9017333984375
-        X: =201.06396484375
-        Y: =109.994506835938
+        X: =338
+        Y: =361
         ZIndex: =35
 
     Rectangle20476 As rectangle:
@@ -448,8 +382,8 @@ cadastro_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =25
-        Y: =100
+        X: =162
+        Y: =352
         ZIndex: =37
 
     Label20477 As label:
@@ -469,8 +403,8 @@ cadastro_colaborador As screen:
         Text: =" Empresa"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =71
-        Y: =111
+        X: =208
+        Y: =363
         ZIndex: =38
 
     Image20479 As image:
@@ -487,7 +421,81 @@ cadastro_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =22
-        X: =48
-        Y: =110
+        X: =185
+        Y: =362
         ZIndex: =40
+
+    Rectangle20308_3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(110, 164, 191, 1)
+        FocusedBorderThickness: =4
+        Height: =120
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =640
+        ZIndex: =43
+
+    Icon8_1 As icon.Cancel:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Cancel
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =529
+        Y: =28
+        ZIndex: =44
+
+    Footer_3 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =45
+
+        Rectangle20305_3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(2, 4, 48, 1)
+            FocusedBorderThickness: =4
+            Height: =120
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =640
+            Y: =1016
+            ZIndex: =41
+
+        Label20306_3 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =85
+            LineHeight: =1.171875
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: |-
+                ="Grupo 3 - 
+                Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
+            VerticalAlign: =VerticalAlign.Top
+            Width: =546
+            X: =47
+            Y: =1033
+            ZIndex: =42
 

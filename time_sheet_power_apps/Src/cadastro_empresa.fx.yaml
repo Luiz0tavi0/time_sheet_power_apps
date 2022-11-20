@@ -11,7 +11,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =360
-        Y: =560
+        X: =146
+        Y: =800
         ZIndex: =2
 
     Label119 As label:
@@ -34,7 +35,8 @@ cadastro_empresa As screen:
             Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
         VerticalAlign: =VerticalAlign.Top
         Width: =364
-        Y: =572
+        X: =146
+        Y: =812
         ZIndex: =3
 
     Rectangle116 As rectangle:
@@ -47,8 +49,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =25
-        Y: =503
+        X: =171
+        Y: =743
         ZIndex: =5
 
     Label117 As label:
@@ -69,8 +71,8 @@ cadastro_empresa As screen:
         Text: ="Criar conta"
         VerticalAlign: =VerticalAlign.Top
         Width: =104
-        X: =120
-        Y: =513
+        X: =266
+        Y: =753
         ZIndex: =6
 
     Rectangle1220 As rectangle:
@@ -83,8 +85,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =388
+        X: =174
+        Y: =628
         ZIndex: =8
 
     Label1221 As label:
@@ -104,8 +106,8 @@ cadastro_empresa As screen:
         Text: ="11999999999"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =38
-        Y: =397
+        X: =184
+        Y: =637
         ZIndex: =9
 
     Label1222 As label:
@@ -125,8 +127,8 @@ cadastro_empresa As screen:
         Text: ="Telefone"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =28
-        Y: =369
+        X: =174
+        Y: =609
         ZIndex: =10
 
     Rectangle281108 As rectangle:
@@ -139,8 +141,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =443
+        X: =175
+        Y: =683
         ZIndex: =12
 
     Label281109 As label:
@@ -160,8 +162,8 @@ cadastro_empresa As screen:
         Text: ="xxx@xxx.xxx"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =39
-        Y: =452
+        X: =185
+        Y: =692
         ZIndex: =13
 
     Label281110 As label:
@@ -181,8 +183,8 @@ cadastro_empresa As screen:
         Text: ="e-mail"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =29
-        Y: =424
+        X: =175
+        Y: =664
         ZIndex: =14
 
     Rectangle1121 As rectangle:
@@ -195,8 +197,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =333
+        X: =174
+        Y: =573
         ZIndex: =16
 
     Label1123 As label:
@@ -217,8 +219,8 @@ cadastro_empresa As screen:
             ="Ex: Industria, Comércio, Artes"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =38
-        Y: =342
+        X: =184
+        Y: =582
         ZIndex: =17
 
     Label1122 As label:
@@ -238,8 +240,8 @@ cadastro_empresa As screen:
         Text: ="Setor"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =28
-        Y: =314
+        X: =174
+        Y: =554
         ZIndex: =18
 
     Rectangle1118 As rectangle:
@@ -252,8 +254,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =278
+        X: =174
+        Y: =518
         ZIndex: =20
 
     Label1120 As label:
@@ -273,8 +275,8 @@ cadastro_empresa As screen:
         Text: ="nome"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =38
-        Y: =287
+        X: =184
+        Y: =527
         ZIndex: =21
 
     Label1119 As label:
@@ -294,8 +296,8 @@ cadastro_empresa As screen:
         Text: ="Nome da Empresa"
         VerticalAlign: =VerticalAlign.Top
         Width: =157
-        X: =28
-        Y: =259
+        X: =174
+        Y: =499
         ZIndex: =22
 
     Rectangle1115 As rectangle:
@@ -308,8 +310,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =223
+        X: =174
+        Y: =463
         ZIndex: =24
 
     Label1116 As label:
@@ -329,8 +331,8 @@ cadastro_empresa As screen:
         Text: ="Senha"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =28
-        Y: =204
+        X: =174
+        Y: =444
         ZIndex: =25
 
     Label1117 As label:
@@ -350,8 +352,8 @@ cadastro_empresa As screen:
         Text: ="*********"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =38
-        Y: =232
+        X: =184
+        Y: =472
         ZIndex: =26
 
     Rectangle343 As rectangle:
@@ -364,8 +366,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =28
-        Y: =168
+        X: =174
+        Y: =408
         ZIndex: =28
 
     Label1110 As label:
@@ -385,8 +387,8 @@ cadastro_empresa As screen:
         Text: ="CNPJ"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =28
-        Y: =149
+        X: =174
+        Y: =389
         ZIndex: =29
 
     Label1114 As label:
@@ -406,8 +408,8 @@ cadastro_empresa As screen:
         Text: ="somente números"
         VerticalAlign: =VerticalAlign.Top
         Width: =147
-        X: =38
-        Y: =177
+        X: =184
+        Y: =417
         ZIndex: =30
 
     Rectangle323 As rectangle:
@@ -420,6 +422,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =360
+        X: =146
+        Y: =240
         ZIndex: =32
 
     Image1842 As image:
@@ -436,8 +440,8 @@ cadastro_empresa As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =16.0115966796875
-        X: =311.994201660156
-        Y: =31.995849609375
+        X: =457
+        Y: =271
         ZIndex: =34
 
     Rectangle2050 As rectangle:
@@ -450,8 +454,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =188
-        Y: =100
+        X: =334
+        Y: =340
         ZIndex: =36
 
     Label2051 As label:
@@ -471,8 +475,8 @@ cadastro_empresa As screen:
         Text: ="Colaborador"
         VerticalAlign: =VerticalAlign.Top
         Width: =97
-        X: =223
-        Y: =111
+        X: =369
+        Y: =351
         ZIndex: =37
 
     Image1846 As image:
@@ -489,8 +493,8 @@ cadastro_empresa As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =19.9017333984375
-        X: =201.06396484375
-        Y: =109.994506835938
+        X: =347
+        Y: =349
         ZIndex: =39
 
     Rectangle1848 As rectangle:
@@ -503,8 +507,8 @@ cadastro_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =25
-        Y: =100
+        X: =171
+        Y: =340
         ZIndex: =41
 
     Label2049 As label:
@@ -524,8 +528,8 @@ cadastro_empresa As screen:
         Text: =" Empresa"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =71
-        Y: =111
+        X: =217
+        Y: =351
         ZIndex: =42
 
     Image1844 As image:
@@ -542,7 +546,81 @@ cadastro_empresa As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =22
-        X: =48
-        Y: =110
+        X: =194
+        Y: =350
         ZIndex: =44
+
+    Rectangle20308_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(2, 4, 48, 1)
+        FocusedBorderThickness: =4
+        Height: =120
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =640
+        ZIndex: =47
+
+    Icon8 As icon.Cancel:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Cancel
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =529
+        Y: =28
+        ZIndex: =48
+
+    Footer_2 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =50
+
+        Rectangle20305_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(110, 164, 191, 1)
+            FocusedBorderThickness: =4
+            Height: =120
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =640
+            Y: =1016
+            ZIndex: =45
+
+        Label20306_2 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =85
+            LineHeight: =1.171875
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: |-
+                ="Grupo 3 - 
+                Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
+            VerticalAlign: =VerticalAlign.Top
+            Width: =546
+            X: =47
+            Y: =1033
+            ZIndex: =46
 
