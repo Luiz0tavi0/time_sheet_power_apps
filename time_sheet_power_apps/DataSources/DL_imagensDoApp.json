@@ -7,12 +7,10 @@
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
-      "{Attachments}": "Anexos",
-      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
       "{FilenameWithExtension}": "Nome de arquivo com extensão",
       "{FullPath}": "Caminho Completo",
-      "{HasAttachments}": "Tem anexos",
       "{Identifier}": "Identificador",
+      "{IsCheckedOut}": "Check-out realizado",
       "{IsFolder}": "ÉPasta",
       "{Link}": "Link para o item",
       "{ModerationComment}": "Comentários associados à aprovação de conteúdo deste item de lista",
@@ -23,28 +21,25 @@
       "{TriggerWindowEndToken}": "Token de Fim da Janela de Acionamento",
       "{TriggerWindowStartToken}": "Token de Início da Janela de Acionamento",
       "{VersionNumber}": "Número da versão",
-      "Amount": "Valor",
       "Author": "Criado por",
       "Author#Claims": "Criado por Claims",
-      "Category": "Categoria",
-      "Category#Id": "Categoria Id",
+      "CheckoutUser": "Com Check-out para",
+      "CheckoutUser#Claims": "Com Check-out para Claims",
       "ComplianceAssetId": "ID de Ativo de Conformidade",
       "Created": "Criado",
-      "Date": "Data",
-      "Description": "Descrição",
       "Editor": "Modificado por",
       "Editor#Claims": "Modificado por Claims",
       "ID": "ID",
       "Modified": "Modificado",
-      "Receipt": "Recibo",
-      "Teste_x0020_Unique": "Teste Unique",
-      "Title": "Title"
+      "OData__DisplayName": "Confidencialidade",
+      "OData__ExtendedDescription": "Descrição",
+      "Title": "Título"
     },
     "DatasetName": "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Rastreador de despesas",
+    "Name": "DL_imagensDoApp",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

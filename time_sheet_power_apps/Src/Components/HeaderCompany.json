@@ -55,7 +55,7 @@
         "Name": "BackgroundHeaderDark",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 522,
+        "PublishOrderIndex": 568,
         "Rules": [
           {
             "Category": "Data",
@@ -313,7 +313,7 @@
         "Name": "IconLogoff_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 523,
+        "PublishOrderIndex": 569,
         "Rules": [
           {
             "Category": "Design",
@@ -560,7 +560,7 @@
         "Name": "NameLogin_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 524,
+        "PublishOrderIndex": 570,
         "Rules": [
           {
             "Category": "Data",
