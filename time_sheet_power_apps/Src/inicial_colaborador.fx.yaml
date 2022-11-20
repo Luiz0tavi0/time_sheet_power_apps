@@ -1,95 +1,6 @@
 inicial_colaborador As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle361389 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        Y: =560
-        ZIndex: =2
-
-    Label361390 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =68
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: |-
-            ="Grupo 3 - 
-            Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-        VerticalAlign: =VerticalAlign.Top
-        Width: =364
-        Y: =572
-        ZIndex: =3
-
-    Rectangle361392 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        ZIndex: =5
-
-    Image361394 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =20
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361394
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16
-        X: =314
-        Y: =31
-        ZIndex: =7
-
-    Label361395 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Bold
-        Height: =23
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =15
-        Text: ="<login>"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =70
-        X: =35
-        Y: =30
-        ZIndex: =8
-
     Rectangle361397 As rectangle:
         BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
         BorderThickness: =1
@@ -100,8 +11,8 @@ inicial_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =190
-        Y: =109
+        X: =275
+        Y: =344
         ZIndex: =10
 
     Label361398 As label:
@@ -120,8 +31,8 @@ inicial_colaborador As screen:
         Text: ="Visualizar Atividades"
         VerticalAlign: =VerticalAlign.Top
         Width: =88
-        X: =236
-        Y: =116
+        X: =321
+        Y: =351
         ZIndex: =11
 
     Image361400 As image:
@@ -138,8 +49,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =18.84375
-        X: =203.90625
-        Y: =119.156921386719
+        X: =288
+        Y: =354
         ZIndex: =13
 
     Image361401 As image:
@@ -156,8 +67,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =19.7437438964844
-        X: =203.456237792969
-        Y: =118.769226074219
+        X: =288
+        Y: =353
         ZIndex: =14
 
     Image361402 As image:
@@ -174,8 +85,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =18.84375
-        X: =206.212493896484
-        Y: =121.538452148438
+        X: =291
+        Y: =356
         ZIndex: =15
 
     Image361403 As image:
@@ -192,8 +103,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =19.7437438964844
-        X: =205.762512207031
-        Y: =121.095397949219
+        X: =290
+        Y: =356
         ZIndex: =16
 
     Image361404 As image:
@@ -210,8 +121,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =18.84375
-        X: =208.575012207031
-        Y: =123.809204101563
+        X: =293
+        Y: =358
         ZIndex: =17
 
     Image361405 As image:
@@ -228,8 +139,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =19.7437438964844
-        X: =208.125
-        Y: =123.421508789063
+        X: =293
+        Y: =358
         ZIndex: =18
 
     Image361406 As image:
@@ -246,8 +157,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =14.239990234375
-        X: =210.825012207031
-        Y: =127.963073730469
+        X: =295
+        Y: =362
         ZIndex: =19
 
     Rectangle361408 As rectangle:
@@ -260,8 +171,8 @@ inicial_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =31
-        Y: =109
+        X: =116
+        Y: =344
         ZIndex: =21
 
     Label361409 As label:
@@ -281,8 +192,8 @@ inicial_colaborador As screen:
         Text: ="Inserir Atividade"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =82
-        Y: =118
+        X: =167
+        Y: =353
         ZIndex: =22
 
     Image361411 As image:
@@ -299,8 +210,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =20
-        X: =49
-        Y: =125.994201660156
+        X: =134
+        Y: =360
         ZIndex: =24
 
     Rectangle361498 As rectangle:
@@ -313,8 +224,8 @@ inicial_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =31
-        Y: =190
+        X: =116
+        Y: =425
         ZIndex: =26
 
     Label361499 As label:
@@ -334,8 +245,8 @@ inicial_colaborador As screen:
         Text: ="Atualizar dados"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =82
-        Y: =199
+        X: =167
+        Y: =434
         ZIndex: =27
 
     Image371506 As image:
@@ -352,8 +263,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =26.1749877929688
-        X: =45.9500122070313
-        Y: =203.25
+        X: =130
+        Y: =438
         ZIndex: =29
 
     Rectangle371508 As rectangle:
@@ -366,8 +277,8 @@ inicial_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =190
-        Y: =190
+        X: =275
+        Y: =425
         ZIndex: =31
 
     Label371509 As label:
@@ -387,8 +298,8 @@ inicial_colaborador As screen:
         Text: ="Criar Projeto"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =241
-        Y: =199
+        X: =326
+        Y: =434
         ZIndex: =32
 
     Image371646 As image:
@@ -405,8 +316,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =24
-        X: =206
-        Y: =205
+        X: =291
+        Y: =440
         ZIndex: =34
 
     Rectangle371659 As rectangle:
@@ -419,8 +330,8 @@ inicial_colaborador As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =31
-        Y: =272
+        X: =116
+        Y: =507
         ZIndex: =36
 
     Label371660 As label:
@@ -440,8 +351,8 @@ inicial_colaborador As screen:
         Text: ="Adicionar Empresa"
         VerticalAlign: =VerticalAlign.Top
         Width: =76
-        X: =82
-        Y: =281
+        X: =167
+        Y: =516
         ZIndex: =37
 
     Image371662 As image:
@@ -458,8 +369,8 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =24
-        X: =47
-        Y: =287
+        X: =132
+        Y: =522
         ZIndex: =39
 
     Image371504 As image:
@@ -475,7 +386,14 @@ inicial_colaborador As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =295
-        X: =35
-        Y: =354
+        X: =120
+        Y: =589
         ZIndex: =40
+
+    FooterWorker_1 As FooterWorker:
+        Y: =1016
+        ZIndex: =41
+
+    HeaderWorker_1 As HeaderWorker:
+        ZIndex: =42
 
