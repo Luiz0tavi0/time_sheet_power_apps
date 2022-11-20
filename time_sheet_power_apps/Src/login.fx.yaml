@@ -1,11 +1,5 @@
 login As screen:
-    Fill: |-
-        =RGBA(
-            234,
-            247,
-            251,
-            1
-        )
+    Fill: =RGBA(234,247,251,1)
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
@@ -328,6 +322,7 @@ login As screen:
             ,
             ""
             )
+        Visible: =Not(Self.Text="")
         Width: =480
         X: =80
         Y: =782
@@ -345,11 +340,12 @@ login As screen:
         FontWeight: =FontWeight.Semibold
         Height: =21
         Text: |-
-            =If(Len(TxtInputLoginCnpj_Cpf.Text)=0,
-            $"{LabelTipoUser.Text} é obrigatório."
+            =If(Len(TxtInputLoginSenha.Text)=0,
+            $"Senha é obrigatório."
             ,
             ""
             )
+        Visible: =Not(Self.Text="")
         Width: =480
         X: =81
         Y: =903
