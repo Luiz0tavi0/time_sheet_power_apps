@@ -13,7 +13,7 @@ inserir_atividade_colaborador As screen:
         Width: =267
         X: =132
         Y: =425
-        ZIndex: =10
+        ZIndex: =1
 
     Label20707 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -34,7 +34,7 @@ inserir_atividade_colaborador As screen:
         Width: =212
         X: =142
         Y: =434
-        ZIndex: =14
+        ZIndex: =2
 
     Rectangle20709 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
@@ -48,7 +48,7 @@ inserir_atividade_colaborador As screen:
         Width: =36
         X: =399
         Y: =425
-        ZIndex: =16
+        ZIndex: =3
 
     Image20711 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -66,7 +66,7 @@ inserir_atividade_colaborador As screen:
         Width: =16
         X: =409
         Y: =435
-        ZIndex: =18
+        ZIndex: =4
 
     Label20712 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -87,7 +87,7 @@ inserir_atividade_colaborador As screen:
         Width: =157
         X: =132
         Y: =406
-        ZIndex: =19
+        ZIndex: =5
 
     Rectangle20721 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -101,7 +101,7 @@ inserir_atividade_colaborador As screen:
         Width: =267
         X: =132
         Y: =493
-        ZIndex: =21
+        ZIndex: =6
 
     Label20725 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -122,7 +122,7 @@ inserir_atividade_colaborador As screen:
         Width: =127
         X: =142
         Y: =502
-        ZIndex: =25
+        ZIndex: =7
 
     Rectangle20727 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
@@ -136,7 +136,7 @@ inserir_atividade_colaborador As screen:
         Width: =36
         X: =399
         Y: =493
-        ZIndex: =27
+        ZIndex: =8
 
     Image20729 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -154,7 +154,7 @@ inserir_atividade_colaborador As screen:
         Width: =16
         X: =409
         Y: =503
-        ZIndex: =29
+        ZIndex: =9
 
     Label20730 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -175,7 +175,7 @@ inserir_atividade_colaborador As screen:
         Width: =157
         X: =132
         Y: =474
-        ZIndex: =30
+        ZIndex: =10
 
     Rectangle20732 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -189,7 +189,7 @@ inserir_atividade_colaborador As screen:
         Width: =303
         X: =132
         Y: =561
-        ZIndex: =32
+        ZIndex: =11
 
     Label20733 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -210,7 +210,7 @@ inserir_atividade_colaborador As screen:
         Width: =136
         X: =132
         Y: =542
-        ZIndex: =33
+        ZIndex: =12
 
     Label20734 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -232,7 +232,7 @@ inserir_atividade_colaborador As screen:
         Width: =285
         X: =142
         Y: =570
-        ZIndex: =34
+        ZIndex: =13
 
     Rectangle20762 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -246,7 +246,7 @@ inserir_atividade_colaborador As screen:
         Width: =170
         X: =133
         Y: =697
-        ZIndex: =36
+        ZIndex: =14
 
     Label20763 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -267,7 +267,7 @@ inserir_atividade_colaborador As screen:
         Width: =177
         X: =133
         Y: =678
-        ZIndex: =37
+        ZIndex: =15
 
     Label20764 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -288,7 +288,7 @@ inserir_atividade_colaborador As screen:
         Width: =28
         X: =143
         Y: =706
-        ZIndex: =38
+        ZIndex: =16
 
     Rectangle20758 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -302,7 +302,7 @@ inserir_atividade_colaborador As screen:
         Width: =62
         X: =373
         Y: =629
-        ZIndex: =41
+        ZIndex: =17
 
     Label20759 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -323,7 +323,7 @@ inserir_atividade_colaborador As screen:
         Width: =44
         X: =373
         Y: =610
-        ZIndex: =42
+        ZIndex: =18
 
     Label20760 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -344,7 +344,7 @@ inserir_atividade_colaborador As screen:
         Width: =48
         X: =383
         Y: =638
-        ZIndex: =43
+        ZIndex: =19
 
     Rectangle20747 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -358,7 +358,7 @@ inserir_atividade_colaborador As screen:
         Width: =135
         X: =206
         Y: =629
-        ZIndex: =45
+        ZIndex: =20
 
     Label20751 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -379,7 +379,7 @@ inserir_atividade_colaborador As screen:
         Width: =93
         X: =216
         Y: =638
-        ZIndex: =49
+        ZIndex: =21
 
     Rectangle20736 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -393,7 +393,7 @@ inserir_atividade_colaborador As screen:
         Width: =40
         X: =132
         Y: =629
-        ZIndex: =52
+        ZIndex: =22
 
     Label20737 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -414,7 +414,7 @@ inserir_atividade_colaborador As screen:
         Width: =44
         X: =132
         Y: =610
-        ZIndex: =53
+        ZIndex: =23
 
     Label20738 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -435,7 +435,7 @@ inserir_atividade_colaborador As screen:
         Width: =28
         X: =142
         Y: =638
-        ZIndex: =54
+        ZIndex: =24
 
     Rectangle20767 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -449,7 +449,7 @@ inserir_atividade_colaborador As screen:
         Width: =140
         X: =291
         Y: =763
-        ZIndex: =56
+        ZIndex: =25
 
     Label20768 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -470,7 +470,7 @@ inserir_atividade_colaborador As screen:
         Width: =52
         X: =335
         Y: =774
-        ZIndex: =57
+        ZIndex: =26
 
     Rectangle361462 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -484,7 +484,7 @@ inserir_atividade_colaborador As screen:
         Width: =140
         X: =132
         Y: =763
-        ZIndex: =59
+        ZIndex: =27
 
     Label361483 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -504,7 +504,7 @@ inserir_atividade_colaborador As screen:
         Width: =47
         X: =180
         Y: =773
-        ZIndex: =60
+        ZIndex: =28
 
     Image361485 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -522,7 +522,7 @@ inserir_atividade_colaborador As screen:
         Width: =10.5515747070313
         X: =154
         Y: =778
-        ZIndex: =62
+        ZIndex: =29
 
     Label361469 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -544,7 +544,7 @@ inserir_atividade_colaborador As screen:
         Width: =299
         X: =132
         Y: =360
-        ZIndex: =64
+        ZIndex: =30
 
     Label20737_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -565,12 +565,57 @@ inserir_atividade_colaborador As screen:
         Width: =44
         X: =206
         Y: =610
-        ZIndex: =65
+        ZIndex: =31
+
+    ButtonHomeWorker_3 As button:
+        Align: =Align.Left
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(39, 39, 39, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
+        Size: =24
+        Text: ="          Início"
+        Width: =230
+        X: =52
+        Y: =905
+        ZIndex: =32
+
+    Icon19_2 As icon.Home:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(39, 39, 39, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =50
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Home
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =50
+        X: =82
+        Y: =915
+        ZIndex: =33
 
     FooterWorker_8 As FooterWorker:
         Y: =1016
-        ZIndex: =66
+        ZIndex: =34
 
     HeaderWorker_6 As HeaderWorker:
-        ZIndex: =67
+        ZIndex: =35
 

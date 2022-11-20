@@ -23,7 +23,7 @@ Conta_criada_colaborador As screen:
         VerticalAlign: =VerticalAlign.Top
         Width: =218
         X: =213
-        Y: =747
+        Y: =723
         ZIndex: =1
 
     Image381685_1 As image:
@@ -40,7 +40,7 @@ Conta_criada_colaborador As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =475
         X: =84
-        Y: =253
+        Y: =229
         ZIndex: =2
 
     ButtonRegistration_2 As button:
@@ -60,12 +60,12 @@ Conta_criada_colaborador As screen:
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(2, 4, 48, 1), -30%)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
         Size: =24
         Text: ="          Início"
         Width: =230
         X: =52
-        Y: =905
+        Y: =881
         ZIndex: =3
 
     Icon19_1 As icon.Home:
@@ -85,7 +85,7 @@ Conta_criada_colaborador As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
         X: =82
-        Y: =915
+        Y: =891
         ZIndex: =4
 
     FooterWorker_4 As FooterWorker:
