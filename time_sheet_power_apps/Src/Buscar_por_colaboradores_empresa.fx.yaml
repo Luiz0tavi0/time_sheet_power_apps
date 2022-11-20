@@ -1,4 +1,4 @@
-por_colaborador_empresa As screen:
+Buscar_por_colaboradores_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Rectangle28899 As rectangle:

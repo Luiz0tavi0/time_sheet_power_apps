@@ -1,4 +1,4 @@
-por_projeto_empresa As screen:
+Buscar_por_projeto_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Rectangle354 As rectangle:

@@ -1,44 +1,6 @@
 cadastro_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle118 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        X: =146
-        Y: =800
-        ZIndex: =2
-
-    Label119 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =68
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: |-
-            ="Grupo 3 - 
-            Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-        VerticalAlign: =VerticalAlign.Top
-        Width: =364
-        X: =146
-        Y: =812
-        ZIndex: =3
-
     Rectangle116 As rectangle:
         BorderColor: =RGBA(2, 4, 48, 1)
         BorderThickness: =1
@@ -51,7 +13,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =171
         Y: =743
-        ZIndex: =5
+        ZIndex: =1
 
     Label117 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -73,7 +35,7 @@ cadastro_empresa As screen:
         Width: =104
         X: =266
         Y: =753
-        ZIndex: =6
+        ZIndex: =2
 
     Rectangle1220 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -87,7 +49,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =174
         Y: =628
-        ZIndex: =8
+        ZIndex: =3
 
     Label1221 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -108,7 +70,7 @@ cadastro_empresa As screen:
         Width: =247
         X: =184
         Y: =637
-        ZIndex: =9
+        ZIndex: =4
 
     Label1222 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -129,7 +91,7 @@ cadastro_empresa As screen:
         Width: =166
         X: =174
         Y: =609
-        ZIndex: =10
+        ZIndex: =5
 
     Rectangle281108 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -143,7 +105,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =175
         Y: =683
-        ZIndex: =12
+        ZIndex: =6
 
     Label281109 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -164,7 +126,7 @@ cadastro_empresa As screen:
         Width: =247
         X: =185
         Y: =692
-        ZIndex: =13
+        ZIndex: =7
 
     Label281110 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -185,7 +147,7 @@ cadastro_empresa As screen:
         Width: =166
         X: =175
         Y: =664
-        ZIndex: =14
+        ZIndex: =8
 
     Rectangle1121 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -199,7 +161,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =174
         Y: =573
-        ZIndex: =16
+        ZIndex: =9
 
     Label1123 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -221,7 +183,7 @@ cadastro_empresa As screen:
         Width: =247
         X: =184
         Y: =582
-        ZIndex: =17
+        ZIndex: =10
 
     Label1122 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -242,7 +204,7 @@ cadastro_empresa As screen:
         Width: =166
         X: =174
         Y: =554
-        ZIndex: =18
+        ZIndex: =11
 
     Rectangle1118 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -256,7 +218,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =174
         Y: =518
-        ZIndex: =20
+        ZIndex: =12
 
     Label1120 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -277,7 +239,7 @@ cadastro_empresa As screen:
         Width: =74
         X: =184
         Y: =527
-        ZIndex: =21
+        ZIndex: =13
 
     Label1119 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -298,7 +260,7 @@ cadastro_empresa As screen:
         Width: =157
         X: =174
         Y: =499
-        ZIndex: =22
+        ZIndex: =14
 
     Rectangle1115 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -312,7 +274,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =174
         Y: =463
-        ZIndex: =24
+        ZIndex: =15
 
     Label1116 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -333,7 +295,7 @@ cadastro_empresa As screen:
         Width: =74
         X: =174
         Y: =444
-        ZIndex: =25
+        ZIndex: =16
 
     Label1117 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -354,7 +316,7 @@ cadastro_empresa As screen:
         Width: =74
         X: =184
         Y: =472
-        ZIndex: =26
+        ZIndex: =17
 
     Rectangle343 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -368,7 +330,7 @@ cadastro_empresa As screen:
         Width: =303
         X: =174
         Y: =408
-        ZIndex: =28
+        ZIndex: =18
 
     Label1110 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -389,7 +351,7 @@ cadastro_empresa As screen:
         Width: =74
         X: =174
         Y: =389
-        ZIndex: =29
+        ZIndex: =19
 
     Label1114 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -410,39 +372,7 @@ cadastro_empresa As screen:
         Width: =147
         X: =184
         Y: =417
-        ZIndex: =30
-
-    Rectangle323 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        X: =146
-        Y: =240
-        ZIndex: =32
-
-    Image1842 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =16.0098876953125
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image1842
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =457
-        Y: =271
-        ZIndex: =34
+        ZIndex: =20
 
     Rectangle2050 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -456,7 +386,7 @@ cadastro_empresa As screen:
         Width: =140
         X: =334
         Y: =340
-        ZIndex: =36
+        ZIndex: =21
 
     Label2051 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -477,7 +407,7 @@ cadastro_empresa As screen:
         Width: =97
         X: =369
         Y: =351
-        ZIndex: =37
+        ZIndex: =22
 
     Image1846 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -495,7 +425,7 @@ cadastro_empresa As screen:
         Width: =19.9017333984375
         X: =347
         Y: =349
-        ZIndex: =39
+        ZIndex: =23
 
     Rectangle1848 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -509,7 +439,7 @@ cadastro_empresa As screen:
         Width: =140
         X: =171
         Y: =340
-        ZIndex: =41
+        ZIndex: =24
 
     Label2049 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -530,7 +460,7 @@ cadastro_empresa As screen:
         Width: =76
         X: =217
         Y: =351
-        ZIndex: =42
+        ZIndex: =25
 
     Image1844 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -548,79 +478,46 @@ cadastro_empresa As screen:
         Width: =22
         X: =194
         Y: =350
-        ZIndex: =44
+        ZIndex: =26
 
-    Rectangle20308_2 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
-        FocusedBorderThickness: =4
-        Height: =120
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =640
-        ZIndex: =47
+    FooterCompany_15 As FooterCompany:
+        Y: =1016
+        ZIndex: =27
 
-    Icon8 As icon.Cancel:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Cancel
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        X: =529
-        Y: =28
-        ZIndex: =48
-
-    Footer_2 As group:
+    HeaderRegistrationCompany As group:
         Height: =5
         Width: =5
-        X: =60
-        Y: =60
+        X: =40
+        Y: =40
         ZIndex: =50
 
-        Rectangle20305_2 As rectangle:
+        Rectangle20308_2 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(110, 164, 191, 1)
+            Fill: =RGBA(2, 4, 48, 1)
             FocusedBorderThickness: =4
             Height: =120
             HoverFill: =RGBA(0, 120, 212, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
             Width: =640
-            Y: =1016
-            ZIndex: =45
+            ZIndex: =28
 
-        Label20306_2 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
+        Icon8 As icon.Cancel:
+            BorderColor: =RGBA(166, 166, 166, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
-            Height: =85
-            LineHeight: =1.171875
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =16
-            Text: |-
-                ="Grupo 3 - 
-                Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-            VerticalAlign: =VerticalAlign.Top
-            Width: =546
-            X: =47
-            Y: =1033
-            ZIndex: =46
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Cancel
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =529
+            Y: =28
+            ZIndex: =29
 

@@ -279,3 +279,10 @@ criar_Projeto_colaborador As screen:
         Y: =282
         ZIndex: =32
 
+    FooterWorker_13 As FooterWorker:
+        Y: =1016
+        ZIndex: =33
+
+    HeaderWorker_11 As HeaderWorker:
+        ZIndex: =34
+

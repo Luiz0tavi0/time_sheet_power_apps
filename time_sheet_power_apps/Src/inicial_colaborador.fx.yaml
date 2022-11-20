@@ -1,399 +1,239 @@
 inicial_colaborador As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle361397 As rectangle:
-        BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =54
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =275
-        Y: =344
-        ZIndex: =10
-
-    Label361398 As label:
+    Image2 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Visualizar Atividades"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =88
-        X: =321
-        Y: =351
-        ZIndex: =11
-
-    Image361400 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =26.03076171875
+        Height: =577
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361400
+        Image: ='time-is-money-sandglass-investment-countdown-measure-concept'
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =18.84375
-        X: =288
-        Y: =354
-        ZIndex: =13
+        Transparency: =0.3
+        Width: =577
+        X: =31
+        Y: =496
+        ZIndex: =1
 
-    Image361401 As image:
+    ButtonCreateActivityWorker As button:
+        Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderThickness: =0
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =26.9169311523438
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361401
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =19.7437438964844
-        X: =288
-        Y: =353
-        ZIndex: =14
-
-    Image361402 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =26.03076171875
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361402
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =18.84375
-        X: =291
-        Y: =356
-        ZIndex: =15
-
-    Image361403 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =26.9722900390625
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361403
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =19.7437438964844
-        X: =290
-        Y: =356
-        ZIndex: =16
-
-    Image361404 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =26.03076171875
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361404
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =18.84375
-        X: =293
-        Y: =358
-        ZIndex: =17
-
-    Image361405 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =26.9169311523438
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361405
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =19.7437438964844
-        X: =293
-        Y: =358
-        ZIndex: =18
-
-    Image361406 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =18.6646118164063
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361406
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =14.239990234375
-        X: =295
-        Y: =362
-        ZIndex: =19
-
-    Rectangle361408 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(39, 39, 39, 1)
+        DisabledFill: =RGBA(204, 204, 204, 1)
         Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =54
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =116
-        Y: =344
-        ZIndex: =21
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderThickness: =0
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =102
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(110, 164, 191,1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(110, 164, 191, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(2, 4, 48, 1), -30%)
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =24
+        Text: |-
+            ="        Inserir 
+                    Atividade"
+        Width: =244
+        X: =59
+        Y: =216
+        ZIndex: =2
 
-    Label361409 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
+    IconAddActivity As icon.AddDocument:
+        BorderColor: =RGBA(166, 166, 166, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Inserir Atividade"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =76
-        X: =167
-        Y: =353
-        ZIndex: =22
-
-    Image361411 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =20.0057983398438
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image361411
+        Icon: =Icon.AddDocument
         PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =20
-        X: =134
-        Y: =360
-        ZIndex: =24
+        Width: =50
+        X: =76
+        Y: =240
+        ZIndex: =3
 
-    Rectangle361498 As rectangle:
+    ButtonActivitiesWorker As button:
+        Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =54
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =116
-        Y: =425
-        ZIndex: =26
-
-    Label361499 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
+        BorderThickness: =0
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Atualizar dados"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =76
-        X: =167
-        Y: =434
-        ZIndex: =27
+        DisabledColor: =RGBA(39, 39, 39, 1)
+        DisabledFill: =RGBA(204, 204, 204, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderThickness: =0
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =102
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(110, 164, 191,1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(110, 164, 191, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =24
+        Text: |-
+            ="        Visualizar 
+                    Atividade"
+        Width: =244
+        X: =336
+        Y: =216
+        ZIndex: =4
 
-    Image371506 As image:
+    ButtonCreateProjectWorker As button:
+        Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        BorderThickness: =0
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(39, 39, 39, 1)
+        DisabledFill: =RGBA(204, 204, 204, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderThickness: =0
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =102
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(110, 164, 191,1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(110, 164, 191, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =24
+        Text: |-
+            ="        Criar 
+                    Projeto"
+        Width: =244
+        X: =336
+        Y: =372
+        ZIndex: =5
+
+    IconActivities As icon.LevelsLayersItems:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(39, 39, 39, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =25.5
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371506
+        Icon: =Icon.LevelsLayersItems
         PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =26.1749877929688
-        X: =130
-        Y: =438
-        ZIndex: =29
+        Width: =50
+        X: =347
+        Y: =240
+        ZIndex: =6
 
-    Rectangle371508 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =54
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =275
-        Y: =425
-        ZIndex: =31
-
-    Label371509 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
+    IconAddProject As icon.Add:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Criar Projeto"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =76
-        X: =326
-        Y: =434
-        ZIndex: =32
-
-    Image371646 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =24
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 255, 255, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371646
+        Icon: =Icon.Add
         PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =24
-        X: =291
-        Y: =440
-        ZIndex: =34
+        Width: =50
+        X: =347
+        Y: =399
+        ZIndex: =7
 
-    Rectangle371659 As rectangle:
+    ButtonEditUserWorker As button:
+        Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =54
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =116
-        Y: =507
-        ZIndex: =36
-
-    Label371660 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
+        BorderThickness: =0
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Adicionar Empresa"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =76
-        X: =167
-        Y: =516
-        ZIndex: =37
+        DisabledColor: =RGBA(39, 39, 39, 1)
+        DisabledFill: =RGBA(204, 204, 204, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderThickness: =0
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =102
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(110, 164, 191,1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(110, 164, 191, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
+        RadiusBottomLeft: =12
+        RadiusBottomRight: =12
+        RadiusTopLeft: =12
+        RadiusTopRight: =12
+        Size: =24
+        Text: |-
+            ="        Atualizar 
+                    Dados"
+        Width: =244
+        X: =59
+        Y: =372
+        ZIndex: =8
 
-    Image371662 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+    IconUserWorker As icon.Person:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =24
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 255, 255, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371662
+        Icon: =Icon.Person
         PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =24
-        X: =132
-        Y: =522
-        ZIndex: =39
-
-    Image371504 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =177
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371504
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =295
-        X: =120
-        Y: =589
-        ZIndex: =40
+        Width: =50
+        X: =76
+        Y: =399
+        ZIndex: =9
 
     FooterWorker_1 As FooterWorker:
         Y: =1016
-        ZIndex: =41
+        ZIndex: =10
 
     HeaderWorker_1 As HeaderWorker:
-        ZIndex: =42
+        ZIndex: =11
 
