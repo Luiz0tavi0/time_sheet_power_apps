@@ -1,7 +1,7 @@
-criar_Projeto_empresa As screen:
+Designar_colaborador_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle20165 As rectangle:
+    Rectangle28947 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -11,29 +11,29 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =36
-        X: =419
-        Y: =633
+        X: =413
+        Y: =584
         ZIndex: =12
 
-    Image20240 As image:
+    Image28949 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =16.0098876953125
+        Height: =16.010009765625
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20240
+        Image: =image28949
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =428
-        Y: =642
+        Width: =16.01171875
+        X: =422
+        Y: =593
         ZIndex: =14
 
-    Rectangle20168 As rectangle:
+    Rectangle28950 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -43,11 +43,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =267
-        X: =152
-        Y: =633
+        X: =146
+        Y: =584
         ZIndex: =15
 
-    Label20169 As label:
+    Label28951 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(2, 4, 48, 1)
@@ -62,14 +62,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Colaborador 4"
+        Text: ="Projeto 4"
         VerticalAlign: =VerticalAlign.Top
-        Width: =107
-        X: =166
-        Y: =642
+        Width: =70
+        X: =160
+        Y: =593
         ZIndex: =16
 
-    Rectangle20158 As rectangle:
+    Rectangle28954 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -79,29 +79,29 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =36
-        X: =419
-        Y: =597
+        X: =413
+        Y: =548
         ZIndex: =19
 
-    Image20244 As image:
+    Image28956 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =16.0098876953125
+        Height: =16.010009765625
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20244
+        Image: =image28956
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =428
-        Y: =606
+        Width: =16.01171875
+        X: =422
+        Y: =557
         ZIndex: =21
 
-    Rectangle20161 As rectangle:
+    Rectangle28957 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -111,11 +111,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =267
-        X: =152
-        Y: =597
+        X: =146
+        Y: =548
         ZIndex: =22
 
-    Label20162 As label:
+    Label28958 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(2, 4, 48, 1)
@@ -130,14 +130,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Colaborador 3"
+        Text: ="Projeto 3"
         VerticalAlign: =VerticalAlign.Top
-        Width: =107
-        X: =166
-        Y: =606
+        Width: =70
+        X: =160
+        Y: =557
         ZIndex: =23
 
-    Rectangle20151 As rectangle:
+    Rectangle28961 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -147,29 +147,29 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =36
-        X: =419
-        Y: =561
+        X: =413
+        Y: =512
         ZIndex: =26
 
-    Image20242 As image:
+    Image28963 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =16.0098876953125
+        Height: =16.010009765625
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20242
+        Image: =image28963
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =428
-        Y: =570
+        Width: =16.01171875
+        X: =422
+        Y: =521
         ZIndex: =28
 
-    Rectangle20154 As rectangle:
+    Rectangle28964 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -179,11 +179,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =267
-        X: =152
-        Y: =561
+        X: =146
+        Y: =512
         ZIndex: =29
 
-    Label20155 As label:
+    Label28965 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(2, 4, 48, 1)
@@ -198,14 +198,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Colaborador 2"
+        Text: ="Projeto 2"
         VerticalAlign: =VerticalAlign.Top
-        Width: =107
-        X: =166
-        Y: =570
+        Width: =70
+        X: =160
+        Y: =521
         ZIndex: =30
 
-    Rectangle20146 As rectangle:
+    Rectangle28968 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -215,29 +215,29 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =36
-        X: =419
-        Y: =525
+        X: =413
+        Y: =476
         ZIndex: =33
 
-    Image20238 As image:
+    Image28970 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =16.0098876953125
+        Height: =16.010009765625
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20238
+        Image: =image28970
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16.0115966796875
-        X: =428
-        Y: =534
+        Width: =16.01171875
+        X: =422
+        Y: =485
         ZIndex: =35
 
-    Rectangle20141 As rectangle:
+    Rectangle28971 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -247,11 +247,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =267
-        X: =152
-        Y: =525
+        X: =146
+        Y: =476
         ZIndex: =36
 
-    Label20142 As label:
+    Label28972 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(2, 4, 48, 1)
@@ -266,14 +266,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Colaborador 1"
+        Text: ="Projeto 1"
         VerticalAlign: =VerticalAlign.Top
-        Width: =107
-        X: =166
-        Y: =534
+        Width: =70
+        X: =160
+        Y: =485
         ZIndex: =37
 
-    Rectangle20122 As rectangle:
+    Rectangle28973 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -283,11 +283,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =267
-        X: =151
-        Y: =489
+        X: =145
+        Y: =440
         ZIndex: =38
 
-    Label20123 As label:
+    Label28977 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
@@ -301,14 +301,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="nome"
+        Text: ="nome do projeto"
         VerticalAlign: =VerticalAlign.Top
         Width: =127
-        X: =161
-        Y: =498
+        X: =155
+        Y: =449
         ZIndex: =42
 
-    Rectangle20124 As rectangle:
+    Rectangle28979 As rectangle:
         BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -318,11 +318,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =36
-        X: =418
-        Y: =489
+        X: =412
+        Y: =440
         ZIndex: =44
 
-    Image20128 As image:
+    Image28981 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -332,15 +332,15 @@ criar_Projeto_empresa As screen:
         Height: =16
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20128
+        Image: =image28981
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =16
-        X: =428
-        Y: =499
+        X: =422
+        Y: =450
         ZIndex: =46
 
-    Label2094 As label:
+    Label28982 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(0, 0, 0, 1)
@@ -354,14 +354,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Contratados"
+        Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Top
         Width: =157
-        X: =151
-        Y: =470
+        X: =145
+        Y: =421
         ZIndex: =47
 
-    Rectangle2096 As rectangle:
+    Rectangle28988 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -371,32 +371,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =151
-        Y: =424
+        X: =145
+        Y: =368
         ZIndex: =49
 
-    Label2093 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="nome"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =161
-        Y: =433
-        ZIndex: =50
-
-    Label2097 As label:
+    Label28989 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(0, 0, 0, 1)
@@ -410,49 +389,14 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Gestor Responsável"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =157
-        X: =151
-        Y: =405
-        ZIndex: =51
-
-    Rectangle20100 As rectangle:
-        BorderColor: =RGBA(30, 30, 30, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =303
-        X: =151
-        Y: =359
-        ZIndex: =53
-
-    Label20101 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Nome do projeto"
+        Text: ="CPF"
         VerticalAlign: =VerticalAlign.Top
         Width: =179
-        X: =151
-        Y: =340
-        ZIndex: =54
+        X: =145
+        Y: =349
+        ZIndex: =50
 
-    Label20102 As label:
+    Label28990 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
@@ -466,16 +410,16 @@ criar_Projeto_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="nome"
+        Text: ="somente números"
         VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =161
-        Y: =368
-        ZIndex: =55
+        Width: =147
+        X: =155
+        Y: =377
+        ZIndex: =51
 
-    Rectangle20110 As rectangle:
-        BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
-        BorderThickness: =1
+    Rectangle28992 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(244.375, 244.375, 244.375, 1)
         FocusedBorderThickness: =4
@@ -483,11 +427,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =150
-        Y: =702
-        ZIndex: =57
+        X: =144
+        Y: =711
+        ZIndex: =53
 
-    Label20111 As label:
+    Label28993 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
@@ -504,29 +448,29 @@ criar_Projeto_empresa As screen:
         Text: ="Voltar"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =209
-        Y: =713
-        ZIndex: =58
+        X: =203
+        Y: =722
+        ZIndex: =54
 
-    Image20139 As image:
+    Image28995 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =8.0115966796875
+        Height: =8.01171875
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image20139
+        Image: =image28995
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =10.5516357421875
-        X: =189
-        Y: =717
-        ZIndex: =60
+        Width: =10.551513671875
+        X: =183
+        Y: =726
+        ZIndex: =56
 
-    Rectangle20115 As rectangle:
+    Rectangle28997 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -536,11 +480,11 @@ criar_Projeto_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =313
-        Y: =702
-        ZIndex: =62
+        X: =307
+        Y: =711
+        ZIndex: =58
 
-    Label20116 As label:
+    Label28998 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(255, 255, 255, 1)
@@ -557,11 +501,11 @@ criar_Projeto_empresa As screen:
         Text: ="Salvar"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =363
-        Y: =713
-        ZIndex: =63
+        X: =357
+        Y: =722
+        ZIndex: =59
 
-    Label20171 As label:
+    Label28999 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(2, 4, 48, 1)
@@ -569,24 +513,24 @@ criar_Projeto_empresa As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         FontWeight: =FontWeight.Bold
-        Height: =23
+        Height: =19
         LineHeight: =1.171875
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
         Size: =15
-        Text: ="Projeto Novo"
+        Text: ="Designar Colaborador"
         VerticalAlign: =VerticalAlign.Top
-        Width: =122
-        X: =151
-        Y: =300
-        ZIndex: =64
+        Width: =277
+        X: =145
+        Y: =309
+        ZIndex: =60
 
-    FooterCompany_11 As FooterCompany:
+    FooterCompany_9 As FooterCompany:
         Y: =1016
-        ZIndex: =65
+        ZIndex: =61
 
-    HeaderCompany_10 As HeaderCompany:
-        ZIndex: =66
+    HeaderCompany_8 As HeaderCompany:
+        ZIndex: =62
 

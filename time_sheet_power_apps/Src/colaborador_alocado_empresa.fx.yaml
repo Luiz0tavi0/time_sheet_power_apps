@@ -1,7 +1,7 @@
-Projeto_alterado_empresa As screen:
+colaborador_alocado_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle341361 As rectangle:
+    Rectangle281061 As rectangle:
         BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -11,11 +11,11 @@ Projeto_alterado_empresa As screen:
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =143
-        Y: =730
+        X: =160
+        Y: =705
         ZIndex: =10
 
-    Label341362 As label:
+    Label281062 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
@@ -32,11 +32,11 @@ Projeto_alterado_empresa As screen:
         Text: ="Início"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =202
-        Y: =741
+        X: =219
+        Y: =716
         ZIndex: =11
 
-    Image341364 As image:
+    Image281064 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -46,15 +46,15 @@ Projeto_alterado_empresa As screen:
         Height: =8.01171875
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image341364
+        Image: =image281064
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =10.5516357421875
-        X: =182
-        Y: =745
+        Width: =10.551513671875
+        X: =199
+        Y: =720
         ZIndex: =13
 
-    Label341365 As label:
+    Label281068 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -70,36 +70,34 @@ Projeto_alterado_empresa As screen:
         PaddingRight: =0
         PaddingTop: =0
         Size: =15
-        Text: |-
-            ="Projeto alterado
-             com sucesso!"
+        Text: ="Colaborador alocado com sucesso!"
         VerticalAlign: =VerticalAlign.Top
         Width: =218
-        X: =187
-        Y: =606
+        X: =204
+        Y: =552
         ZIndex: =14
 
-    Image371668 As image:
+    Image371667 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =191
+        Height: =203
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371668
+        Image: =image371667
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =304
-        X: =142
-        Y: =388
+        Width: =313
+        X: =154
+        Y: =328
         ZIndex: =15
 
-    FooterCompany_6 As FooterCompany:
+    FooterCompany_8 As FooterCompany:
         Y: =1016
         ZIndex: =16
 
-    HeaderCompany_5 As HeaderCompany:
+    HeaderCompany_7 As HeaderCompany:
         ZIndex: =17
 

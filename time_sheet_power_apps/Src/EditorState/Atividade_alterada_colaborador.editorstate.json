@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Atividade_criada_colaborador": {
+    "Atividade_alterada_colaborador": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -20,7 +20,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Atividade_criada_colaborador",
+      "Name": "Atividade_alterada_colaborador",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -68,7 +68,7 @@
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
-    "FooterWorker_5": {
+    "FooterWorker_3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -106,7 +106,7 @@
         "Description": ""
       },
       "MetaDataIDKey": "",
-      "Name": "FooterWorker_5",
+      "Name": "FooterWorker_3",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -144,7 +144,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "HeaderWorker_4": {
+    "HeaderWorker_3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -175,7 +175,7 @@
         "Description": ""
       },
       "MetaDataIDKey": "",
-      "Name": "HeaderWorker_4",
+      "Name": "HeaderWorker_3",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -213,7 +213,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Image341254": {
+    "Image341270": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -271,7 +271,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image341254",
+      "Name": "Image341270",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -504,7 +504,7 @@
       "StyleName": "defaultImageStyle",
       "Type": "ControlInfo"
     },
-    "Image341256": {
+    "Image371669": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -562,7 +562,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image341256",
+      "Name": "Image371669",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -795,7 +795,7 @@
       "StyleName": "defaultImageStyle",
       "Type": "ControlInfo"
     },
-    "Label341252": {
+    "Label341268": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -859,7 +859,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label341252",
+      "Name": "Label341268",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1122,7 +1122,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Label341255": {
+    "Label341271": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -1186,7 +1186,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label341255",
+      "Name": "Label341271",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1449,7 +1449,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Rectangle341251": {
+    "Rectangle341267": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "AccessibleLabel",
@@ -1488,7 +1488,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Rectangle341251",
+      "Name": "Rectangle341267",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1627,5 +1627,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Atividade_criada_colaborador"
+  "TopParentName": "Atividade_alterada_colaborador"
 }

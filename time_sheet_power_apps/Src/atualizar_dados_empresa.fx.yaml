@@ -1,41 +1,5 @@
-"'empresa_-_atualizar_dados' As screen":
+atualizar_dados_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
-
-    Rectangle381799 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        Y: =560
-        ZIndex: =2
-
-    Label381800 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =68
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: |-
-            ="Grupo 3 - 
-            Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-        VerticalAlign: =VerticalAlign.Top
-        Width: =364
-        Y: =572
-        ZIndex: =3
 
     Rectangle381805 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
@@ -47,8 +11,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =381
+        X: =114
+        Y: =616
         ZIndex: =5
 
     Label381806 As label:
@@ -68,8 +32,8 @@
         Text: ="11999999999"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =39
-        Y: =390
+        X: =124
+        Y: =625
         ZIndex: =6
 
     Label381807 As label:
@@ -89,8 +53,8 @@
         Text: ="Telefone"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =29
-        Y: =362
+        X: =114
+        Y: =597
         ZIndex: =7
 
     Rectangle381809 As rectangle:
@@ -103,8 +67,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =30
-        Y: =436
+        X: =115
+        Y: =671
         ZIndex: =9
 
     Label381810 As label:
@@ -124,8 +88,8 @@
         Text: ="xxx@xxx.xxx"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =40
-        Y: =445
+        X: =125
+        Y: =680
         ZIndex: =10
 
     Label381811 As label:
@@ -145,8 +109,8 @@
         Text: ="e-mail"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =30
-        Y: =417
+        X: =115
+        Y: =652
         ZIndex: =11
 
     Rectangle381813 As rectangle:
@@ -159,8 +123,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =326
+        X: =114
+        Y: =561
         ZIndex: =13
 
     Label381814 As label:
@@ -181,8 +145,8 @@
             ="Ex: Industria, Comércio, Artes"
         VerticalAlign: =VerticalAlign.Top
         Width: =247
-        X: =39
-        Y: =335
+        X: =124
+        Y: =570
         ZIndex: =14
 
     Label381815 As label:
@@ -202,8 +166,8 @@
         Text: ="Setor"
         VerticalAlign: =VerticalAlign.Top
         Width: =166
-        X: =29
-        Y: =307
+        X: =114
+        Y: =542
         ZIndex: =15
 
     Rectangle381817 As rectangle:
@@ -216,8 +180,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =271
+        X: =114
+        Y: =506
         ZIndex: =17
 
     Label381818 As label:
@@ -237,8 +201,8 @@
         Text: ="nome"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =39
-        Y: =280
+        X: =124
+        Y: =515
         ZIndex: =18
 
     Label381819 As label:
@@ -258,8 +222,8 @@
         Text: ="Nome da Empresa"
         VerticalAlign: =VerticalAlign.Top
         Width: =157
-        X: =29
-        Y: =252
+        X: =114
+        Y: =487
         ZIndex: =19
 
     Rectangle381821 As rectangle:
@@ -272,8 +236,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =216
+        X: =114
+        Y: =451
         ZIndex: =21
 
     Label381822 As label:
@@ -293,8 +257,8 @@
         Text: ="Senha"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =29
-        Y: =197
+        X: =114
+        Y: =432
         ZIndex: =22
 
     Label381823 As label:
@@ -314,8 +278,8 @@
         Text: ="*********"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =39
-        Y: =225
+        X: =124
+        Y: =460
         ZIndex: =23
 
     Rectangle381825 As rectangle:
@@ -328,8 +292,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =303
-        X: =29
-        Y: =161
+        X: =114
+        Y: =396
         ZIndex: =25
 
     Label381826 As label:
@@ -349,8 +313,8 @@
         Text: ="CNPJ"
         VerticalAlign: =VerticalAlign.Top
         Width: =74
-        X: =29
-        Y: =142
+        X: =114
+        Y: =377
         ZIndex: =26
 
     Label381827 As label:
@@ -370,8 +334,8 @@
         Text: ="somente números"
         VerticalAlign: =VerticalAlign.Top
         Width: =147
-        X: =39
-        Y: =170
+        X: =124
+        Y: =405
         ZIndex: =27
 
     Label381854 As label:
@@ -382,7 +346,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         FontWeight: =FontWeight.Bold
-        Height: =23
+        Height: =29
         LineHeight: =1.171875
         PaddingBottom: =0
         PaddingLeft: =0
@@ -391,9 +355,9 @@
         Size: =15
         Text: ="Atualizar dados"
         VerticalAlign: =VerticalAlign.Top
-        Width: =146
-        X: =29
-        Y: =101
+        Width: =232
+        X: =114
+        Y: =336
         ZIndex: =28
 
     Rectangle381857 As rectangle:
@@ -406,8 +370,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =90
-        X: =240
-        Y: =491
+        X: =325
+        Y: =726
         ZIndex: =31
 
     Label381858 As label:
@@ -427,8 +391,8 @@
         Text: ="Salvar"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =261
-        Y: =502
+        X: =346
+        Y: =737
         ZIndex: =32
 
     Rectangle381860 As rectangle:
@@ -441,8 +405,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =90
-        X: =30
-        Y: =491
+        X: =115
+        Y: =726
         ZIndex: =34
 
     Label381861 As label:
@@ -462,8 +426,8 @@
         Text: ="Voltar"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =64
-        Y: =502
+        X: =149
+        Y: =737
         ZIndex: =35
 
     Image381863 As image:
@@ -480,8 +444,8 @@
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =10.5515747070313
-        X: =44.7442016601563
-        Y: =506.994140625
+        X: =129
+        Y: =741
         ZIndex: =37
 
     Rectangle381865 As rectangle:
@@ -494,8 +458,8 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =90
-        X: =135
-        Y: =491
+        X: =220
+        Y: =726
         ZIndex: =39
 
     Label381866 As label:
@@ -515,60 +479,14 @@
         Text: ="Excluir"
         VerticalAlign: =VerticalAlign.Top
         Width: =58
-        X: =155
-        Y: =502
+        X: =240
+        Y: =737
         ZIndex: =40
 
-    Rectangle381868 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
+    FooterCompany_12 As FooterCompany:
+        Y: =1016
+        ZIndex: =41
+
+    HeaderCompany_11 As HeaderCompany:
         ZIndex: =42
-
-    Image381870 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =20
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image381870
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16
-        X: =314
-        Y: =31
-        ZIndex: =44
-
-    Label381871 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Bold
-        Height: =23
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =15
-        Text: ="<login>"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =70
-        X: =35
-        Y: =30
-        ZIndex: =45
 

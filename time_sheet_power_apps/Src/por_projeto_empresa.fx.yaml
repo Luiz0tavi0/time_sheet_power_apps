@@ -1,77 +1,24 @@
-"'colaborador_-_criar_Projeto' As screen":
+por_projeto_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle371579 As rectangle:
+    Rectangle354 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =4
-        Height: =80
+        Height: =42
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
-        Y: =560
-        ZIndex: =2
-
-    Label371580 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =68
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: |-
-            ="Grupo 3 - 
-            Henrique Reis, Luciene, Luiz Otávio, Matheus Bonfim, Thalita A C Barbosa,  Vitor Capozzi "
-        VerticalAlign: =VerticalAlign.Top
-        Width: =364
-        Y: =572
-        ZIndex: =3
-
-    Rectangle371582 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderThickness: =4
-        Height: =80
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =360
+        Width: =277
+        X: =140
+        Y: =718
         ZIndex: =5
 
-    Image371584 As image:
+    Label10162 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =20
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371584
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =16
-        X: =308
-        Y: =30
-        ZIndex: =7
-
-    Label371585 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(2, 4, 48, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -83,106 +30,158 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =15
-        Text: ="<login>"
+        Text: ="Projeto 5"
         VerticalAlign: =VerticalAlign.Top
-        Width: =70
-        X: =35
-        Y: =30
+        Width: =87
+        X: =156
+        Y: =728
+        ZIndex: =6
+
+    Rectangle353 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Height: =42
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =277
+        X: =140
+        Y: =666
         ZIndex: =8
 
-    Rectangle371615 As rectangle:
-        BorderColor: =RGBA(30, 30, 30, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =303
-        X: =30
-        Y: =286
-        ZIndex: =10
-
-    Image371617 As image:
+    Label10161 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+        Color: =RGBA(2, 4, 48, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Height: =24
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371617
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =24
-        X: =300
-        Y: =292
+        FontWeight: =FontWeight.Bold
+        Height: =23
+        LineHeight: =1.171875
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =15
+        Text: ="Projeto 4"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =87
+        X: =156
+        Y: =676
+        ZIndex: =9
+
+    Rectangle352 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Height: =42
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =277
+        X: =140
+        Y: =614
+        ZIndex: =11
+
+    Label10160 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(2, 4, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =23
+        LineHeight: =1.171875
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =15
+        Text: ="Projeto 3"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =87
+        X: =156
+        Y: =624
         ZIndex: =12
 
-    Image371618 As image:
+    Rectangle351 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =4
-        Height: =20
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371618
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =20
-        X: =302
-        Y: =294
-        ZIndex: =13
-
-    Label371619 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="nome"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =127
-        X: =40
-        Y: =295
+        Height: =42
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =277
+        X: =140
+        Y: =562
         ZIndex: =14
 
-    Label371624 As label:
+    Label10159 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(2, 4, 48, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Height: =18
+        FontWeight: =FontWeight.Bold
+        Height: =23
         LineHeight: =1.171875
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
-        Size: =12
-        Text: ="Empresa"
+        Size: =15
+        Text: ="Projeto 2"
         VerticalAlign: =VerticalAlign.Top
-        Width: =157
-        X: =30
-        Y: =267
+        Width: =87
+        X: =156
+        Y: =572
         ZIndex: =15
 
-    Rectangle371626 As rectangle:
+    Rectangle350 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Height: =42
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =277
+        X: =140
+        Y: =510
+        ZIndex: =17
+
+    Label8157 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(2, 4, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =23
+        LineHeight: =1.171875
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =15
+        Text: ="Projeto 1"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =87
+        X: =156
+        Y: =520
+        ZIndex: =18
+
+    Rectangle2068 As rectangle:
         BorderColor: =RGBA(30, 30, 30, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -191,71 +190,15 @@
         Height: =36
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =303
-        X: =30
-        Y: =221
-        ZIndex: =17
+        Width: =267
+        X: =140
+        Y: =449
+        ZIndex: =25
 
-    Label371627 As label:
+    Label2070 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="nome"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =40
-        Y: =230
-        ZIndex: =18
-
-    Label371628 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Gestor Responsável"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =157
-        X: =30
-        Y: =202
-        ZIndex: =19
-
-    Rectangle371630 As rectangle:
-        BorderColor: =RGBA(30, 30, 30, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =303
-        X: =30
-        Y: =156
-        ZIndex: =21
-
-    Label371631 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -268,33 +211,44 @@
         Size: =12
         Text: ="Nome do projeto"
         VerticalAlign: =VerticalAlign.Top
-        Width: =179
-        X: =30
-        Y: =137
-        ZIndex: =22
+        Width: =127
+        X: =150
+        Y: =458
+        ZIndex: =26
 
-    Label371632 As label:
+    Rectangle2071 As rectangle:
+        BorderColor: =RGBA(177.4375, 177.4375, 177.4375, 1)
+        BorderThickness: =1
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(242.25, 242.25, 242.25, 1)
+        FocusedBorderThickness: =4
+        Height: =36
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =36
+        X: =407
+        Y: =449
+        ZIndex: =27
+
+    Image1838 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(113.6875, 113.6875, 113.6875, 1)
+        BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="nome"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =40
-        Y: =165
-        ZIndex: =23
+        Height: =20.0654296875
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =image1838
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =20.0654907226563
+        X: =414
+        Y: =456
+        ZIndex: =29
 
-    Rectangle371634 As rectangle:
+    Rectangle381786 As rectangle:
         BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -304,11 +258,11 @@
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =140
-        X: =29
-        Y: =499
-        ZIndex: =25
+        X: =140
+        Y: =789
+        ZIndex: =31
 
-    Label371635 As label:
+    Label381787 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
@@ -322,70 +276,67 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =12
-        Text: ="Voltar"
+        Text: ="Início"
         VerticalAlign: =VerticalAlign.Top
         Width: =52
-        X: =88
-        Y: =510
-        ZIndex: =26
+        X: =199
+        Y: =800
+        ZIndex: =32
 
-    Image371637 As image:
+    Image381789 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =8.0115966796875
+        Height: =8.01171875
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image371637
+        Image: =image381789
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =10.5516357421875
-        X: =68.744140625
-        Y: =514.994140625
-        ZIndex: =28
+        Width: =10.5515747070313
+        X: =179
+        Y: =804
+        ZIndex: =34
 
-    Rectangle371639 As rectangle:
+    Rectangle381791 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(110, 164, 191, 1)
+        Fill: =RGBA(242.25, 242.25, 242.25, 1)
         FocusedBorderThickness: =4
-        Height: =40
+        Height: =38
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =192
-        Y: =499
-        ZIndex: =30
-
-    Label371640 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Salvar"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =52
-        X: =242
+        Width: =22
+        X: =419
         Y: =510
-        ZIndex: =31
+        ZIndex: =36
 
-    Label371641 As label:
+    Image381793 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(110, 164, 191, 1)
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =19.99951171875
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =image381793
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =10
+        X: =423
+        Y: =519
+        ZIndex: =38
+
+    Label381794 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(2, 4, 48, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -397,10 +348,17 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =15
-        Text: ="Projeto Novo"
+        Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Top
-        Width: =122
-        X: =30
-        Y: =97
-        ZIndex: =32
+        Width: =80
+        X: =140
+        Y: =402
+        ZIndex: =39
+
+    FooterCompany_14 As FooterCompany:
+        Y: =1016
+        ZIndex: =40
+
+    HeaderCompany_13 As HeaderCompany:
+        ZIndex: =41
 

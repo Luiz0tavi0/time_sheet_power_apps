@@ -1,4 +1,4 @@
-colaborador_visualizar_atividades As screen:
+visualizar_atividades_colaborador As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Rectangle20596 As rectangle:
