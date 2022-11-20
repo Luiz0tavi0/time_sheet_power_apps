@@ -271,7 +271,19 @@ login As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnSelect: =If(Toggle_Cpf_Or_Cnpj.Value, Navigate(cadastro_empresa), Navigate(cadastro_colaborador));
+        OnSelect: |-
+            =//If(Toggle_Cpf_Or_Cnpj.Value;
+             //   Navigate(cadastro_empresa);; NewForm(FormWorkerReg);;
+            //);;
+            
+            //If(Not(Toggle_Cpf_Or_Cnpj.Value); Navigate(cadastro_colaborador);; NewForm(FormCompanyReg));;
+            
+            
+            If(
+                Toggle_Cpf_Or_Cnpj.Value, 
+                 Navigate(cadastro_empresa); NewForm(FormWorkerReg),
+                 Navigate(cadastro_colaborador); NewForm(FormCompanyReg)
+                 );
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
