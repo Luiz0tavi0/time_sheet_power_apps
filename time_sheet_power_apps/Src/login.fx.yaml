@@ -328,7 +328,7 @@ login As screen:
         Y: =897
         ZIndex: =11
 
-    Label4 As label:
+    LabelLoginError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -337,12 +337,12 @@ login As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
+        Height: =19
         Size: =21
-        Text: =CountA(Split(TxtInputLoginCnpj_Cpf.Text, Left(TxtInputLoginCnpj_Cpf.Text,1)))-1
+        Text: =Len(TxtInputLoginCnpj_Cpf.Text)
         Visible: =false
-        Width: =560
-        X: =40
-        Y: =553
+        Width: =480
+        X: =80
+        Y: =782
         ZIndex: =12
 
