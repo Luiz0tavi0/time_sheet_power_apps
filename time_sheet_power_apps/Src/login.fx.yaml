@@ -1,11 +1,5 @@
 login As screen:
-    Fill: |-
-        =RGBA(
-            234,
-            247,
-            251,
-            1
-        )
+    Fill: =RGBA(234,247,251,1)
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
@@ -311,38 +305,49 @@ login As screen:
         Y: =967
         ZIndex: =10
 
-    Label3 As label:
+    LabelLoginError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
+        Color: =RGBA(255, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: =""
-        Width: =560
+        FontWeight: =FontWeight.Semibold
+        Height: =21
+        Text: |-
+            =If(Len(TxtInputLoginCnpj_Cpf.Text)=0,
+            $"{LabelTipoUser.Text} é obrigatório."
+            ,
+            ""
+            )
+        Visible: =Not(Self.Text="")
+        Width: =480
         X: =80
-        Y: =897
-        ZIndex: =11
+        Y: =782
+        ZIndex: =12
 
-    Label4 As label:
+    LabelPasswordError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
+        Color: =RGBA(255, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: =CountA(Split(TxtInputLoginCnpj_Cpf.Text, Left(TxtInputLoginCnpj_Cpf.Text,1)))-1
-        Visible: =false
-        Width: =560
-        X: =40
-        Y: =553
-        ZIndex: =12
+        FontWeight: =FontWeight.Semibold
+        Height: =21
+        Text: |-
+            =If(Len(TxtInputLoginSenha.Text)=0,
+            $"Senha é obrigatório."
+            ,
+            ""
+            )
+        Visible: =Not(Self.Text="")
+        Width: =480
+        X: =81
+        Y: =903
+        ZIndex: =13
 
