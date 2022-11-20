@@ -3,7 +3,7 @@ login As screen:
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Image2 As image:
+    BackImage As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -144,7 +144,7 @@ login As screen:
         Y: =677
         ZIndex: =6
 
-    Label218 As label:
+    AppTittle As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -169,7 +169,7 @@ login As screen:
         Y: =47
         ZIndex: =7
 
-    Button3 As button:
+    ButtonRegistration As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -192,7 +192,7 @@ login As screen:
         Y: =967
         ZIndex: =8
 
-    Button3_1 As button:
+    ButtonLogin As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)

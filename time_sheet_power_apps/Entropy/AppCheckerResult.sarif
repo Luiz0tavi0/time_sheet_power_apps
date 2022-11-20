@@ -15804,66 +15804,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20342"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20343.TabIndex"
                 }
               ],
@@ -15894,49 +15834,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371.AccessibleLabel"
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.ActivityDetail.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371.TabIndex",
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.ActivityDetail.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20371"
+                "type": "Horas_Trabalhadas_por_Colaborador_empresa.ActivityDetail"
               }
             }
           ],
@@ -15954,19 +15864,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20372.TabIndex"
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.WorkHours.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20372.TabIndex",
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.WorkHours.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Label20372"
+                "type": "Horas_Trabalhadas_por_Colaborador_empresa.WorkHours"
               }
             }
           ],
@@ -15984,259 +15894,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374.AccessibleLabel"
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.ProjectName.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374.TabIndex",
+                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.ProjectName.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20374"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20375.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20375.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Label20375"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20377"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20378.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20378.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Label20378"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Rectangle20380"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20381.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Horas_Trabalhadas_por_Colaborador_empresa.Label20381.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Horas_Trabalhadas_por_Colaborador_empresa",
-                "type": "Horas_Trabalhadas_por_Colaborador_empresa.Label20381"
+                "type": "Horas_Trabalhadas_por_Colaborador_empresa.ProjectName"
               }
             }
           ],
@@ -23154,19 +22824,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "login.Label218.TabIndex"
+                  "fullyQualifiedName": "login.AppTittle.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "login.Label218.TabIndex",
+                  "fullyQualifiedName": "login.AppTittle.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "login",
-                "type": "login.Label218"
+                "type": "login.AppTittle"
               }
             }
           ],
