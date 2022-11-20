@@ -55,15 +55,39 @@
           "DL_imagensDoApp": {
             "tableName": "f628fbd1-8f96-4199-98cb-b575b6bf81b1"
           },
-          "tbl_collaborators": {
-            "tableName": "de76a7f4-efc8-4443-a599-9b1192d94554"
+          "tbl_companies": {
+            "tableName": "80104f60-c9ff-4a46-9e4e-3f50409aa3ee"
+          },
+          "tbl_contract_projects": {
+            "tableName": "c989798e-31a8-4f86-a617-21cdb160fe8f"
+          },
+          "tbl_contracts": {
+            "tableName": "d3f26694-4c50-40bc-a28d-33e5ac2052fc"
+          },
+          "tbl_projects": {
+            "tableName": "9f329be3-5055-4c67-af93-c8eceeb58d84"
+          },
+          "tbl_projects_tasks": {
+            "tableName": "32c2f175-fc14-4dc1-a178-b52858faa311"
+          },
+          "tbl_tasks": {
+            "tableName": "ea2b46b7-1cc0-4185-ab32-5abceec4cef7"
+          },
+          "tlb_collaborators": {
+            "tableName": "4c08303f-46d4-4d66-9db8-77ce8e960041"
           }
         }
       }
     },
     "dataSources": [
       "DL_imagensDoApp",
-      "tbl_collaborators"
+      "tbl_tasks",
+      "tbl_projects_tasks",
+      "tbl_projects",
+      "tbl_contracts",
+      "tbl_contract_projects",
+      "tbl_companies",
+      "tlb_collaborators"
     ],
     "dependencies": {},
     "dependents": [],

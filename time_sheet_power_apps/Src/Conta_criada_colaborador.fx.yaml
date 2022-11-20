@@ -60,7 +60,7 @@ Conta_criada_colaborador As screen:
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(2, 4, 48, 1), -30%)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
         Size: =24
         Text: ="          Início"
         Width: =230
