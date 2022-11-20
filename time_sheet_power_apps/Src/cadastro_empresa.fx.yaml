@@ -21,7 +21,7 @@ cadastro_empresa As screen:
         Text: ="Criar"
         Width: =480
         X: =78
-        Y: =906
+        Y: =858
         ZIndex: =1
 
     FormCompanyReg As form:
@@ -31,7 +31,7 @@ cadastro_empresa As screen:
         Height: =588
         Width: =535
         X: =54
-        Y: =237
+        Y: =197
         ZIndex: =2
 
         cnpj_DataCard1 As typedDataCard.textualEditCard:

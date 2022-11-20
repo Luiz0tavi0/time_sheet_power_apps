@@ -105,7 +105,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonCreateUserWorker",
-      "ParentIndex": 14,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5144,7 +5144,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterWorker_7",
-      "ParentIndex": 15,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5308,7 +5308,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "HeaderRegistrationWorker",
-      "ParentIndex": 16,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
