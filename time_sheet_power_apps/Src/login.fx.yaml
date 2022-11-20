@@ -311,38 +311,47 @@ login As screen:
         Y: =967
         ZIndex: =10
 
-    Label3 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: =""
-        Width: =560
-        X: =80
-        Y: =897
-        ZIndex: =11
-
     LabelLoginError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
+        Color: =RGBA(255, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =19
-        Size: =21
-        Text: =Len(TxtInputLoginCnpj_Cpf.Text)
-        Visible: =false
+        FontWeight: =FontWeight.Semibold
+        Height: =21
+        Text: |-
+            =If(Len(TxtInputLoginCnpj_Cpf.Text)=0,
+            $"{LabelTipoUser.Text} é obrigatório."
+            ,
+            ""
+            )
         Width: =480
         X: =80
         Y: =782
         ZIndex: =12
+
+    LabelPasswordError As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =21
+        Text: |-
+            =If(Len(TxtInputLoginCnpj_Cpf.Text)=0,
+            $"{LabelTipoUser.Text} é obrigatório."
+            ,
+            ""
+            )
+        Width: =480
+        X: =81
+        Y: =903
+        ZIndex: =13
 
