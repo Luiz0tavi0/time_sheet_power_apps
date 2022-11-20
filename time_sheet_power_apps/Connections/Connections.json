@@ -40,35 +40,6 @@
     "dependents": [],
     "id": "0231a2ce-81a0-4ca3-abe3-d1a85fafc381"
   },
-  "da0e6ffa-0abb-46d6-b41c-0ce447729e80": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "SharePoint",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
-    },
-    "datasets": {
-      "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet": {
-        "dataSources": {
-          "DL_imagensDoApp": {
-            "tableName": "f628fbd1-8f96-4199-98cb-b575b6bf81b1"
-          },
-          "tbl_collaborators": {
-            "tableName": "de76a7f4-efc8-4443-a599-9b1192d94554"
-          }
-        }
-      }
-    },
-    "dataSources": [
-      "DL_imagensDoApp",
-      "tbl_collaborators"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "da0e6ffa-0abb-46d6-b41c-0ce447729e80"
-  },
   "e9312235-b10c-467c-b556-e87d7fdaa901": {
     "connectionParameters": {
       "sku": "Enterprise"

@@ -658,11 +658,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/20/2022 21:22:26",
+  "HeaderLastSavedDateTimeUTC": "11/20/2022 21:57:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0231a2ce-81a0-4ca3-abe3-d1a85fafc381": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/873ad2396eca492291940d647eaa3927-eca9641277fac900\"",
-    "da0e6ffa-0abb-46d6-b41c-0ce447729e80": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/d80cb64c76574968b3dbd53aaa4745da\"",
     "e9312235-b10c-467c-b556-e87d7fdaa901": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-fa33c161-58a9-473d-8591-3352f15d6fda\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -962,10 +961,8 @@
   "OrderDataSource": {
     "ComboBoxSample": 1,
     "CustomGallerySample": 2,
-    "DL_imagensDoApp": 3,
-    "DropDownSample": 4,
-    "Send_an_email_invite": 0,
-    "tbl_collaborators": 5
+    "DropDownSample": 3,
+    "Send_an_email_invite": 0
   },
   "OrderGroupControls": {
     "Group1": {
@@ -1759,7 +1756,7 @@
       "typedDataCard": 6
     },
     "DeserializationLoadTime": 8.9123683,
-    "ErrorCount": 0
+    "ErrorCount": 25
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
