@@ -135,6 +135,9 @@ login As screen:
         HandleFill: =RGBA(255, 255, 255, 1)
         Height: =34
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        OnChange: |-
+            =TxtInputLoginCnpj_Cpf.Clear = true;
+            TxtInputLoginSenha.Clear=true;
         OnCheck: =
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         Size: =20
