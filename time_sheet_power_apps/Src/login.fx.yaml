@@ -136,8 +136,8 @@ login As screen:
         Height: =34
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         OnChange: |-
-            =TxtInputLoginCnpj_Cpf.Clear = true;
-            TxtInputLoginSenha.Clear=true;
+            =Reset(TxtInputLoginCnpj_Cpf);
+            Reset(TxtInputLoginSenha);
         OnCheck: =
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         Size: =20
