@@ -57,9 +57,11 @@ login As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =70
+        HintText: ="Somente números"
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
+        Italic: =true
         PressedBorderColor: =RGBA(0, 120, 212, 1)
         PressedColor: =RGBA(51, 51, 51, 1)
         PressedFill: =RGBA(255, 255, 255, 1)
@@ -68,6 +70,7 @@ login As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =21
+        Tooltip: ="Somente números"
         Width: =480
         X: =80
         Y: =709
@@ -95,6 +98,28 @@ login As screen:
         Y: =801
         ZIndex: =4
 
+    LabelTipoUser As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =32
+        LineHeight: =1.171875
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =18
+        Text: =If(Toggle_Cpf_Or_Cnpj.Value,"CNPJ","CPF")
+        VerticalAlign: =VerticalAlign.Top
+        Width: =74
+        X: =81
+        Y: =677
+        ZIndex: =5
+
     Toggle_Cpf_Or_Cnpj As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -120,28 +145,6 @@ login As screen:
         Width: =320
         X: =160
         Y: =613
-        ZIndex: =5
-
-    LabelTipoUser As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =32
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =18
-        Text: =If(Toggle_Cpf_Or_Cnpj.Value,"CNPJ","CPF")
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =81
-        Y: =677
         ZIndex: =6
 
     AppTittle As label:
