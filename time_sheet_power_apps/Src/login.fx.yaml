@@ -1,5 +1,11 @@
 login As screen:
-    Fill: =RGBA(234, 247, 251, 1)
+    Fill: |-
+        =RGBA(
+            234,
+            247,
+            251,
+            1
+        )
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
@@ -189,7 +195,7 @@ login As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnSelect: =Navigate(cadastro_empresa)
+        OnSelect: =If(Toggle_Cpf_Or_Cnpj.Value, Navigate(cadastro_empresa), Navigate(cadastro_colaborador));
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
