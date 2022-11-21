@@ -55,7 +55,7 @@
         "Name": "BackgroundHeaderDark",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 8,
+        "PublishOrderIndex": 586,
         "Rules": [
           {
             "Category": "Data",
@@ -313,7 +313,7 @@
         "Name": "IconLogoff_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 9,
+        "PublishOrderIndex": 587,
         "Rules": [
           {
             "Category": "Design",
@@ -560,7 +560,7 @@
         "Name": "NameLogin_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 10,
+        "PublishOrderIndex": 588,
         "Rules": [
           {
             "Category": "Data",
@@ -901,7 +901,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638045890420418006",
+    "LastModifiedTimestamp": "638045815340680638",
     "Name": "HeaderCompany",
     "Rules": [
       {
@@ -960,7 +960,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638045890420418006",
+  "LastModifiedTimestamp": "638045815340680638",
   "Name": "faecc12050bb4c9ca744ac80084ea13a",
   "OverridableProperties": {},
   "Version": "638045030137339720"
