@@ -110,3 +110,31 @@
                 Y: =676
                 ZIndex: =2
 
+            btnOkSuccess As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(110, 164, 191, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                HoverBorderColor: =RGBA(110, 164, 191, 1)
+                HoverColor: =RGBA(110, 164, 191, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                LayoutMinHeight: =70
+                LayoutMinWidth: =280
+                OnSelect: =Set(varGlobShowPopUp,false)
+                PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                RadiusBottomLeft: =180
+                RadiusBottomRight: =35 
+                RadiusTopLeft: =35
+                RadiusTopRight: =180
+                Size: =25
+                Text: ="Botão"
+                Width: =280
+                ZIndex: =3
+

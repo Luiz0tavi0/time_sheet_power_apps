@@ -9017,8 +9017,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "acaoClickButton",
-        "algo",
+        "textoModal",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -9058,12 +9057,7 @@
         },
         {
           "Category": "Data",
-          "PropertyName": "acaoClickButton",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "algo",
+          "PropertyName": "textoModal",
           "RuleProviderType": "System"
         },
         {

@@ -13042,36 +13042,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "SuccessModalOnlyOKButton.varGlobShowPopUp"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "SuccessModalOnlyOKButton.varGlobShowPopUp",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varGlobShowPopUp",
-                "module": "SuccessModalOnlyOKButton",
-                "type": "SuccessModalOnlyOKButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "login.VarMascara"
                 }
               ],
