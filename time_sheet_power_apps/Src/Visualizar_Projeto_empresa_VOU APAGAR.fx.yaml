@@ -589,10 +589,3 @@
         Y: =529
         ZIndex: =57
 
-    FooterCompany_16 As FooterCompany:
-        Y: =1016
-        ZIndex: =58
-
-    HeaderCompany_14 As HeaderCompany:
-        ZIndex: =59
-

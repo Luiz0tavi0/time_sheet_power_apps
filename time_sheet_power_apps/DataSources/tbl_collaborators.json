@@ -9,6 +9,8 @@
     "ConnectedDataSourceInfoNameMapping": {
       "{Attachments}": "Anexos",
       "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{ContentType}": "Tipo de conteúdo",
+      "{ContentType}#Id": "Tipo de conteúdo Id",
       "{FilenameWithExtension}": "Nome de arquivo com extensão",
       "{FullPath}": "Caminho Completo",
       "{HasAttachments}": "Tem anexos",
@@ -37,14 +39,14 @@
       "ID": "ID",
       "Modified": "Modificado",
       "password": "password",
-      "Title": "id",
+      "Title": "Title",
       "username": "username"
     },
     "DatasetName": "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "tlb_collaborators",
+    "Name": "tbl_collaborators",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
