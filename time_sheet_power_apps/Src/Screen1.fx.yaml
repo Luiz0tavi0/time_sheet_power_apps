@@ -67,9 +67,9 @@
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =640
-        ZIndex: =10
+        ZIndex: =6
 
-        infCont As groupContainer.verticalAutoLayoutContainer:
+        infCont_xpto As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0

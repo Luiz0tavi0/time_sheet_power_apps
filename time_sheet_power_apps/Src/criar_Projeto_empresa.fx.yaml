@@ -1,7 +1,6 @@
 criar_Projeto_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
-    OnVisible: |-
-        =UpdateContext({locMostrarPopUpSuccess:false})
+    OnVisible: =Set(varGlobShowPopUp, false)
 
     ButtonSave_3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -16,7 +15,7 @@ criar_Projeto_empresa As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnSelect: =Notify("Visible",NotificationType.Information,5000)
+        OnSelect: =Set(varGlobShowPopUp,true)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -343,6 +342,10 @@ criar_Projeto_empresa As screen:
 
     HeaderCompany_10 As HeaderCompany:
         ZIndex: =29
+
+    SuccessModalOnlyOKButton_1 As SuccessModalOnlyOKButton:
+        Visible: =varGlobShowPopUp
+        ZIndex: =30
 
     Group2_1 As group:
         Height: =5
