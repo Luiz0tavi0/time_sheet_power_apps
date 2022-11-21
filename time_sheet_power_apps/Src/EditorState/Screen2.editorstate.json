@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Button3": {
+    "Button4": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Text",
@@ -56,7 +56,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button3",
+      "Name": "Button4",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -354,7 +354,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "hiddenModal",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -390,7 +390,7 @@
         {
           "Category": "Data",
           "PropertyName": "hiddenModal",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",

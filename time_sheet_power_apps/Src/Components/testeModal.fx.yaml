@@ -35,7 +35,7 @@ testeModal As CanvasComponent:
         FontWeight: =FontWeight.Bold
         Height: =70
         LineHeight: =1
-        OnSelect: =Parent.texto_label
+        OnSelect: =testeModal.texto_label
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0

@@ -3,10 +3,9 @@ Screen2 As screen:
 
     testeModal_1 As testeModal:
         Height: =1048
-        texto_label: ="""Texto"""
         Y: =88
 
-    Button3 As button:
+    Button4 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -19,7 +18,7 @@ Screen2 As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnSelect: =testeModal_1.texto_label="asdasdasd"
+        OnSelect: =testeModal_1.texto_label="texto alterado"
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -30,6 +29,7 @@ Screen2 As screen:
         Size: =24
         Text: ="Botão"
         Width: =280
-        Y: =2
+        X: =40
+        Y: =40
         ZIndex: =2
 

@@ -603,7 +603,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Parent.texto_label",
+            "InvariantScript": "testeModal.texto_label",
             "Property": "OnSelect",
             "RuleProviderType": "Unknown"
           }
@@ -1074,7 +1074,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638046588811540338",
+    "LastModifiedTimestamp": "638046590311235375",
     "Name": "testeModal",
     "Rules": [
       {
@@ -1213,7 +1213,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638046588811540338",
+  "LastModifiedTimestamp": "638046590311235375",
   "Name": "4f095b63ca034219993222b1322cf5f5",
   "OverridableProperties": {},
   "TemplateOriginalName": "e9a328c0cd914fc998633dc57e7f1201",
