@@ -112,7 +112,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHomeWorker_3",
-      "ParentIndex": 32,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -406,7 +406,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonSaveWorker_1",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6110,7 +6110,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterWorker_8",
-      "ParentIndex": 34,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6529,7 +6529,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon19_2",
-      "ParentIndex": 33,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
