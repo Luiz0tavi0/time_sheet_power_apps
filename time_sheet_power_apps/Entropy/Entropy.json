@@ -619,7 +619,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/21/2022 00:56:20",
+  "HeaderLastSavedDateTimeUTC": "11/21/2022 00:58:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0231a2ce-81a0-4ca3-abe3-d1a85fafc381": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/83a4862848004467979293e6fd6c737c\"",
@@ -921,6 +921,7 @@
   "OrderDataSource": {
     "ComboBoxSample": 1,
     "CustomGallerySample": 2,
+    "DL_imagensDoApp": 10,
     "DropDownSample": 3,
     "Send_an_email_invite": 0,
     "tbl_collaborators": 4,
