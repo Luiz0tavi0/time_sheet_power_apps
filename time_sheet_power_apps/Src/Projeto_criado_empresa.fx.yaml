@@ -96,3 +96,24 @@ Projeto_criado_empresa As screen:
     HeaderCompany_6 As HeaderCompany:
         ZIndex: =6
 
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(230, 230, 230, 0.61)
+        Height: =1136
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =640
+        ZIndex: =7
+
+        Rectangle1 As rectangle:
+            BorderColor: =RGBA(221, 79, 14, 1)
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(204, 228, 246, 1)
+            FocusedBorderThickness: =4
+            Height: =150
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =400
+            ZIndex: =1
+
