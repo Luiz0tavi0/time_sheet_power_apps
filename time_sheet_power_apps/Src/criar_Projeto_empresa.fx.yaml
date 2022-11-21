@@ -393,38 +393,6 @@ criar_Projeto_empresa As screen:
                 Y: =676
                 ZIndex: =2
 
-            ButtonAcceptSuccess_1 As button:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =0
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(110, 164, 191, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =51
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-                LayoutMinHeight: =70
-                LayoutMinWidth: =280
-                OnSelect: =
-                PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                RadiusBottomLeft: =100
-                RadiusBottomRight: =100
-                RadiusTopLeft: =100
-                RadiusTopRight: =100
-                Size: =24
-                Text: ="OK"
-                Width: =205
-                X: =217
-                Y: =615
-                ZIndex: =3
-
     HeaderCompany_10 As HeaderCompany:
         ZIndex: =29
 
