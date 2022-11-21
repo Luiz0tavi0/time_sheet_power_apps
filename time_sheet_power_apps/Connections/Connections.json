@@ -72,9 +72,6 @@
     "datasets": {
       "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet": {
         "dataSources": {
-          "DL_imagensDoApp": {
-            "tableName": "f628fbd1-8f96-4199-98cb-b575b6bf81b1"
-          },
           "tbl_collaborators": {
             "tableName": "4c08303f-46d4-4d66-9db8-77ce8e960041"
           },
@@ -102,8 +99,7 @@
       "tbl_contract_projects",
       "tbl_projects",
       "tbl_projects_tasks",
-      "tbl_tasks",
-      "DL_imagensDoApp"
+      "tbl_tasks"
     ],
     "dependencies": {},
     "dependents": [],
