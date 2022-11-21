@@ -62,7 +62,7 @@
         "Name": "BackgroundHeaderLight",
         "Parent": "HeaderWorker",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 12,
+        "PublishOrderIndex": 573,
         "Rules": [
           {
             "Category": "Data",
@@ -320,7 +320,7 @@
         "Name": "IconLogoff_3",
         "Parent": "HeaderWorker",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 13,
+        "PublishOrderIndex": 574,
         "Rules": [
           {
             "Category": "Design",
@@ -567,7 +567,7 @@
         "Name": "NameLogin_3",
         "Parent": "HeaderWorker",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 14,
+        "PublishOrderIndex": 575,
         "Rules": [
           {
             "Category": "Data",
@@ -908,7 +908,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638045891321531884",
+    "LastModifiedTimestamp": "638045904008059476",
     "Name": "HeaderWorker",
     "Rules": [
       {
@@ -967,7 +967,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638045891321531884",
+  "LastModifiedTimestamp": "638045904008059476",
   "Name": "c3ad464f7f044203bce93bfdda3083b1",
   "OverridableProperties": {},
   "TemplateOriginalName": "faecc12050bb4c9ca744ac80084ea13a",

@@ -55,7 +55,7 @@
         "Name": "BackgroundFooterLight",
         "Parent": "FooterCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2,
+        "PublishOrderIndex": 566,
         "Rules": [
           {
             "Category": "Data",
@@ -313,7 +313,7 @@
         "Name": "Group",
         "Parent": "FooterCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 3,
+        "PublishOrderIndex": 567,
         "Rules": [
           {
             "Category": "Data",
@@ -654,7 +654,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638045891321526806",
+    "LastModifiedTimestamp": "638045904008051674",
     "Name": "FooterCompany",
     "Rules": [
       {
@@ -713,7 +713,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638045891321526806",
+  "LastModifiedTimestamp": "638045904008051674",
   "Name": "8fcf01ef466b4b9e8b209f504771e604",
   "OverridableProperties": {},
   "Version": "638045030999078907"
