@@ -58,22 +58,8 @@
           "NameMapSourceSchema": "?"
         },
         "VerticalAlign",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "X",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Y",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "X",
+        "Y",
         "Width",
         "Height",
         "ZIndex",
@@ -126,7 +112,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHomeWorker_3",
-      "ParentIndex": 7,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6124,7 +6110,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterWorker_8",
-      "ParentIndex": 10,
+      "ParentIndex": 34,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6543,7 +6529,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon19_2",
-      "ParentIndex": 9,
+      "ParentIndex": 33,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

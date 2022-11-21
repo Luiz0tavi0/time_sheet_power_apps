@@ -180,7 +180,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHomeWorker_4",
-      "ParentIndex": 3,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -401,7 +401,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterWorker_5",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -565,7 +565,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon19_9",
-      "ParentIndex": 4,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -691,14 +691,7 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Transparency",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Transparency",
         "ImagePosition",
         "CalculateOriginalDimensions",
         "ImageRotation",
@@ -994,14 +987,7 @@
         "AutoHeight",
         "Wrap",
         "IsErrorMessage",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Text",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Text",
         "Tooltip",
         "Role",
         "ContentLanguage",
@@ -1022,14 +1008,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Size",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Size",
         "FontWeight",
         "Italic",
         "Underline",
