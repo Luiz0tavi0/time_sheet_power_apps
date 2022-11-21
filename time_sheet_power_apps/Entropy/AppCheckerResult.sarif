@@ -9532,19 +9532,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "testeModal.modalSuccess_1.infCont_1.Label281087_7.TabIndex"
+                  "fullyQualifiedName": "testeModal.Label281087_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "testeModal.modalSuccess_1.infCont_1.Label281087_7.TabIndex",
+                  "fullyQualifiedName": "testeModal.Label281087_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "testeModal",
-                "type": "testeModal.modalSuccess_1.infCont_1.Label281087_7"
+                "type": "testeModal.Label281087_7"
               }
             }
           ],
@@ -13115,36 +13115,6 @@
                 "member": "locMostrarPopUpSuccess",
                 "module": "criar_Projeto_empresa",
                 "type": "criar_Projeto_empresa"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "testeModal.varGlobShowPopUp"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "testeModal.varGlobShowPopUp",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varGlobShowPopUp",
-                "module": "testeModal",
-                "type": "testeModal"
               }
             }
           ],
