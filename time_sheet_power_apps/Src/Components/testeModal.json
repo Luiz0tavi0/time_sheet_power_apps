@@ -1,0 +1,57 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "testeModal",
+    "TemplateGuid": "4f095b63ca034219993222b1322cf5f5"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "LarguraTotal",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "LarguraTotal",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "deve refletir a largura do app",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "AlturaTotal",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "AlturaTotal",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Reflete a altura do app",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "hiddenModal",
+      "Hidden": false,
+      "Name": "hiddenModal",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "esconder modal",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638046575945986041",
+  "Name": "4f095b63ca034219993222b1322cf5f5",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "e9a328c0cd914fc998633dc57e7f1201",
+  "Version": "638046107564912922"
+}
