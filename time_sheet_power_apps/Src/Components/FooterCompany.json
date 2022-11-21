@@ -55,7 +55,7 @@
         "Name": "BackgroundFooterLight",
         "Parent": "FooterCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 583,
+        "PublishOrderIndex": 582,
         "Rules": [
           {
             "Category": "Data",
@@ -313,7 +313,7 @@
         "Name": "Group",
         "Parent": "FooterCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 584,
+        "PublishOrderIndex": 583,
         "Rules": [
           {
             "Category": "Data",
