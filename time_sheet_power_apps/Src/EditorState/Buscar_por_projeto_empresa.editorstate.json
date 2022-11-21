@@ -180,7 +180,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonRegistration_3",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -401,7 +401,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterCompany_14",
-      "ParentIndex": 5,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -484,7 +484,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -765,7 +765,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -945,7 +945,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon19_3",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1139,7 +1139,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label381794_1",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1717,7 +1717,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SearchBox",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
