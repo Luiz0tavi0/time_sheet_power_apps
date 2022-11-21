@@ -1,0 +1,10 @@
+SuccessModalOnlyOKButton As CanvasComponent:
+    AlturaTotal: =App.Height
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =Self.AlturaTotal
+    LarguraTotal: =App.Width
+    Width: =Self.LarguraTotal
+    X: =0
+    Y: =0
+    ZIndex: =1
+

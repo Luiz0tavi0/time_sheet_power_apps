@@ -112,7 +112,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHomeWorker_9",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -333,7 +333,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "FooterWorker_6",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -497,7 +497,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon19_16",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

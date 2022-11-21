@@ -1,0 +1,47 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "SuccessModalOnlyOKButton",
+    "TemplateGuid": "e9a328c0cd914fc998633dc57e7f1201"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "LarguraTotal",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "LarguraTotal",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "deve refletir a largura do app",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "AlturaTotal",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "AlturaTotal",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Reflete a altura do app",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638046116562215861",
+  "Name": "e9a328c0cd914fc998633dc57e7f1201",
+  "OverridableProperties": {},
+  "Version": "638046107564912922"
+}
