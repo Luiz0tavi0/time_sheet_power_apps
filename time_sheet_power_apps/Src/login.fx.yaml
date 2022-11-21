@@ -90,7 +90,7 @@ login As screen:
             UpdateContext({VarMascara: Left(Self.Text, 2) & "." & Mid(Self.Text, 3, 3) & "." & Mid(Self.Text, 6, 3) & "/" & Mid(Self.Text, 9, 4) & "-" & Right(Self.Text, 2)}), 
             
             //FALSE - 3ª Condição
-            Notify("Por favor inserir um CNPJ válido!", NotificationType.Error, 1500);
+            
             UpdateContext({VarPrimeiroDigito: Blank(), VarSegundoDigito: Blank(), VarMascara: Blank()});
             Reset(Self)
             
@@ -268,9 +268,11 @@ login As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =70
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverFill: |-
+            =//ColorFade(RGBA(0; 120; 212; 1); -10%)
+            RGBA(255, 255, 255, 1)
         OnSelect: |-
             =//If(Toggle_Cpf_Or_Cnpj.Value;
              //   Navigate(cadastro_empresa);; NewForm(FormWorkerReg);;
@@ -304,9 +306,15 @@ login As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =70
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverBorderColor: =RGBA(0, 120, 212, 1)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        OnSelect: |-
+            =If(Toggle_Cpf_Or_Cnpj.Value,
+                If(!IsBlank(LookUp(tbl_collaborators,cpf=TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)),
+                Notify("Login válido!", NotificationType.Error, 1500),
+                Notify("Login inválido!", NotificationType.Error, 1500))
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

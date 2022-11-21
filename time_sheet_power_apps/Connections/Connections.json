@@ -59,5 +59,50 @@
       "0231a2ce-81a0-4ca3-abe3-d1a85fafc381"
     ],
     "id": "e9312235-b10c-467c-b556-e87d7fdaa901"
+  },
+  "fcb6df2e-19ba-45c4-8d02-49bbd067c0de": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://fatecspgov.sharepoint.com/sites/sitebasetimesheet": {
+        "dataSources": {
+          "tbl_collaborators": {
+            "tableName": "4c08303f-46d4-4d66-9db8-77ce8e960041"
+          },
+          "tbl_companies": {
+            "tableName": "80104f60-c9ff-4a46-9e4e-3f50409aa3ee"
+          },
+          "tbl_contract_projects": {
+            "tableName": "c989798e-31a8-4f86-a617-21cdb160fe8f"
+          },
+          "tbl_projects": {
+            "tableName": "9f329be3-5055-4c67-af93-c8eceeb58d84"
+          },
+          "tbl_projects_tasks": {
+            "tableName": "32c2f175-fc14-4dc1-a178-b52858faa311"
+          },
+          "tbl_tasks": {
+            "tableName": "ea2b46b7-1cc0-4185-ab32-5abceec4cef7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "tbl_collaborators",
+      "tbl_companies",
+      "tbl_contract_projects",
+      "tbl_projects",
+      "tbl_projects_tasks",
+      "tbl_tasks"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fcb6df2e-19ba-45c4-8d02-49bbd067c0de"
   }
 }
