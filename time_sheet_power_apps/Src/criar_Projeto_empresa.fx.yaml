@@ -1,5 +1,7 @@
 criar_Projeto_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: |-
+        =UpdateContext({locMostrarPopUpSuccess:false})
 
     ButtonSave_3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -14,6 +16,7 @@ criar_Projeto_empresa As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnSelect: =Notify("Visible",NotificationType.Information,5000)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -338,37 +341,36 @@ criar_Projeto_empresa As screen:
         Y: =1016
         ZIndex: =27
 
-    HeaderCompany_10 As HeaderCompany:
-        ZIndex: =28
-
-    ModalSuccessProjetoCriadoEmpresa_1 As groupContainer.verticalAutoLayoutContainer:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(230, 230, 230, 0.6)
-        Height: =896
+    modalSuccessProjetoCriadoPorEmpresa As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(0, 0, 0, 0.3)
+        Height: =1136
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
+        Visible: =
         Width: =640
-        Y: =140
-        ZIndex: =67
+        ZIndex: =28
 
-        PopUpSuccess_1 As groupContainer.horizontalAutoLayoutContainer:
+        infCont_1 As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
-            Height: =225
+            Height: =181
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutDirection: =LayoutDirection.Vertical
-            LayoutGap: =20
+            LayoutGap: =10
             LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =112
-            LayoutMinWidth: =100
+            LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =1
+            LayoutWrap: =true
+            X: =75
+            Y: =457
+            ZIndex: =2
 
-            Label281087_2 As label:
+            Label281087_6 As label:
                 Align: =Align.Center
-                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 Color: =RGBA(2, 4, 48, 1)
@@ -387,12 +389,11 @@ criar_Projeto_empresa As screen:
                 Size: =24
                 Text: ="Projeto criado com sucesso!"
                 Width: =450
-                X: =195
-                Y: =685
-                ZIndex: =3
+                X: =102
+                Y: =676
+                ZIndex: =2
 
             ButtonAcceptSuccess_1 As button:
-                AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =0
@@ -403,7 +404,7 @@ criar_Projeto_empresa As screen:
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =70
+                Height: =51
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
@@ -419,8 +420,13 @@ criar_Projeto_empresa As screen:
                 RadiusTopRight: =100
                 Size: =24
                 Text: ="OK"
-                Width: =280
-                ZIndex: =4
+                Width: =205
+                X: =217
+                Y: =615
+                ZIndex: =3
+
+    HeaderCompany_10 As HeaderCompany:
+        ZIndex: =29
 
     Group2_1 As group:
         Height: =5
