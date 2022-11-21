@@ -310,11 +310,18 @@ login As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =If(Toggle_Cpf_Or_Cnpj.Value,
-                If(!IsBlank(LookUp(tbl_collaborators,cpf=TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)),
-                Notify("Login válido!", NotificationType.Error, 1500),
-                Notify("Login inválido!", NotificationType.Error, 1500))
-            );
+            =Label2.Text="sdasdasdasdad";
+            If(
+                Toggle_Cpf_Or_Cnpj.Value,
+                If(
+                    !IsBlank(
+                        LookUp(
+                            tbl_collaborators,
+                            cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text
+                        )
+                    ),Label2.Text="Login ok",Label2.Text="Login inválido"
+                )
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -382,10 +389,7 @@ login As screen:
         Font: =Font.'Segoe UI'
         Height: =70
         Size: =21
-        Text: |-
-            =LookUp(tbl_collaborators,
-                cpf=TxtInputLoginCnpj_Cpf.Text
-            ).name
+        Text: =false
         Width: =560
         X: =80
         Y: =897
