@@ -1,60 +1,52 @@
 Projeto_criado_colaborador As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Rectangle381696 As rectangle:
-        BorderColor: =RGBA(234.8125, 234.8125, 234.8125, 1)
-        BorderThickness: =1
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(244.375, 244.375, 244.375, 1)
-        FocusedBorderThickness: =4
-        Height: =40
-        HoverFill: =RGBA(0, 120, 212, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =140
-        X: =170
-        Y: =672
-        ZIndex: =10
-
-    Label381697 As label:
+    ButtonHomeWorker_9 As button:
+        Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(39.3125, 39.3125, 39.3125, 1)
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Height: =18
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =12
-        Text: ="Início"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =52
-        X: =229
-        Y: =683
-        ZIndex: =11
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(230, 230, 230, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(110, 164, 191, 1), -30%)
+        Size: =24
+        Text: ="          Início"
+        Width: =230
+        X: =52
+        Y: =905
+        ZIndex: =1
 
-    Image381699 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
+    Icon19_16 As icon.Home:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =8.0115966796875
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image381699
+        Icon: =Icon.Home
         PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =10.5516357421875
-        X: =209
-        Y: =687
-        ZIndex: =13
+        Width: =50
+        X: =82
+        Y: =915
+        ZIndex: =2
 
-    Label381700 As label:
+    Label281087_1 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -63,43 +55,44 @@ Projeto_criado_colaborador As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         FontWeight: =FontWeight.Bold
-        Height: =46
+        Height: =71
         LineHeight: =1.171875
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
-        Size: =15
+        Size: =24
         Text: |-
             ="Projeto criado
              com sucesso!"
         VerticalAlign: =VerticalAlign.Top
-        Width: =218
-        X: =214
-        Y: =549
-        ZIndex: =14
+        Width: =249
+        X: =196
+        Y: =705
+        ZIndex: =3
 
-    Image381701 As image:
+    Image371666_1 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =193
+        Height: =374
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =image381701
+        Image: =image371666
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =285
-        X: =178
-        Y: =330
-        ZIndex: =15
+        Transparency: =0.3
+        Width: =533
+        X: =53
+        Y: =300
+        ZIndex: =4
 
     FooterWorker_6 As FooterWorker:
         Y: =1016
-        ZIndex: =16
+        ZIndex: =5
 
     HeaderWorker_5 As HeaderWorker:
-        ZIndex: =17
+        ZIndex: =6
 

@@ -13,10 +13,10 @@ inicial_colaborador As screen:
         Image: ='time-is-money-sandglass-investment-countdown-measure-concept'
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Transparency: =0.3
+        Transparency: =0.4
         Width: =577
         X: =31
-        Y: =496
+        Y: =469
         ZIndex: =1
 
     ButtonCreateActivityWorker As button:
@@ -134,7 +134,7 @@ inicial_colaborador As screen:
                     Projeto"
         Width: =244
         X: =336
-        Y: =372
+        Y: =381
         ZIndex: =5
 
     IconActivities As icon.LevelsLayersItems:
@@ -174,7 +174,7 @@ inicial_colaborador As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
         X: =347
-        Y: =399
+        Y: =408
         ZIndex: =7
 
     ButtonEditUserWorker As button:
@@ -207,7 +207,7 @@ inicial_colaborador As screen:
                     Dados"
         Width: =244
         X: =59
-        Y: =372
+        Y: =381
         ZIndex: =8
 
     IconUserWorker As icon.Person:
@@ -227,7 +227,7 @@ inicial_colaborador As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
         X: =76
-        Y: =399
+        Y: =408
         ZIndex: =9
 
     FooterWorker_1 As FooterWorker:
