@@ -9234,19 +9234,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projeto_criado_empresa.Label281087.TabIndex"
+                  "fullyQualifiedName": "Projeto_criado_empresa.ModalSuccessProjetoCriadoEmpresa.PopUpSuccess.Label281087_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projeto_criado_empresa.Label281087.TabIndex",
+                  "fullyQualifiedName": "Projeto_criado_empresa.ModalSuccessProjetoCriadoEmpresa.PopUpSuccess.Label281087_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Projeto_criado_empresa",
-                "type": "Projeto_criado_empresa.Label281087"
+                "type": "Projeto_criado_empresa.ModalSuccessProjetoCriadoEmpresa.PopUpSuccess.Label281087_1"
               }
             }
           ],
@@ -16236,6 +16236,36 @@
                 "member": "TabIndex",
                 "module": "criar_Projeto_colaborador",
                 "type": "criar_Projeto_colaborador.Image371637"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "criar_Projeto_empresa.ModalSuccessProjetoCriadoEmpresa_1.PopUpSuccess_1.Label281087_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "criar_Projeto_empresa.ModalSuccessProjetoCriadoEmpresa_1.PopUpSuccess_1.Label281087_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "criar_Projeto_empresa",
+                "type": "criar_Projeto_empresa.ModalSuccessProjetoCriadoEmpresa_1.PopUpSuccess_1.Label281087_2"
               }
             }
           ],

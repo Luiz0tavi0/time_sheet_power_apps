@@ -1,31 +1,6 @@
 Projeto_criado_empresa As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Label281087 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(2, 4, 48, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Bold
-        Height: =71
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =24
-        Text: |-
-            ="Projeto criado
-             com sucesso!"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =249
-        X: =195
-        Y: =685
-        ZIndex: =1
-
     Image371666 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -43,31 +18,6 @@ Projeto_criado_empresa As screen:
         X: =52
         Y: =280
         ZIndex: =2
-
-    ButtonHome_5 As button:
-        Align: =Align.Left
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(39, 39, 39, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(230, 230, 230, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =70
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(2, 4, 48, 1), -30%)
-        Size: =24
-        Text: ="          Início"
-        Width: =230
-        X: =52
-        Y: =881
-        ZIndex: =3
 
     Icon19_6 As icon.Home:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -96,24 +46,84 @@ Projeto_criado_empresa As screen:
     HeaderCompany_6 As HeaderCompany:
         ZIndex: =6
 
-    Container1 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(230, 230, 230, 0.61)
-        Height: =1136
+    ModalSuccessProjetoCriadoEmpresa As groupContainer.verticalAutoLayoutContainer:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(230, 230, 230, 0.6)
+        Height: =896
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =640
+        Y: =120
         ZIndex: =7
 
-        Rectangle1 As rectangle:
-            BorderColor: =RGBA(221, 79, 14, 1)
-            DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(204, 228, 246, 1)
-            FocusedBorderThickness: =4
-            Height: =150
-            HoverFill: =RGBA(0, 120, 212, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
-            Width: =400
+        PopUpSuccess As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =225
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =20
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =112
+            LayoutMinWidth: =100
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =1
+
+            Label281087_1 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Stretch
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(2, 4, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =71
+                LayoutMinHeight: =70
+                LayoutMinWidth: =560
+                LineHeight: =1
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: ="Projeto criado com sucesso!"
+                Width: =450
+                X: =195
+                Y: =685
+                ZIndex: =3
+
+            ButtonAcceptSuccess As button:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =0
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(110, 164, 191, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+                LayoutMinHeight: =70
+                LayoutMinWidth: =280
+                OnSelect: =
+                PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                RadiusBottomLeft: =100
+                RadiusBottomRight: =100
+                RadiusTopLeft: =100
+                RadiusTopRight: =100
+                Size: =24
+                Text: ="OK"
+                Width: =280
+                ZIndex: =4
 
