@@ -27,36 +27,36 @@ cadastro_colaborador As screen:
     FormWorkerReg As form:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
-        DataSource: =tlb_collaborators
+        DataSource: =tbl_collaborators
         Height: =739
         Width: =526
         X: =52
         Y: =151
         ZIndex: =2
 
-        cpf_DataCard3 As typedDataCard.textualEditCard:
+        cpf_DataCard2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cpf"
             Default: =ThisItem.cpf
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@tlb_collaborators],DataSourceInfo.DisplayName,"cpf")
+            DisplayName: =DataSourceInfo([@tbl_collaborators],DataSourceInfo.DisplayName,"cpf")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@tlb_collaborators], DataSourceInfo.MaxLength, "cpf")
+            MaxLength: =DataSourceInfo([@tbl_collaborators], DataSourceInfo.MaxLength, "cpf")
             Required: =true
-            Update: =DataCardValue24.Text
+            Update: =DataCardValue5.Text
             Width: =526
             X: =0
             Y: =0
-            ZIndex: =7
+            ZIndex: =3
 
-            DataCardKey24 As label:
+            DataCardKey5 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(39, 39, 39, 1)
+                Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -72,7 +72,7 @@ cadastro_colaborador As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue24 As text:
+            DataCardValue5 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -85,11 +85,9 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
-                HintText: =" somente números"
                 HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
-                Italic: =true
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 PressedBorderColor: =RGBA(0, 120, 212, 1)
@@ -103,10 +101,10 @@ cadastro_colaborador As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                 ZIndex: =2
 
-            ErrorMessage24 As label:
+            ErrorMessage5 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -128,10 +126,10 @@ cadastro_colaborador As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue24.Y + DataCardValue24.Height
+                Y: =DataCardValue5.Y + DataCardValue5.Height
                 ZIndex: =3
 
-            StarVisible24 As label:
+            StarVisible5 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -142,15 +140,15 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey24.Height
+                Height: =DataCardKey5.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                X: =104
-                Y: =10
+                X: =107
+                Y: =DataCardKey5.Y
                 ZIndex: =4
 
         name_DataCard3 As typedDataCard.textualEditCard:
@@ -159,23 +157,23 @@ cadastro_colaborador As screen:
             DataField: ="first_name"
             Default: =ThisItem.name
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@tlb_collaborators],DataSourceInfo.DisplayName,"first_name")
+            DisplayName: =DataSourceInfo([@tbl_collaborators],DataSourceInfo.DisplayName,"first_name")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@tlb_collaborators], DataSourceInfo.MaxLength, "first_name")
+            MaxLength: =DataSourceInfo([@tbl_collaborators], DataSourceInfo.MaxLength, "first_name")
             Required: =false
-            Update: =DataCardValue25.Text
+            Update: =DataCardValue6.Text
             Width: =526
             X: =0
             Y: =1
-            ZIndex: =7
+            ZIndex: =3
 
-            DataCardKey25 As label:
+            DataCardKey6 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(39, 39, 39, 1)
+                Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -191,7 +189,7 @@ cadastro_colaborador As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue25 As text:
+            DataCardValue6 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -220,10 +218,10 @@ cadastro_colaborador As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey25.Y + DataCardKey25.Height + 5
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
                 ZIndex: =2
 
-            ErrorMessage25 As label:
+            ErrorMessage6 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -245,10 +243,10 @@ cadastro_colaborador As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue25.Y + DataCardValue25.Height
+                Y: =DataCardValue6.Y + DataCardValue6.Height
                 ZIndex: =3
 
-            StarVisible25 As label:
+            StarVisible6 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -259,39 +257,39 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey25.Height
+                Height: =DataCardKey6.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey25.Y
+                Y: =DataCardKey6.Y
                 ZIndex: =4
 
-        username_DataCard2 As typedDataCard.textualEditCard:
+        username_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="username"
             Default: =ThisItem.username
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@tlb_collaborators],DataSourceInfo.DisplayName,"username")
+            DisplayName: =DataSourceInfo([@tbl_collaborators],DataSourceInfo.DisplayName,"username")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@tlb_collaborators], DataSourceInfo.MaxLength, "username")
+            MaxLength: =DataSourceInfo([@tbl_collaborators], DataSourceInfo.MaxLength, "username")
             Required: =false
-            Update: =DataCardValue26.Text
+            Update: =DataCardValue8.Text
             Width: =526
             X: =0
             Y: =2
-            ZIndex: =7
+            ZIndex: =3
 
-            DataCardKey26 As label:
+            DataCardKey8 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(39, 39, 39, 1)
+                Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -300,14 +298,14 @@ cadastro_colaborador As screen:
                 Height: =48
                 PaddingLeft: =0
                 Size: =21
-                Text: ="Username"
+                Text: ="Nome de usuário"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue26 As text:
+            DataCardValue8 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -336,10 +334,10 @@ cadastro_colaborador As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey26.Y + DataCardKey26.Height + 5
+                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
 
-            ErrorMessage26 As label:
+            ErrorMessage8 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -361,10 +359,10 @@ cadastro_colaborador As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue26.Y + DataCardValue26.Height
+                Y: =DataCardValue8.Y + DataCardValue8.Height
                 ZIndex: =3
 
-            StarVisible26 As label:
+            StarVisible8 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -375,39 +373,39 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey26.Height
+                Height: =DataCardKey8.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey26.Y
+                Y: =DataCardKey8.Y
                 ZIndex: =4
 
-        email_DataCard4 As typedDataCard.textualEditCard:
+        email_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="email"
             Default: =ThisItem.email
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@tlb_collaborators],DataSourceInfo.DisplayName,"email")
+            DisplayName: =DataSourceInfo([@tbl_collaborators],DataSourceInfo.DisplayName,"email")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@tlb_collaborators], DataSourceInfo.MaxLength, "email")
+            MaxLength: =DataSourceInfo([@tbl_collaborators], DataSourceInfo.MaxLength, "email")
             Required: =false
-            Update: =DataCardValue27.Text
+            Update: =DataCardValue12.Text
             Width: =526
             X: =0
             Y: =3
-            ZIndex: =7
+            ZIndex: =3
 
-            DataCardKey27 As label:
+            DataCardKey9 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(39, 39, 39, 1)
+                Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -423,7 +421,7 @@ cadastro_colaborador As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue27 As text:
+            DataCardValue12 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -452,10 +450,10 @@ cadastro_colaborador As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
                 ZIndex: =2
 
-            ErrorMessage27 As label:
+            ErrorMessage9 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -477,10 +475,10 @@ cadastro_colaborador As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue27.Y + DataCardValue27.Height
+                Y: =DataCardValue12.Y + DataCardValue12.Height
                 ZIndex: =3
 
-            StarVisible27 As label:
+            StarVisible9 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -491,14 +489,14 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey27.Height
+                Height: =DataCardKey9.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey27.Y
+                Y: =DataCardKey9.Y
                 ZIndex: =4
 
         password_DataCard2 As typedDataCard.textualEditCard:
@@ -507,23 +505,23 @@ cadastro_colaborador As screen:
             DataField: ="password"
             Default: =ThisItem.password
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@tlb_collaborators],DataSourceInfo.DisplayName,"password")
+            DisplayName: =DataSourceInfo([@tbl_collaborators],DataSourceInfo.DisplayName,"password")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@tlb_collaborators], DataSourceInfo.MaxLength, "password")
+            MaxLength: =DataSourceInfo([@tbl_collaborators], DataSourceInfo.MaxLength, "password")
             Required: =false
-            Update: =DataCardValue29.Text
+            Update: =DataCardValue15.Text
             Width: =526
             X: =0
             Y: =4
-            ZIndex: =7
+            ZIndex: =3
 
-            DataCardKey29 As label:
+            DataCardKey15 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(39, 39, 39, 1)
+                Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -539,7 +537,7 @@ cadastro_colaborador As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue29 As text:
+            DataCardValue15 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -568,10 +566,10 @@ cadastro_colaborador As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey29.Y + DataCardKey29.Height + 5
+                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
                 ZIndex: =2
 
-            ErrorMessage29 As label:
+            ErrorMessage15 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -593,10 +591,10 @@ cadastro_colaborador As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue29.Y + DataCardValue29.Height
+                Y: =DataCardValue15.Y + DataCardValue15.Height
                 ZIndex: =3
 
-            StarVisible29 As label:
+            StarVisible15 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -607,14 +605,14 @@ cadastro_colaborador As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey29.Height
+                Height: =DataCardKey15.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey29.Y
+                Y: =DataCardKey15.Y
                 ZIndex: =4
 
     FooterWorker_7 As FooterWorker:
