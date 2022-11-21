@@ -503,14 +503,14 @@ atualizar_dados_empresa As screen:
                 Y: =DataCardKey7_1.Y
                 ZIndex: =4
 
-    ButtonBack_2 As button:
+    ButtonHome_8 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderThickness: =0
         Color: =RGBA(39, 39, 39, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(230, 230, 230, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
@@ -522,7 +522,7 @@ atualizar_dados_empresa As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =21
-        Text: ="Voltar"
+        Text: ="Início"
         X: =52
         Y: =890
         ZIndex: =3
