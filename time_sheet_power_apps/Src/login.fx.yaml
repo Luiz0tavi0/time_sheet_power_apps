@@ -311,8 +311,7 @@ login As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =UpdateContext({hiddenTransition:true});
-            UpdateContext({TimerGo:false});
+            =UpdateContext({TimerGo:false});
             Set(currentUser,
                 LookUp(
                     tbl_collaborators,
@@ -441,7 +440,7 @@ login As screen:
             Height: =1136
             HoverFill: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =!hiddenTransition
+            Visible: =hiddenTransition
             Width: =640
             ZIndex: =14
 
@@ -458,7 +457,7 @@ login As screen:
             Image: ='icons8-dots-loading'
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =!hiddenTransition
+            Visible: =hiddenTransition
             Width: =320
             X: =161
             Y: =408
