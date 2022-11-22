@@ -310,18 +310,18 @@ login As screen:
         HoverBorderColor: =RGBA(0, 120, 212, 1)
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
-        OnSelect: |-
-            =Set(currentUser, "");
+        OnSelect: |
+            =//Set(currentUser; Recor {ID:false});;
             Set(currentUser,
                 LookUp(
                     tbl_collaborators,
-                    cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text
+                    (cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)
                 )
             );
             
-            If(Not(IsBlank(currentUser.name)),
-                UpdateContext({TimerGo:true});
-            );
+            //If(Not(IsBlank(currentUser));
+            //    UpdateContext({TimerGo:true});;
+            //);;
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -399,8 +399,8 @@ login As screen:
         Size: =21
         Start: =TimerGo
         Width: =280
-        X: =31
-        Y: =757
+        X: =80
+        Y: =595
         ZIndex: =12
 
     Label2 As label:
@@ -414,7 +414,7 @@ login As screen:
         Font: =Font.'Segoe UI'
         Height: =70
         Size: =21
-        Text: =currentUser.name
+        Text: ="ID " & currentUser.ID
         Visible: =false
         Width: =560
         X: =80

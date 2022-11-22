@@ -621,7 +621,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/22/2022 01:52:19",
+  "HeaderLastSavedDateTimeUTC": "11/22/2022 01:59:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0231a2ce-81a0-4ca3-abe3-d1a85fafc381": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/873ad2396eca492291940d647eaa3927-eca9641277fac900\"",
@@ -1098,8 +1098,8 @@
     "label": 2,
     "rectangle": 0,
     "text": 4,
-    "timer": 11,
-    "toggleSwitch": 10
+    "timer": 10,
+    "toggleSwitch": 11
   },
   "PublishOrderIndices": {
     "Alterar_Projeto_empresa": 15,
@@ -1543,7 +1543,7 @@
     "LabelPasswordError": 13,
     "LabelProjectName": 356,
     "LabelProjectName_1": 434,
-    "LabelTipoUser": 6,
+    "LabelTipoUser": 7,
     "LblAppName1": 546,
     "login": 474,
     "manager_DataCard1": 152,
@@ -1683,7 +1683,7 @@
     "SuccessModalOnlyOKButton": 0,
     "SuccessModalOnlyOKButton_1": 258,
     "SuccessModalOnlyOKButton_2": 548,
-    "tempScreenTransition": 8,
+    "tempScreenTransition": 5,
     "testeModal": 0,
     "Title2": 104,
     "Title4": 210,
@@ -1698,10 +1698,10 @@
     "TitlePage_5": 511,
     "TitlePage_Choose": 303,
     "TitleViewActivity": 396,
-    "Toggle_Cpf_Or_Cnpj": 5,
+    "Toggle_Cpf_Or_Cnpj": 6,
     "TotalHoursProject": 136,
     "TotalHoursProjectLabel": 134,
-    "TxtInputLoginCnpj_Cpf": 7,
+    "TxtInputLoginCnpj_Cpf": 8,
     "TxtInputLoginSenha": 11,
     "username_DataCard1": 62,
     "username_DataCard1_1": 485,
@@ -1881,7 +1881,7 @@
       "typedDataCard": 35
     },
     "DeserializationLoadTime": 9.3400982,
-    "ErrorCount": 5
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
