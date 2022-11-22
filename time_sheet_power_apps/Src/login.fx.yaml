@@ -906,7 +906,6 @@ login As screen:
             Height: =App.Height
             HoverFill: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =visibleTransitionErrorFase1
             Width: =App.Width
             ZIndex: =21
 
@@ -918,7 +917,6 @@ login As screen:
             Fill: =RGBA(255, 0, 0, 1)
             HoverFill: =RGBA(255, 0, 0, 1)
             PressedFill: =RGBA(255, 0, 0, 1)
-            Visible: =visibleTransitionErrorFase1
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =22
@@ -939,7 +937,6 @@ login As screen:
             Text: |-
                 ="Credenciais inválidas.
                 Tente novamente."
-            Visible: =visibleTransitionErrorFase1
             Width: =Parent.Width * 0.75
             X: =Parent.Width/2 - Self.Width/2
             Y: =iconCheck1_1.Y + iconCheck1_1.Height + 100
@@ -957,7 +954,6 @@ login As screen:
             PaddingRight: =Self.PaddingTop
             PaddingTop: =18
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =visibleTransitionErrorFase1
             Width: =iconCircle1_1.Width
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
@@ -1065,5 +1061,8 @@ login As screen:
             ZIndex: =28
 
     cmpLoginFail_1 As cmpLoginFail:
+        texto_falha: |-
+            ="Credenciais inválidas.
+            Tente novamente"
         ZIndex: =30
 
