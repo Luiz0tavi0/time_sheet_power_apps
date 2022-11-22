@@ -220,6 +220,7 @@ login As screen:
         OnChange: |
             =Reset(TxtInputLoginCnpj_Cpf);
             Reset(TxtInputLoginSenha);
+            Set(currentUser, Blank());
         OnCheck: =
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         Size: =20
@@ -309,7 +310,14 @@ login As screen:
         HoverBorderColor: =RGBA(0, 120, 212, 1)
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
-        OnSelect: =Label2.Text="sdasdasdasdad";
+        OnSelect: |-
+            =Set(
+                currentUser,
+                LookUp(
+                    tbl_collaborators,
+                    cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text
+                )
+            );
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -377,9 +385,39 @@ login As screen:
         Font: =Font.'Segoe UI'
         Height: =70
         Size: =21
-        Text: =false
+        Text: =currentUser.name
         Width: =560
         X: =80
         Y: =897
         ZIndex: =14
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Height: =1136
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        Width: =640
+        ZIndex: =15
+
+    Image4 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =320
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='icons8-dots-loading'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =320
+        X: =161
+        Y: =408
+        ZIndex: =16
 

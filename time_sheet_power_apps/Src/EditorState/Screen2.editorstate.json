@@ -454,7 +454,7 @@
         {
           "Category": "Data",
           "PropertyName": "textoModal",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
