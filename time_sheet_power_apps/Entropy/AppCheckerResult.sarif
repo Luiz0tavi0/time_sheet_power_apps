@@ -13042,6 +13042,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "login.TimerGoFase1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "login.TimerGoFase1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TimerGoFase1",
+                "module": "login",
+                "type": "login"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "login.VarMascara"
                 }
               ],
