@@ -311,7 +311,7 @@ login As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =//Set(currentUser;Blank());;
+            =Set(currentUser, "");
             Set(currentUser,
                 LookUp(
                     tbl_collaborators,
@@ -319,7 +319,7 @@ login As screen:
                 )
             );
             
-            If(Not(IsBlank(currentUser)),
+            If(Not(IsBlank(currentUser.name)),
                 UpdateContext({TimerGo:true});
             );
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
