@@ -5,23 +5,6 @@ login As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
     OnVisible: =
 
-    Label2 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =21
-        Text: ="ID " & currentUser.ID
-        Width: =560
-        X: =80
-        Y: =897
-        ZIndex: =1
-
     BackImage As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -36,7 +19,7 @@ login As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Transparency: =0.3
         Width: =640
-        ZIndex: =7
+        ZIndex: =6
 
     TxtInputLoginSenha As text:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -49,9 +32,11 @@ login As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =70
+        HintText: ="min 8, máx 12"
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
+        MaxLength: =12
         Mode: =TextMode.Password
         PressedBorderColor: =RGBA(0, 120, 212, 1)
         PressedColor: =RGBA(51, 51, 51, 1)
@@ -64,7 +49,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =833
-        ZIndex: =8
+        ZIndex: =7
 
     TxtInputLoginCnpj_Cpf As text:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -493,7 +478,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =709
-        ZIndex: =9
+        ZIndex: =8
 
     LabelPassword As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -515,7 +500,7 @@ login As screen:
         Width: =74
         X: =81
         Y: =801
-        ZIndex: =10
+        ZIndex: =9
 
     LabelTipoUser As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -537,7 +522,7 @@ login As screen:
         Width: =74
         X: =81
         Y: =677
-        ZIndex: =11
+        ZIndex: =10
 
     Toggle_Cpf_Or_Cnpj As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -568,7 +553,7 @@ login As screen:
         Width: =320
         X: =160
         Y: =613
-        ZIndex: =12
+        ZIndex: =11
 
     AppTittle As label:
         Align: =Align.Center
@@ -593,7 +578,7 @@ login As screen:
         Width: =550
         X: =45
         Y: =47
-        ZIndex: =13
+        ZIndex: =12
 
     ButtonRegistration As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -631,7 +616,7 @@ login As screen:
         Width: =230
         X: =81
         Y: =967
-        ZIndex: =14
+        ZIndex: =13
 
     ButtonLogin As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -672,7 +657,7 @@ login As screen:
         Width: =232
         X: =328
         Y: =967
-        ZIndex: =15
+        ZIndex: =14
 
     LabelLoginError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -695,7 +680,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =782
-        ZIndex: =16
+        ZIndex: =15
 
     LabelPasswordError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -709,114 +694,53 @@ login As screen:
         FontWeight: =FontWeight.Semibold
         Height: =21
         Text: |-
-            =If(Len(TxtInputLoginSenha.Text)=0,
-            $"Senha é obrigatório."
-            ,
-            ""
+            =If(
+                Len(TxtInputLoginSenha.Text) = 0,
+                $"Senha é obrigatório.", ""
+            
             )
+            
+            //Len(TxtInputLoginSenha.Text) < 9;
+            //"Senha deve ser maior.";
+            //Len(TxtInputLoginSenha.Text) > 12;
+            //"Senha deve ser menor."
         Visible: =Not(Self.Text="")
         Width: =480
         X: =81
         Y: =903
-        ZIndex: =17
+        ZIndex: =16
 
-    tempScreenTransitionFase1 As timer:
-        AutoPause: =false
-        BorderColor: =RGBA(99, 139, 44, 1)
+    cmpLoginFail_1 As cmpLoginFail:
+        Height: = Max(App.Height, App.DesignHeight)
+        texto_falha: |-
+            ="Credenciais inválidas.
+            Tente novamente"
+        Visible: =visibleTransitionFailFase1
+        Width: = Max(App.Width, App.DesignWidth)
+        ZIndex: =20
+
+    rect As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =1450
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.'Segoe UI'
-        Height: =70
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |-
-            =UpdateContext({TimerGoFase2:false}); //precaução
-            UpdateContext({visibleTransitionFase1:false});
-            UpdateContext({TimerGoFase2:true});
-            Reset(Self);
-        OnTimerStart: |-
-            =UpdateContext({visibleTransitionFase1: true});
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =21
-        Start: =TimerGoFase1
-        Width: =132
-        Y: =1066
-        ZIndex: =18
-
-    grpCheckOkFase1 As group:
-        Height: =5
-        Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =18
-
-        scrInterLoginSuccess As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =4
-            Height: =1136
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =visibleTransitionFase1
-            Width: =640
-            ZIndex: =19
-
-        ImgLoadLogin As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            DisplayMode: =DisplayMode.Disabled
-            FocusedBorderThickness: =4
-            Height: =321
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Image: ='icons8-dots-loading'
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =visibleTransitionFase1
-            Width: =320
-            X: =161
-            Y: =424
-            ZIndex: =20
-
-    tempScreenTransitionFase2 As timer:
-        BorderColor: =RGBA(0, 120, 212, 1)
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =6000
-        Fill: =RGBA(187, 221, 140, 1)
-        Font: =Font.'Segoe UI'
-        Height: =70
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |-
-            =UpdateContext({visibleTransitionFase2: false});
-            Reset(Self)
-        OnTimerStart: |-
-            =UpdateContext({visibleTransitionFase2: true});
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =21
-        Start: =TimerGoFase2
-        Width: =115
-        X: =155
-        Y: =1066
+        BorderThickness: =2
+        DisabledFill: =RGBA(0, 0, 0, 1)
+        DisplayMode: |-
+            =If(
+                visibleTransitionFailFase1,
+                DisplayMode.Edit,
+                DisplayMode.Disabled
+            )
+        Fill: =RGBA(102, 182, 227, 1)
+        FocusedBorderThickness: =4
+        Height: = Max(App.Height, App.DesignHeight)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: |-
+            =UpdateContext({visibleTransitionFailFase1:false});
+            UpdateContext({TimerGoFailFase1:false});
+            Reset(tempScreenTransitionErrorFase);
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Visible: =visibleTransitionFailFase1
+        Width: = Max(App.Width, App.DesignWidth)
         ZIndex: =21
 
     grpCheckOkFase2 As group:
@@ -838,7 +762,7 @@ login As screen:
             PressedFill: =RGBA(255, 255, 255, 1)
             Visible: =visibleTransitionFase2
             Width: =App.Width
-            ZIndex: =2
+            ZIndex: =1
 
         iconCircle1 As circle.Circle:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -851,7 +775,7 @@ login As screen:
             Visible: =visibleTransitionFase2
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =3
+            ZIndex: =2
 
         LblSuccessMsg1 As label:
             Align: =Align.Center
@@ -871,7 +795,7 @@ login As screen:
             Width: =Parent.Width * 0.75
             X: =Parent.Width/2 - Self.Width/2
             Y: =iconCheck1.Y + iconCheck1.Height + 100
-            ZIndex: =4
+            ZIndex: =3
 
         iconCheck1 As icon.Check:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -889,160 +813,84 @@ login As screen:
             Width: =iconCircle1.Width
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =5
+            ZIndex: =4
 
-    grpCheckNotOkFase1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
+    cmpTransitionLoadLogin As cmpTransitionLoad:
+        Visible: =visibleTransitionFase1
+        ZIndex: =22
+
+    Label2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =21
+        Text: ="ID " & currentUser.ID & "estado = " & rect.DisplayMode
+        Width: =560
+        X: =63
+        Y: =924
+        ZIndex: =23
+
+    tempScreenTransitionFase1 As timer:
+        AutoPause: =false
+        BorderColor: =RGBA(99, 139, 44, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =1450
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnTimerEnd: |-
+            =UpdateContext({TimerGoFase2:false}); //precaução
+            UpdateContext({visibleTransitionFase1:false});
+            UpdateContext({TimerGoFase2:true});
+        OnTimerStart: |-
+            =UpdateContext({visibleTransitionFase1: true});
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =21
+        Start: =TimerGoFase1
+        Width: =132
+        Y: =1066
+        ZIndex: =24
+
+    tempScreenTransitionFase2 As timer:
+        BorderColor: =RGBA(0, 120, 212, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =1234
+        Fill: =RGBA(187, 221, 140, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnTimerEnd: |
+            =UpdateContext({visibleTransitionFase2: false});
+        OnTimerStart: |-
+            =UpdateContext({visibleTransitionFase2: true});
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =21
+        Start: =TimerGoFase2
+        Width: =115
+        X: =155
+        Y: =1066
         ZIndex: =25
-
-        Rectangle3_1 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =4
-            Height: =App.Height
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =visibleTransitionFailFase1
-            Width: =App.Width
-            ZIndex: =22
-
-        iconCircle1_1 As circle.Circle:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 0, 0, 1)
-            Fill: =RGBA(255, 0, 0, 1)
-            HoverFill: =RGBA(255, 0, 0, 1)
-            PressedFill: =RGBA(255, 0, 0, 1)
-            Visible: =visibleTransitionFailFase1
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =23
-
-        LblSuccessMsg1_1 As label:
-            Align: =Align.Center
-            AutoHeight: =true
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =iconCircle1_1.Height
-            Size: =21
-            Text: |-
-                ="Credenciais inválidas.
-                Tente novamente."
-            Visible: =visibleTransitionFailFase1
-            Width: =Parent.Width * 0.75
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =iconCheck1_1.Y + iconCheck1_1.Height + 100
-            ZIndex: =24
-
-        iconCheck1_1 As icon.Check:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            Height: =iconCircle1_1.Height
-            Icon: =Icon.Cancel
-            PaddingBottom: =Self.PaddingTop
-            PaddingLeft: =Self.PaddingTop
-            PaddingRight: =Self.PaddingTop
-            PaddingTop: =18
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =visibleTransitionFailFase1
-            Width: =iconCircle1_1.Width
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =25
-
-    cmpLoginFail_1 As cmpLoginFail:
-        texto_falha: |-
-            ="Credenciais inválidas.
-            Tente novamente"
-        Visible: =visibleTransitionFailFase1
-        ZIndex: =29
-
-    grpCheckOkFase2_1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =29
-
-        Rectangle3_2 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =4
-            Height: =App.Height
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =
-            Width: =App.Width
-            ZIndex: =6
-
-        iconCircle1_2 As circle.Circle:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 120, 212, 1)
-            Fill: =RGBA(0, 120, 212, 1)
-            HoverFill: =RGBA(0, 120, 212, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
-            Visible: =
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =26
-
-        LblSuccessMsg1_2 As label:
-            Align: =Align.Center
-            AutoHeight: =true
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =iconCircle1_2.Height
-            Size: =21
-            Text: ="Isso foi concluído com êxito"
-            Visible: =
-            Width: =Parent.Width * 0.75
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =iconCheck1_2.Y + iconCheck1_2.Height + 100
-            ZIndex: =27
-
-        iconCheck1_2 As icon.Check:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            Height: =iconCircle1_2.Height
-            Icon: =Icon.Check
-            PaddingBottom: =Self.PaddingTop
-            PaddingLeft: =Self.PaddingTop
-            PaddingRight: =Self.PaddingTop
-            PaddingTop: =18
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =
-            Width: =iconCircle1_2.Width
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =28
 
     tempScreenTransitionErrorFase As timer:
         AutoPause: =false
@@ -1059,10 +907,10 @@ login As screen:
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |-
+        OnTimerEnd: |
             =UpdateContext({visibleTransitionFailFase1: false});
-            Reset(Self)
-        OnTimerStart: |-
+            Reset(Self);
+        OnTimerStart: |
             =UpdateContext({visibleTransitionFailFase1: true});
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
@@ -1072,5 +920,31 @@ login As screen:
         Width: =115
         X: =302
         Y: =1066
-        ZIndex: =30
+        ZIndex: =26
+
+    Label1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =21
+        Text: ="Texto = " & visibleTransitionFailFase1
+        Width: =560
+        X: =45
+        ZIndex: =27
+
+    cmpScreenSuccess_1 As cmpScreenSuccess:
+        exito_texto: |-
+            =If(
+                Not(IsBlank(currentUser.name)),
+                $"Welcome, {currentUser.name}",
+                $"Welcome, {currentUser.email}"    
+            )
+        Visible: =visibleTransitionFase2
+        ZIndex: =28
 
