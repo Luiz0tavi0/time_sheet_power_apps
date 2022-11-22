@@ -906,6 +906,7 @@ login As screen:
             Height: =App.Height
             HoverFill: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
+            Visible: =false
             Width: =App.Width
             ZIndex: =21
 
@@ -917,6 +918,7 @@ login As screen:
             Fill: =RGBA(255, 0, 0, 1)
             HoverFill: =RGBA(255, 0, 0, 1)
             PressedFill: =RGBA(255, 0, 0, 1)
+            Visible: =false
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =22
@@ -937,6 +939,7 @@ login As screen:
             Text: |-
                 ="Credenciais inválidas.
                 Tente novamente."
+            Visible: =false
             Width: =Parent.Width * 0.75
             X: =Parent.Width/2 - Self.Width/2
             Y: =iconCheck1_1.Y + iconCheck1_1.Height + 100
@@ -954,38 +957,17 @@ login As screen:
             PaddingRight: =Self.PaddingTop
             PaddingTop: =18
             PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =false
             Width: =iconCircle1_1.Width
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =24
 
-    tempScreenTransitionErrorFase As timer:
-        AutoPause: =false
-        BorderColor: =RGBA(0, 120, 212, 1)
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =6000
-        Fill: =RGBA(255, 0, 0, 1)
-        Font: =Font.'Segoe UI'
-        Height: =70
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |-
-            =UpdateContext({visibleTransitionFase2: false});
-            Reset(Self)
-        OnTimerStart: |-
-            =UpdateContext({visibleTransitionFase2: true});
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =21
-        Start: =TimerGoFase2
-        Width: =115
-        X: =302
-        Y: =1066
+    cmpLoginFail_1 As cmpLoginFail:
+        texto_falha: |-
+            ="Credenciais inválidas.
+            Tente novamente"
+        Visible: =
         ZIndex: =29
 
     grpCheckOkFase2_1 As group:
@@ -1060,9 +1042,32 @@ login As screen:
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =28
 
-    cmpLoginFail_1 As cmpLoginFail:
-        texto_falha: |-
-            ="Credenciais inválidas.
-            Tente novamente"
+    tempScreenTransitionErrorFase As timer:
+        AutoPause: =false
+        BorderColor: =RGBA(0, 120, 212, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =6000
+        Fill: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnTimerEnd: |-
+            =UpdateContext({visibleTransitionFase2: false});
+            Reset(Self)
+        OnTimerStart: |-
+            =UpdateContext({visibleTransitionFase2: true});
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =21
+        Start: =TimerGoFase2
+        Width: =115
+        X: =302
+        Y: =1066
         ZIndex: =30
 

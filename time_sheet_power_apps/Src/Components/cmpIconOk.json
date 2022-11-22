@@ -5,8 +5,8 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component1",
-    "TemplateGuid": "1f518e70f7cf4164b330b00e9122f4df"
+    "Name": "cmpIconOk",
+    "TemplateGuid": "1cdf85079beb49cd98ed2d547b53120f"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,8 +19,8 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638046637257986695",
-  "Name": "1f518e70f7cf4164b330b00e9122f4df",
+  "LastModifiedTimestamp": "638046909341142905",
+  "Name": "1cdf85079beb49cd98ed2d547b53120f",
   "OverridableProperties": {},
-  "Version": "638046595829310988"
+  "Version": "638046907089180078"
 }
