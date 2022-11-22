@@ -404,7 +404,7 @@ login As screen:
         Width: =640
         ZIndex: =15
 
-    Image4 As image:
+    iconLoadLogin As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
