@@ -314,7 +314,8 @@ login As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
         OnSelect: |
-            =//UpdateContext({TimerGo: false});;
+            =UpdateContext({TimerGoFase2: false});
+            
             Set(
                 currentUser,
                 LookUp(
@@ -398,6 +399,7 @@ login As screen:
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         OnTimerEnd: |-
             =UpdateContext({hiddenTransition:true});
+            UpdateContext({TimerGoFase2:true});
         OnTimerStart: |-
             =UpdateContext({hiddenTransition: false});
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -467,6 +469,33 @@ login As screen:
             Y: =408
             ZIndex: =15
 
+    tempScreenTransitionFase2 As timer:
+        AutoPause: =false
+        BorderColor: =RGBA(0, 120, 212, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =6000
+        Fill: =RGBA(0, 120, 212, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnTimerEnd: |-
+            =UpdateContext({hiddenTransitionFase2: true});
+        OnTimerStart: |-
+            =UpdateContext({hiddenTransitionFase2: false});
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =21
+        Start: =TimerGoFase2
+        Width: =280
+        Y: =704
+        ZIndex: =19
+
     grpCheckOk As group:
         Height: =5
         Width: =5
@@ -482,7 +511,7 @@ login As screen:
             Fill: =RGBA(0, 120, 212, 1)
             HoverFill: =RGBA(0, 120, 212, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
-            Visible: =false
+            Visible: =Not(hiddenTransitionFase2)
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =16
@@ -499,7 +528,7 @@ login As screen:
             PaddingRight: =Self.PaddingTop
             PaddingTop: =18
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =false
+            Visible: =Not(hiddenTransitionFase2)
             Width: =iconCircle1.Width
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
@@ -519,7 +548,7 @@ login As screen:
             Height: =iconCircle1.Height
             Size: =21
             Text: ="Isso foi concluído com êxito"
-            Visible: =false
+            Visible: =Not(hiddenTransitionFase2)
             Width: =Parent.Width * 0.75
             X: =Parent.Width/2 - Self.Width/2
             Y: =iconCheck1.Y + iconCheck1.Height + 100

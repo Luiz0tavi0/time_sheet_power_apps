@@ -110,6 +110,7 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
+    "splash",
     "login",
     "cadastro_empresa",
     "Conta_criada_empresa",
@@ -133,7 +134,6 @@
     "Atividade_criada_colaborador",
     "visualizar_atividades_colaborador",
     "visualizar_evento_colaborador",
-    "splash",
     "editar_atividade_colaborador_1",
     "Atividade_alterada_colaborador",
     "editar_cadastro_colaborador",
