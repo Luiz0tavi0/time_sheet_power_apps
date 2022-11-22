@@ -1,0 +1,4 @@
+"splash As screen.'phoneLayout_Success_ver3.0'":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: =Navigate(login)
+

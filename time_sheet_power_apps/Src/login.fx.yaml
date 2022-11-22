@@ -1,7 +1,10 @@
 login As screen:
     Fill: =RGBA(234,247,251,1)
     ImagePosition: =ImagePosition.Center
+    LoadingSpinner: =
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: |-
+        =UpdateContext({TimerGo: false});
 
     BackImage As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -310,17 +313,18 @@ login As screen:
         HoverBorderColor: =RGBA(0, 120, 212, 1)
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
-        OnSelect: |-
-            =UpdateContext({TimerGo:false});
-            Set(currentUser,
+        OnSelect: |
+            =//UpdateContext({TimerGo: false});;
+            Set(
+                currentUser,
                 LookUp(
                     tbl_collaborators,
                     (cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)
                 )
             );
-            
-            If(Not(IsBlank(currentUser.name)),
-                UpdateContext({TimerGo:true});
+            If(IsBlank(currentUser.name),
+                Label2.Text = "Login não realizado.",
+                UpdateContext({TimerGo: true});
             );
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
@@ -385,7 +389,7 @@ login As screen:
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =900
+        Duration: =6000
         Fill: =RGBA(0, 120, 212, 1)
         Font: =Font.'Segoe UI'
         Height: =70
@@ -440,7 +444,7 @@ login As screen:
             Height: =1136
             HoverFill: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =hiddenTransition
+            Visible: =Not(hiddenTransition)
             Width: =640
             ZIndex: =14
 
@@ -457,9 +461,67 @@ login As screen:
             Image: ='icons8-dots-loading'
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =hiddenTransition
+            Visible: =Not(hiddenTransition)
             Width: =320
             X: =161
             Y: =408
             ZIndex: =15
+
+    grpCheckOk As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
+
+        iconCircle1 As circle.Circle:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 120, 212, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Visible: =false
+            X: =Parent.Width/2 - Self.Width/2
+            Y: =(Parent.Height/2 - Self.Height/2) * .7
+            ZIndex: =16
+
+        iconCheck1 As icon.Check:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            Height: =iconCircle1.Height
+            Icon: =Icon.Check
+            PaddingBottom: =Self.PaddingTop
+            PaddingLeft: =Self.PaddingTop
+            PaddingRight: =Self.PaddingTop
+            PaddingTop: =18
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =false
+            Width: =iconCircle1.Width
+            X: =Parent.Width/2 - Self.Width/2
+            Y: =(Parent.Height/2 - Self.Height/2) * .7
+            ZIndex: =17
+
+        LblSuccessMsg1 As label:
+            Align: =Align.Center
+            AutoHeight: =true
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =iconCircle1.Height
+            Size: =21
+            Text: ="Isso foi concluído com êxito"
+            Visible: =false
+            Width: =Parent.Width * 0.75
+            X: =Parent.Width/2 - Self.Width/2
+            Y: =iconCheck1.Y + iconCheck1.Height + 100
+            ZIndex: =18
 

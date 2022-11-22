@@ -7,4 +7,5 @@ App As appinfo:
         =//Set(varColorEmpresa; RGBA(2; 4; 48; 1); varColorColaborador; RGBA(110; 164; 191; 1))
         Set(varColorDefauts, {empresa:RGBA(2, 4, 48, 1), colaborador:RGBA(110, 164, 191, 1)})
     SizeBreakpoints: =[430, 720, 2400]
+    StartScreen: =splash
 
