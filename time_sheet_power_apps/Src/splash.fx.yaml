@@ -17,7 +17,18 @@
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: =Navigate(login)
+        OnTimerEnd: |
+            =Navigate(
+                login,
+                ScreenTransition.Fade,
+                {
+                    visibleTransitionFase1: false,
+                    visibleTransitionFase2: false,
+                    TimerGoFase1:false,
+                    TimerGoFase2:false        
+                }
+            );
+            Reset(Self);
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

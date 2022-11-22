@@ -1,4 +1,4 @@
-cmpIconOk As CanvasComponent:
+cmpIconNotOk As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =100
     Width: =100

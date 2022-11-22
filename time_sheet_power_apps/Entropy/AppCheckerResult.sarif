@@ -54,6 +54,166 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Component1.Rectangle3_3.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component1.Rectangle3_3.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "visibleTransitionFase1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Component1",
+                "type": "Component1.Rectangle3_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visibleTransitionFase1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Component1.LblSuccessMsg1_3.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component1.LblSuccessMsg1_3.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "visibleTransitionFase1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Component1",
+                "type": "Component1.LblSuccessMsg1_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visibleTransitionFase1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Component1.iconCheck1_3.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component1.iconCheck1_3.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "visibleTransitionFase1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Component1",
+                "type": "Component1.iconCheck1_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visibleTransitionFase1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Component1.iconCircle1_3.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component1.iconCircle1_3.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "visibleTransitionFase1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Component1",
+                "type": "Component1.iconCircle1_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visibleTransitionFase1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "SuccessModalOnlyOKButton.modalSuccess.infCont.Label281087_6.TabIndex"
                 }
               ],
