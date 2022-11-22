@@ -3,9 +3,7 @@ login As screen:
     ImagePosition: =ImagePosition.Center
     LoadingSpinner: =
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
-    OnVisible: |-
-        =UpdateContext({TimerGoFase1: false});
-        UpdateContext({TimerGoFase2: false});
+    OnVisible: =
 
     Label2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -649,8 +647,9 @@ login As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverFill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =UpdateContext({TimerGoFase1: false});
-            UpdateContext({TimerGoFase2: false});
+            =UpdateContext({TimerGoFase1: false}); UpdateContext({TimerGoFase2: false}); UpdateContext({TimerGoFailFase1: false});
+            UpdateContext({visibleTransitionFase1: false}); UpdateContext({visibleTransitionFase2: false}); UpdateContext({visibleTransitionFailFase1: false});
+            
             Set(
                 currentUser,
                 LookUp(
@@ -658,8 +657,11 @@ login As screen:
                     (cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)
                 )
             );
-            If(Not(IsBlank(currentUser.name)),
-                UpdateContext({TimerGoFase1: true});    
+            If(
+                Not(IsBlank(currentUser.name)),
+                UpdateContext({TimerGoFase1: true}),
+                UpdateContext({TimerGoFailFase1: true});
+                
             );
             //Label2.Text = "Login não realizado.";
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
@@ -725,17 +727,18 @@ login As screen:
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =6000
+        Duration: =1450
         Fill: =RGBA(99, 139, 44, 1)
         Font: =Font.'Segoe UI'
         Height: =70
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |
+        OnTimerEnd: |-
             =UpdateContext({TimerGoFase2:false}); //precaução
             UpdateContext({visibleTransitionFase1:false});
             UpdateContext({TimerGoFase2:true});
+            Reset(Self);
         OnTimerStart: |-
             =UpdateContext({visibleTransitionFase1: true});
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -905,7 +908,7 @@ login As screen:
             Height: =App.Height
             HoverFill: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =false
+            Visible: =visibleTransitionFailFase1
             Width: =App.Width
             ZIndex: =22
 
@@ -917,7 +920,7 @@ login As screen:
             Fill: =RGBA(255, 0, 0, 1)
             HoverFill: =RGBA(255, 0, 0, 1)
             PressedFill: =RGBA(255, 0, 0, 1)
-            Visible: =false
+            Visible: =visibleTransitionFailFase1
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
             ZIndex: =23
@@ -938,7 +941,7 @@ login As screen:
             Text: |-
                 ="Credenciais inválidas.
                 Tente novamente."
-            Visible: =false
+            Visible: =visibleTransitionFailFase1
             Width: =Parent.Width * 0.75
             X: =Parent.Width/2 - Self.Width/2
             Y: =iconCheck1_1.Y + iconCheck1_1.Height + 100
@@ -956,7 +959,7 @@ login As screen:
             PaddingRight: =Self.PaddingTop
             PaddingTop: =18
             PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =false
+            Visible: =visibleTransitionFailFase1
             Width: =iconCircle1_1.Width
             X: =Parent.Width/2 - Self.Width/2
             Y: =(Parent.Height/2 - Self.Height/2) * .7
@@ -966,7 +969,7 @@ login As screen:
         texto_falha: |-
             ="Credenciais inválidas.
             Tente novamente"
-        Visible: =
+        Visible: =visibleTransitionFailFase1
         ZIndex: =29
 
     grpCheckOkFase2_1 As group:
@@ -1057,15 +1060,15 @@ login As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         OnTimerEnd: |-
-            =UpdateContext({visibleTransitionFase2: false});
+            =UpdateContext({visibleTransitionFailFase1: false});
             Reset(Self)
         OnTimerStart: |-
-            =UpdateContext({visibleTransitionFase2: true});
+            =UpdateContext({visibleTransitionFailFase1: true});
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =21
-        Start: =TimerGoFase2
+        Start: =TimerGoFailFase1
         Width: =115
         X: =302
         Y: =1066

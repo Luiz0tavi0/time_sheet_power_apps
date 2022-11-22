@@ -24,8 +24,10 @@
                 {
                     visibleTransitionFase1: false,
                     visibleTransitionFase2: false,
+                    visibleTransitionFailFase1: false,
                     TimerGoFase1:false,
-                    TimerGoFase2:false        
+                    TimerGoFase2:false,
+                    TimerGoFailFase1:false        
                 }
             );
             Reset(Self);

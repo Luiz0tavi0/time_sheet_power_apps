@@ -1,7 +1,7 @@
 cmpLoginFail As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =App.Height
-    is_visible: =false
+    is_visible: =
     texto_falha: ="Texto padrão"
     Width: =App.Width
     X: =0
