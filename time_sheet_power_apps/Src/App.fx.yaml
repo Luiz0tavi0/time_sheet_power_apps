@@ -5,13 +5,8 @@ App As appinfo:
         =430
     OnStart: |-
         =Set(varColorDefauts, {empresa:RGBA(2, 4, 48, 1), colaborador:RGBA(110, 164, 191, 1)});
-        Set(
-            currentUser,
-            LookUp(
-                tbl_collaborators,
-                (cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)
-            )
-        );
+        Set(currentUser,Blank());
+        //Set(currentUser;LookUp(tbl_collaborators;(cpf = TxtInputLoginCnpj_Cpf.Text And password = TxtInputLoginSenha.Text)));;
     SizeBreakpoints: =[430, 720, 2400]
     StartScreen: =splash
 

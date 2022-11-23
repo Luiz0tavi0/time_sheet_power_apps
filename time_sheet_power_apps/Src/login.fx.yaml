@@ -674,30 +674,6 @@ login As screen:
         Width: = Max(App.Width, App.DesignWidth)
         ZIndex: =10
 
-    rect As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        DisplayMode: |-
-            =If(
-                visibleTransitionFailFase1,
-                DisplayMode.Edit,
-                DisplayMode.Disabled
-            )
-        Fill: =RGBA(102, 182, 227, 1)
-        FocusedBorderThickness: =4
-        Height: = Max(App.Height, App.DesignHeight)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        OnSelect: |-
-            =UpdateContext({visibleTransitionFailFase1:false});
-            UpdateContext({TimerGoFailFase1:false});
-            Reset(tempScreenTransitionErrorFase);
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Visible: =visibleTransitionFailFase1
-        Width: = Max(App.Width, App.DesignWidth)
-        ZIndex: =11
-
     cmpTransitionLoadLogin As cmpTransitionLoad:
         Visible: =visibleTransitionFase1
         ZIndex: =12
@@ -772,38 +748,6 @@ login As screen:
         Y: =1066
         ZIndex: =15
 
-    tempScreenTransitionErrorFase As timer:
-        AutoPause: =false
-        BorderColor: =RGBA(0, 120, 212, 1)
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.View
-        Duration: =1234
-        Fill: =RGBA(255, 0, 0, 1)
-        Font: =Font.'Segoe UI'
-        Height: =70
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnTimerEnd: |
-            =UpdateContext({visibleTransitionFailFase1: false});
-            Reset(Self);
-        OnTimerStart: |
-            =UpdateContext({visibleTransitionFailFase1: true});
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =21
-        Start: =TimerGoFailFase1
-        Text: |-
-            =$"Timer fail {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
-        Width: =215
-        X: =425
-        Y: =1066
-        ZIndex: =16
-
     Label2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -838,4 +782,67 @@ login As screen:
         X: =62
         Y: =553
         ZIndex: =19
+
+    GroupFailScreen As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =20
+
+        rect As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            DisplayMode: |-
+                =If(
+                    visibleTransitionFailFase1,
+                    DisplayMode.Edit,
+                    DisplayMode.Disabled
+                )
+            Fill: =RGBA(102, 182, 227, 1)
+            FocusedBorderThickness: =4
+            Height: =1136
+            HoverFill: =RGBA(0, 0, 0, 0)
+            OnSelect: |-
+                =UpdateContext({visibleTransitionFailFase1:false});
+                UpdateContext({TimerGoFailFase1:false});
+                Reset(tempScreenTransitionErrorFase);
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =visibleTransitionFailFase1
+            Width: =640
+            ZIndex: =11
+
+        tempScreenTransitionErrorFase As timer:
+            AutoPause: =false
+            BorderColor: =RGBA(0, 120, 212, 1)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(244, 244, 244, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.View
+            Duration: =1234
+            Fill: =RGBA(255, 0, 0, 1)
+            Font: =Font.'Segoe UI'
+            Height: =70
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnTimerEnd: |
+                =UpdateContext({visibleTransitionFailFase1: false});
+                Reset(Self);
+            OnTimerStart: |
+                =UpdateContext({visibleTransitionFailFase1: true});
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =21
+            Start: =TimerGoFailFase1
+            Text: |-
+                =$"Timer fail {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
+            Width: =215
+            X: =425
+            Y: =1066
+            ZIndex: =16
 

@@ -19,6 +19,7 @@ testGlobalVariables As CanvasComponent:
         FocusedBorderThickness: =4
         Height: =107
         HoverFill: =RGBA(0, 120, 212, 1)
+        OnSelect: =UpdateC
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =testGlobalVariables.NumberIN < 50
         Width: =238
