@@ -1,6 +1,7 @@
 testGlobalVariables As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
+    initTimer: =true
     mostrarRect: =false
     NumberIN: =100
     NumberOut: =varnewNumber
@@ -18,7 +19,7 @@ testGlobalVariables As CanvasComponent:
         Height: =52
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        Visible: =testGlobalVariables.mostrarRect
+        Visible: =testGlobalVariables.NumberIN < 50
         Width: =66
         Y: =439
         ZIndex: =4
@@ -72,7 +73,7 @@ testGlobalVariables As CanvasComponent:
             Height: =35
             Size: =21
             Text: |-
-                =$"Recebido : {testGlobalVariables.NumberIN}"
+                =$"Recebido : {testGlobalVariables.NumberIN} :: {testGlobalVariables.NumberIN <50}"
             Visible: =Parent.Visible
             Width: =500
             Y: =40
@@ -91,7 +92,9 @@ testGlobalVariables As CanvasComponent:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-            OnSelect: =Set(varnewNumber,testGlobalVariables.NumberIN*3);
+            OnSelect: |-
+                =Set(varnewNumber, testGlobalVariables.NumberIN*3);
+                Set(varInitTimer, testGlobalVariables.initTimer);
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -106,4 +109,27 @@ testGlobalVariables As CanvasComponent:
             X: =27
             Y: =124
             ZIndex: =3
+
+        Timer3 As timer:
+            AutoPause: =false
+            BorderColor: =RGBA(0, 120, 212, 1)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(244, 244, 244, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            Font: =Font.'Segoe UI'
+            Height: =70
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =21
+            Start: =testGlobalVariables.initTimer
+            Width: =280
+            X: =60
+            Y: =60
+            ZIndex: =4
 

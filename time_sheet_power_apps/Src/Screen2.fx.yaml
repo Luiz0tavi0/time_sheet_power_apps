@@ -18,8 +18,8 @@ Screen2 As screen:
         ValueFill: =RGBA(102, 102, 102, 1)
         ValueHoverFill: =RGBA(0, 120, 212, 1)
         Width: =560
-        X: =24
-        Y: =508
+        X: =40
+        Y: =428
         ZIndex: =2
 
     Label4 As label:
@@ -64,12 +64,13 @@ Screen2 As screen:
         Size: =24
         Text: ="Botão"
         Width: =280
-        X: =236
+        X: =360
         Y: =996
         ZIndex: =5
 
     testGlobalVariables_1 As testGlobalVariables:
         Height: =360
+        initTimer: =iniciaTimer
         mostrarRect: =screenMostraRect
         NumberIN: =Slider1.Value
         ZIndex: =6
@@ -87,9 +88,8 @@ Screen2 As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
-        OnSelect: |-
-            =Self.Text=Text( Now(), "mm/dd/yyyy hh:mm:ss" );
-            Reset(Self)
+        OnSelect: |
+            =UpdateContext({tempoAgora1:Text( Now(), "mm/dd/yyyy hh:mm:ss" )})
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -98,9 +98,39 @@ Screen2 As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =24
-        Text: ="data"
+        Text: |-
+            =If(IsBlank(tempoAgora1),Text( Now(), "mm/dd/yyyy hh:mm:ss" ),$"pegou existente {tempoAgora1}")
         Width: =353
         X: =145
         Y: =901
         ZIndex: =7
+
+    Button3_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(0, 120, 212, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+        OnSelect: |-
+            =UpdateContext({iniciaTimer: true});
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: ="inicia timer interno"
+        Width: =280
+        X: =42
+        Y: =1011
+        ZIndex: =8
 
