@@ -62,7 +62,7 @@
         "Name": "BackgroundFooterDark",
         "Parent": "FooterWorker",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 560,
+        "PublishOrderIndex": 561,
         "Rules": [
           {
             "Category": "Data",
@@ -320,7 +320,7 @@
         "Name": "Group_1",
         "Parent": "FooterWorker",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 561,
+        "PublishOrderIndex": 562,
         "Rules": [
           {
             "Category": "Data",

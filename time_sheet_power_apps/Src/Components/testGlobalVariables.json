@@ -79,7 +79,7 @@
             "Name": "Label3",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 585,
+            "PublishOrderIndex": 586,
             "Rules": [
               {
                 "Category": "Data",
@@ -416,7 +416,7 @@
             "Name": "Timer3",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 586,
+            "PublishOrderIndex": 587,
             "Rules": [
               {
                 "Category": "Data",
@@ -691,7 +691,7 @@
             "Name": "Label5",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 587,
+            "PublishOrderIndex": 588,
             "Rules": [
               {
                 "Category": "Data",
@@ -1020,7 +1020,7 @@
             "Name": "Button1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 588,
+            "PublishOrderIndex": 589,
             "Rules": [
               {
                 "Category": "Data",
@@ -1337,7 +1337,7 @@
             "Name": "Button4",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 589,
+            "PublishOrderIndex": 590,
             "Rules": [
               {
                 "Category": "Data",
@@ -1619,7 +1619,7 @@
         "Name": "Container1",
         "Parent": "testGlobalVariables",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 584,
+        "PublishOrderIndex": 585,
         "Rules": [
           {
             "Category": "Design",
@@ -1815,7 +1815,7 @@
         "Name": "Rectangle1",
         "Parent": "testGlobalVariables",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 590,
+        "PublishOrderIndex": 591,
         "Rules": [
           {
             "Category": "Design",

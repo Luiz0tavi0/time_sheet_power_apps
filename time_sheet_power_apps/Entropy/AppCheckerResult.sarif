@@ -9622,6 +9622,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.togglePosition"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.togglePosition",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "togglePosition",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.business-people-rush-hour-walking-commuting-city-concept"
                 }
               ],
@@ -13132,6 +13162,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "cadastro_colaborador.VarMascara"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cadastro_colaborador.VarMascara",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "VarMascara",
+                "module": "cadastro_colaborador",
+                "type": "cadastro_colaborador"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "criar_Projeto_empresa.locMostrarPopUpSuccess"
                 }
               ],
@@ -13145,6 +13205,36 @@
                 "member": "locMostrarPopUpSuccess",
                 "module": "criar_Projeto_empresa",
                 "type": "criar_Projeto_empresa"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cadastro_empresa.is_colaborador"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cadastro_empresa.is_colaborador",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "is_colaborador",
+                "module": "cadastro_empresa",
+                "type": "cadastro_empresa"
               }
             }
           ],
