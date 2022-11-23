@@ -32,7 +32,7 @@ login As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =70
-        HintText: ="min 8, máx 12"
+        HintText: ="Senha"
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
@@ -55,14 +55,14 @@ login As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
-        Default: =""
+        Default: =
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =70
-        HintText: ="Somente números"
+        HintText: =If(togglePosition,"CNPJ","CPF")
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
@@ -70,402 +70,46 @@ login As screen:
         MaxLength: =If(Toggle_Cpf_Or_Cnpj.Value,14,11)
         OnChange: |-
             =//1ª Condição
-            If(
-                Toggle_Cpf_Or_Cnpj.Value,
+            If(Toggle_Cpf_Or_Cnpj.Value,
             //2ªCondição
-                If(
-                    IsNumeric(Self.Text) And Len(Self.Text) = 14,
+            If(IsNumeric(Self.Text) And Len(Self.Text)=14,
                     //TRUE - 2ª Condição
-                    UpdateContext(
-                        {
-                            VarPrimeiroDigito: Mod(
-                                (Mid(
-                                    Self.Text,
-                                    1,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    2,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    3,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    4,
-                                    1
-                                ) * 2 + Mid(
-                                    Self.Text,
-                                    5,
-                                    1
-                                ) * 9 + Mid(
-                                    Self.Text,
-                                    6,
-                                    1
-                                ) * 8 + Mid(
-                                    Self.Text,
-                                    7,
-                                    1
-                                ) * 7 + Mid(
-                                    Self.Text,
-                                    8,
-                                    1
-                                ) * 6 + Mid(
-                                    Self.Text,
-                                    9,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    10,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    11,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    12,
-                                    1
-                                ) * 2),
-                                11
-                            )
-                        }
-                    );
-                    
+            UpdateContext({VarPrimeiroDigito:Mod((Mid(Self.Text,1,1)*5+Mid(Self.Text,2,1)*4+Mid(Self.Text,3,1)*3+Mid(Self.Text,4,1)*2+Mid(Self.Text,5,1)*9+Mid(Self.Text,6,1)*8+Mid(Self.Text,7,1)*7+Mid(Self.Text,8,1)*6+Mid(Self.Text,9,1)*5+Mid(Self.Text,10,1)*4+Mid(Self.Text,11,1)*3+Mid(Self.Text,12,1)*2),11)});
             //Regra específica da validação do CNPJ
-            If(
-                        VarPrimeiroDigito < 2,
-                        UpdateContext({VarPrimeiroDigito: 0}),
-                        UpdateContext({VarPrimeiroDigito: 11 - VarPrimeiroDigito})
-                    );
-                    UpdateContext(
-                        {
-                            VarSegundoDigito: Mod(
-                                (Mid(
-                                    Self.Text,
-                                    1,
-                                    1
-                                ) * 6 + Mid(
-                                    Self.Text,
-                                    2,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    3,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    4,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    5,
-                                    1
-                                ) * 2 + Mid(
-                                    Self.Text,
-                                    6,
-                                    1
-                                ) * 9 + Mid(
-                                    Self.Text,
-                                    7,
-                                    1
-                                ) * 8 + Mid(
-                                    Self.Text,
-                                    8,
-                                    1
-                                ) * 7 + Mid(
-                                    Self.Text,
-                                    9,
-                                    1
-                                ) * 6 + Mid(
-                                    Self.Text,
-                                    10,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    11,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    12,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    13,
-                                    1
-                                ) * 2),
-                                11
-                            )
-                        }
-                    );
-                    
+            If(VarPrimeiroDigito<2,UpdateContext({VarPrimeiroDigito:0}),UpdateContext({VarPrimeiroDigito:11-VarPrimeiroDigito}));UpdateContext({VarSegundoDigito:Mod((Mid(Self.Text,1,1)*6+Mid(Self.Text,2,1)*5+Mid(Self.Text,3,1)*4+Mid(Self.Text,4,1)*3+Mid(Self.Text,5,1)*2+Mid(Self.Text,6,1)*9+Mid(Self.Text,7,1)*8+Mid(Self.Text,8,1)*7+Mid(Self.Text,9,1)*6+Mid(Self.Text,10,1)*5+Mid(Self.Text,11,1)*4+Mid(Self.Text,12,1)*3+Mid(Self.Text,13,1)*2),11)});
             //Regra específica da validação do CNPJ
-            If(
-                        VarSegundoDigito < 2,
-                        UpdateContext({VarSegundoDigito: 0}),
-                        UpdateContext({VarSegundoDigito: 11 - VarSegundoDigito})
-                    );
-                    
+            If(VarSegundoDigito<2,UpdateContext({VarSegundoDigito:0}),UpdateContext({VarSegundoDigito:11-VarSegundoDigito}));
             //3ª Condição
-            If(
-                        VarPrimeiroDigito = Value(
-                            Mid(
-                                Self.Text,
-                                13,
-                                1
-                            )
-                        ) And VarSegundoDigito = Value(
-                            Mid(
-                                Self.Text,
-                                14,
-                                1
-                            )
-                        ),
+            If(VarPrimeiroDigito=Value(Mid(Self.Text,13,1)) And VarSegundoDigito=Value(Mid(Self.Text,14,1)),
             //TRUE - 3ª Condição
-                        UpdateContext(
-                            {
-                                VarMascara: Left(
-                                    Self.Text,
-                                    2
-                                ) & "." & Mid(
-                                    Self.Text,
-                                    3,
-                                    3
-                                ) & "." & Mid(
-                                    Self.Text,
-                                    6,
-                                    3
-                                ) & "/" & Mid(
-                                    Self.Text,
-                                    9,
-                                    4
-                                ) & "-" & Right(
-                                    Self.Text,
-                                    2
-                                )
-                            }
-                        ),
+            UpdateContext({VarMascara:Left(Self.Text,2)&"."&Mid(Self.Text,3,3)&"."&Mid(Self.Text,6,3)&"/"&Mid(Self.Text,9,4)&"-"&Right(Self.Text,2)}),
             //FALSE - 3ª Condição
-                        UpdateContext(
-                            {
-                                VarPrimeiroDigito: Blank(),
-                                VarSegundoDigito: Blank(),
-                                VarMascara: Blank()
-                            }
-                        );
-                        Reset(Self)
-                    ),//FIM 3ª Condição
+            UpdateContext({VarPrimeiroDigito:Blank(),VarSegundoDigito:Blank(),VarMascara:Blank()});Reset(Self)),//FIM 3ª Condição
+            
             //FALSE - 2ª Condição
-                    Notify(
-                        "Por favor inserir 14 números!",
-                        NotificationType.Error,
-                        1500
-                    );
-                    UpdateContext(
-                        {
-                            VarPrimeiroDigito: Blank(),
-                            VarSegundoDigito: Blank(),
-                            VarMascara: Blank()
-                        }
-                    );
-                    Reset(Self)
-                ),//FIM 2ª Condição
+            Notify("Por favor inserir 14 números!",NotificationType.Error,1500);UpdateContext({VarPrimeiroDigito:Blank(),VarSegundoDigito:Blank(),VarMascara:Blank()});Reset(Self)),//FIM 2ª Condição
+            
             //4ª Condição
-                If(
-                    IsNumeric(Self.Text) And Len(Self.Text) = 11,
+            If(IsNumeric(Self.Text) And Len(Self.Text)=11,
             //TRUE - 4ª Condição
-                    UpdateContext(
-                        {
-                            VarPrimeiroDigito: Mod(
-                                ((Mid(
-                                    Self.Text,
-                                    1,
-                                    1
-                                ) * 10 + Mid(
-                                    Self.Text,
-                                    2,
-                                    1
-                                ) * 9 + Mid(
-                                    Self.Text,
-                                    3,
-                                    1
-                                ) * 8 + Mid(
-                                    Self.Text,
-                                    4,
-                                    1
-                                ) * 7 + Mid(
-                                    Self.Text,
-                                    5,
-                                    1
-                                ) * 6 + Mid(
-                                    Self.Text,
-                                    6,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    7,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    8,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    9,
-                                    1
-                                ) * 2) * 10),
-                                11
-                            )
-                        }
-                    );
-                    
+            UpdateContext({VarPrimeiroDigito:Mod(((Mid(Self.Text,1,1)*10+Mid(Self.Text,2,1)*9+Mid(Self.Text,3,1)*8+Mid(Self.Text,4,1)*7+Mid(Self.Text,5,1)*6+Mid(Self.Text,6,1)*5+Mid(Self.Text,7,1)*4+Mid(Self.Text,8,1)*3+Mid(Self.Text,9,1)*2)*10),11)});
             //Regra específica da validação do CPF
-            If(
-                        VarPrimeiroDigito = 10,
-                        UpdateContext({VarPrimeiroDigito: 0})
-                    );
-                    UpdateContext(
-                        {
-                            VarSegundoDigito: Mod(
-                                ((Mid(
-                                    Self.Text,
-                                    1,
-                                    1
-                                ) * 11 + Mid(
-                                    Self.Text,
-                                    2,
-                                    1
-                                ) * 10 + Mid(
-                                    Self.Text,
-                                    3,
-                                    1
-                                ) * 9 + Mid(
-                                    Self.Text,
-                                    4,
-                                    1
-                                ) * 8 + Mid(
-                                    Self.Text,
-                                    5,
-                                    1
-                                ) * 7 + Mid(
-                                    Self.Text,
-                                    6,
-                                    1
-                                ) * 6 + Mid(
-                                    Self.Text,
-                                    7,
-                                    1
-                                ) * 5 + Mid(
-                                    Self.Text,
-                                    8,
-                                    1
-                                ) * 4 + Mid(
-                                    Self.Text,
-                                    9,
-                                    1
-                                ) * 3 + Mid(
-                                    Self.Text,
-                                    10,
-                                    1
-                                ) * 2) * 10),
-                                11
-                            )
-                        }
-                    );
-                    
+            If(VarPrimeiroDigito=10,UpdateContext({VarPrimeiroDigito:0}));UpdateContext({VarSegundoDigito:Mod(((Mid(Self.Text,1,1)*11+Mid(Self.Text,2,1)*10+Mid(Self.Text,3,1)*9+Mid(Self.Text,4,1)*8+Mid(Self.Text,5,1)*7+Mid(Self.Text,6,1)*6+Mid(Self.Text,7,1)*5+Mid(Self.Text,8,1)*4+Mid(Self.Text,9,1)*3+Mid(Self.Text,10,1)*2)*10),11)});
             //Regra específica da validação do CPF
-            If(
-                        VarSegundoDigito = 10,
-                        UpdateContext({VarSegundoDigito: 0})
-                    );
-                    
+            If(VarSegundoDigito=10,UpdateContext({VarSegundoDigito:0}));
             //5ª Condição
-            If(
-                        VarPrimeiroDigito = Value(
-                            Mid(
-                                Self.Text,
-                                10,
-                                1
-                            )
-                        ) And VarSegundoDigito = Value(
-                            Mid(
-                                Self.Text,
-                                11,
-                                1
-                            )
-                        ),
+            If(VarPrimeiroDigito=Value(Mid(Self.Text,10,1)) And VarSegundoDigito=Value(Mid(Self.Text,11,1)),
             //TRUE - 5ª Condição
-                        UpdateContext(
-                            {
-                                VarMascara: Left(
-                                    Self.Text,
-                                    3
-                                ) & "." & Mid(
-                                    Self.Text,
-                                    4,
-                                    3
-                                ) & "." & Mid(
-                                    Self.Text,
-                                    7,
-                                    3
-                                ) & "-" & Right(
-                                    Self.Text,
-                                    2
-                                )
-                            }
-                        ),
+            UpdateContext({VarMascara:Left(Self.Text,3)&"."&Mid(Self.Text,4,3)&"."&Mid(Self.Text,7,3)&"-"&Right(Self.Text,2)}),
             //FALSE - 5ª Condição
-                        Notify(
-                            "Por favor inserir um CPF válido!",
-                            NotificationType.Error,
-                            1500
-                        );
-                        UpdateContext(
-                            {
-                                VarPrimeiroDigito: Blank(),
-                                VarSegundoDigito: Blank(),
-                                VarMascara: Blank()
-                            }
-                        );
-                        Reset(Self)
-                    ),//FIM 5ª Condição
+            Notify("Por favor inserir um CPF válido!",NotificationType.Error,1500);UpdateContext({VarPrimeiroDigito:Blank(),VarSegundoDigito:Blank(),VarMascara:Blank()});Reset(Self)),//FIM 5ª Condição
+            
             //FALSE - 4ªCondição
-                    Notify(
-                        "Por favor inserir 11 números!",
-                        NotificationType.Error,
-                        1500
-                    );
-                    UpdateContext(
-                        {
-                            VarPrimeiroDigito: Blank(),
-                            VarSegundoDigito: Blank(),
-                            VarMascara: Blank()
-                        }
-                    );
-                    Reset(Self)
-                )//FIM 4ª Condição
+            Notify("Por favor inserir 11 números!",NotificationType.Error,1500);UpdateContext({VarPrimeiroDigito:Blank(),VarSegundoDigito:Blank(),VarMascara:Blank()});Reset(Self))//FIM 4ª Condição
             )//FIM 1ª Condição
             ;
             //If(Radio2.Selected.Value = "Pessoa jurídica"; 
-            If(
-                (CountA(
-                    Split(
-                        Self.Text,
-                        Left(
-                            Self.Text,
-                            1
-                        )
-                    )
-                ) - 1) = 11,
-                Notify(
-                    "Por favor inserir um CPF válido!",
-                    NotificationType.Error,
-                    1500
-                );
-                Reset(Self);
-                
-            )
+            If((CountA(Split(Self.Text,Left(Self.Text,1)))-1)=11,Notify("Por favor inserir um CPF válido!",NotificationType.Error,1500);Reset(Self);)
         PressedBorderColor: =RGBA(0, 120, 212, 1)
         PressedColor: =RGBA(51, 51, 51, 1)
         PressedFill: =RGBA(255, 255, 255, 1)
@@ -474,60 +118,17 @@ login As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =21
-        Tooltip: ="Somente números"
+        Tooltip: =
         Width: =480
         X: =80
         Y: =709
         ZIndex: =8
 
-    LabelPassword As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =32
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =18
-        Text: ="Senha"
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =81
-        Y: =801
-        ZIndex: =9
-
-    LabelTipoUser As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =32
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =18
-        Text: =If(Toggle_Cpf_Or_Cnpj.Value,"CNPJ","CPF")
-        VerticalAlign: =VerticalAlign.Top
-        Width: =74
-        X: =81
-        Y: =677
-        ZIndex: =10
-
     Toggle_Cpf_Or_Cnpj As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(51, 51, 51, 1)
+        Default: =togglePosition
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         FalseFill: =RGBA(110, 164, 191, 1)
         FalseHoverFill: =RGBA(33, 33, 33, 1)
@@ -542,7 +143,10 @@ login As screen:
             =Reset(TxtInputLoginCnpj_Cpf);
             Reset(TxtInputLoginSenha);
             Set(currentUser, Blank());
-        OnCheck: =
+        OnCheck: |-
+            =UpdateContext({togglePosition:true})
+        OnUncheck: |-
+            =UpdateContext({togglePosition:false})
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         Size: =20
         TextPosition: =TextPosition.Left
@@ -671,10 +275,11 @@ login As screen:
         FontWeight: =FontWeight.Semibold
         Height: =21
         Text: |-
-            =If(Len(TxtInputLoginCnpj_Cpf.Text)=0,
-            $"{LabelTipoUser.Text} é obrigatório."
-            ,
-            ""
+            =If(
+                (IsBlank(TxtInputLoginCnpj_Cpf.Text) And togglePosition=false),
+                "CPF é obrigatório.",
+                (IsBlank(TxtInputLoginCnpj_Cpf.Text) And togglePosition=true),
+                "CNPJ é obrigatório"
             )
         Visible: =Not(Self.Text="")
         Width: =480
@@ -743,78 +348,6 @@ login As screen:
         Width: = Max(App.Width, App.DesignWidth)
         ZIndex: =21
 
-    grpCheckOkFase2 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =21
-
-        Rectangle3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =4
-            Height: =App.Height
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            Visible: =visibleTransitionFase2
-            Width: =App.Width
-            ZIndex: =1
-
-        iconCircle1 As circle.Circle:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0, 120, 212, 1)
-            Fill: =RGBA(0, 120, 212, 1)
-            HoverFill: =RGBA(0, 120, 212, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
-            Visible: =visibleTransitionFase2
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =2
-
-        LblSuccessMsg1 As label:
-            Align: =Align.Center
-            AutoHeight: =true
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =iconCircle1.Height
-            Size: =21
-            Text: ="Isso foi concluído com êxito"
-            Visible: =visibleTransitionFase2
-            Width: =Parent.Width * 0.75
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =iconCheck1.Y + iconCheck1.Height + 100
-            ZIndex: =3
-
-        iconCheck1 As icon.Check:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            Height: =iconCircle1.Height
-            Icon: =Icon.Check
-            PaddingBottom: =Self.PaddingTop
-            PaddingLeft: =Self.PaddingTop
-            PaddingRight: =Self.PaddingTop
-            PaddingTop: =18
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: =visibleTransitionFase2
-            Width: =iconCircle1.Width
-            X: =Parent.Width/2 - Self.Width/2
-            Y: =(Parent.Height/2 - Self.Height/2) * .7
-            ZIndex: =4
-
     cmpTransitionLoadLogin As cmpTransitionLoad:
         Visible: =visibleTransitionFase1
         ZIndex: =22
@@ -828,11 +361,11 @@ login As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
+        Height: =33
         Size: =21
         Text: ="ID " & currentUser.ID & "estado = " & rect.DisplayMode
-        Width: =560
-        X: =63
+        Width: =269
+        X: =1
         Y: =924
         ZIndex: =23
 
@@ -861,7 +394,9 @@ login As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =21
         Start: =TimerGoFase1
-        Width: =132
+        Text: |-
+            =$"Timer loading {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
+        Width: =234
         Y: =1066
         ZIndex: =24
 
@@ -887,8 +422,10 @@ login As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =21
         Start: =TimerGoFase2
-        Width: =115
-        X: =155
+        Text: |-
+            =$"Timer success {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
+        Width: =215
+        X: =235
         Y: =1066
         ZIndex: =25
 
@@ -900,7 +437,7 @@ login As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.View
-        Duration: =6000
+        Duration: =1234
         Fill: =RGBA(255, 0, 0, 1)
         Font: =Font.'Segoe UI'
         Height: =70
@@ -917,8 +454,10 @@ login As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =21
         Start: =TimerGoFailFase1
-        Width: =115
-        X: =302
+        Text: |-
+            =$"Timer fail {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
+        Width: =215
+        X: =425
         Y: =1066
         ZIndex: =26
 

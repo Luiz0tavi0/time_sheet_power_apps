@@ -27,7 +27,8 @@
                     visibleTransitionFailFase1: false,
                     TimerGoFase1:false,
                     TimerGoFase2:false,
-                    TimerGoFailFase1:false        
+                    TimerGoFailFase1:false,
+                    togglePosition:false
                 }
             );
             Reset(Self);

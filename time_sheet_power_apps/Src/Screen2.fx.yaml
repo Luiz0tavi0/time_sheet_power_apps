@@ -1,34 +1,46 @@
 Screen2 As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    SuccessModalOnlyOKButton_2 As SuccessModalOnlyOKButton:
-        textoModal: =currentUser.name
+    testGlobalVariables_1 As testGlobalVariables:
+        Height: =282
+        NumberIN: =Slider1.Value
+        Width: =357
 
-    btnOkSuccess_2 As button:
+    Slider1 As slider:
         BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HandleActiveFill: =RGBA(255, 255, 255, 1)
+        HandleFill: =RGBA(255, 255, 255, 1)
+        HandleHoverFill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        RailFill: =RGBA(200, 200, 200, 1)
+        RailHoverFill: =ColorFade(RGBA(0, 120, 212, 1), 80%)
+        ValueFill: =RGBA(102, 102, 102, 1)
+        ValueHoverFill: =RGBA(0, 120, 212, 1)
+        Width: =560
+        X: =58
+        Y: =508
+        ZIndex: =2
+
+    Label4 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(110, 164, 191, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
         Height: =70
-        HoverBorderColor: =RGBA(110, 164, 191, 1)
-        HoverColor: =RGBA(110, 164, 191, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        OnSelect: =SuccessModalOnlyOKButton_2.textoModal="Clicado"
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        RadiusBottomLeft: =180
-        RadiusBottomRight: =35 
-        RadiusTopLeft: =35
-        RadiusTopRight: =180
-        Size: =25
-        Text: ="Botão"
-        Width: =280
-        X: =180
-        Y: =568
-        ZIndex: =2
+        Size: =21
+        Text: =$"Resultado = {testGlobalVariables_1.NumberOut}"
+        Width: =560
+        X: =42
+        Y: =722
+        ZIndex: =3
 
