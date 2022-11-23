@@ -87,7 +87,7 @@
         "Name": "Rectangle3_4",
         "Parent": "cmpScreenSuccess",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 586,
+        "PublishOrderIndex": 579,
         "Rules": [
           {
             "Category": "Design",
@@ -242,7 +242,7 @@
         "Name": "iconCircle1_4",
         "Parent": "cmpScreenSuccess",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 587,
+        "PublishOrderIndex": 580,
         "Rules": [
           {
             "Category": "Design",
@@ -402,7 +402,7 @@
         "Name": "iconCheck1_4",
         "Parent": "cmpScreenSuccess",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 588,
+        "PublishOrderIndex": 581,
         "Rules": [
           {
             "Category": "Design",
@@ -650,7 +650,7 @@
         "Name": "LblSuccessMsg1_4",
         "Parent": "cmpScreenSuccess",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 589,
+        "PublishOrderIndex": 582,
         "Rules": [
           {
             "Category": "Data",
