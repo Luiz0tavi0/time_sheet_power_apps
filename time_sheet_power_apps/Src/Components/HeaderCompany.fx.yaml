@@ -1,6 +1,7 @@
 HeaderCompany As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =120
+    name: ="Nome do Usuário Logado"
     Width: =640
     X: =0
     Y: =0
@@ -54,8 +55,8 @@ HeaderCompany As CanvasComponent:
         PaddingRight: =0
         PaddingTop: =0
         Size: =20
-        Text: ="<nome>"
-        Width: =134
+        Text: =HeaderCompany.name
+        Width: =480
         X: =46
         Y: =41
         ZIndex: =6
