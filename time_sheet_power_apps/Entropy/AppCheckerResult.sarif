@@ -1974,6 +1974,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen2.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen2",
+                "type": "Screen2.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "login.TxtInputLoginCnpj_Cpf.AccessibleLabel"
                 }
               ],
@@ -13042,19 +13072,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "testGlobalVariables.varInitTimer"
+                  "fullyQualifiedName": "login.VarMascara"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "testGlobalVariables.varInitTimer",
+                  "fullyQualifiedName": "login.VarMascara",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varInitTimer",
-                "module": "testGlobalVariables",
-                "type": "testGlobalVariables"
+                "member": "VarMascara",
+                "module": "login",
+                "type": "login"
               }
             }
           ],
@@ -13072,17 +13102,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "login.VarMascara"
+                  "fullyQualifiedName": "login.visibleTransitionFase2"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "login.VarMascara",
+                  "fullyQualifiedName": "login.visibleTransitionFase2",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "VarMascara",
+                "member": "visibleTransitionFase2",
                 "module": "login",
                 "type": "login"
               }

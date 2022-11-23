@@ -5,6 +5,7 @@ testGlobalVariables As CanvasComponent:
     mostrarRect: =false
     NumberIN: =100
     NumberOut: =varnewNumber
+    tempoTotal: =100
     Width: =640
     X: =0
     Y: =0
@@ -16,19 +17,19 @@ testGlobalVariables As CanvasComponent:
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =52
+        Height: =107
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Visible: =testGlobalVariables.NumberIN < 50
-        Width: =66
-        Y: =439
+        Width: =238
+        X: =138
+        Y: =418
         ZIndex: =4
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =252
         Visible: =testGlobalVariables.mostrarRect
         X: =66
-        Y: =36
         ZIndex: =5
 
         Button4 As button:
@@ -73,7 +74,7 @@ testGlobalVariables As CanvasComponent:
             Height: =35
             Size: =21
             Text: |-
-                =$"Recebido : {testGlobalVariables.NumberIN} :: {testGlobalVariables.NumberIN <50}"
+                =$"Recebido : {testGlobalVariables.NumberIN} ::\nInicia relogio? {testGlobalVariables.NumberIN > 75}"
             Visible: =Parent.Visible
             Width: =500
             Y: =40
@@ -94,7 +95,8 @@ testGlobalVariables As CanvasComponent:
             HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
             OnSelect: |-
                 =Set(varnewNumber, testGlobalVariables.NumberIN*3);
-                Set(varInitTimer, testGlobalVariables.initTimer);
+                If(varInitTimer,Set(varInitTimer, false),Set(varInitTimer, false));
+                //Set(varInitTimer; testGlobalVariables.initTimer);;
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -117,12 +119,14 @@ testGlobalVariables As CanvasComponent:
             DisabledBorderColor: =RGBA(244, 244, 244, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
+            Duration: =testGlobalVariables.tempoTotal*1000
             Fill: =RGBA(0, 120, 212, 1)
             Font: =Font.'Segoe UI'
             Height: =70
             HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -10%)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnTimerEnd: =testGlobalVariables.NumberOut = 999
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -132,4 +136,20 @@ testGlobalVariables As CanvasComponent:
             X: =60
             Y: =60
             ZIndex: =4
+
+        Label5 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =62
+            Size: =21
+            Text: =testGlobalVariables.NumberOut
+            Width: =227
+            Y: =80
+            ZIndex: =5
 

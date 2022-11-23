@@ -19,7 +19,7 @@ login As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Transparency: =0.3
         Width: =640
-        ZIndex: =6
+        ZIndex: =1
 
     TxtInputLoginSenha As text:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -49,7 +49,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =833
-        ZIndex: =7
+        ZIndex: =2
 
     TxtInputLoginCnpj_Cpf As text:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -122,7 +122,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =709
-        ZIndex: =8
+        ZIndex: =3
 
     Toggle_Cpf_Or_Cnpj As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -157,7 +157,7 @@ login As screen:
         Width: =320
         X: =160
         Y: =613
-        ZIndex: =11
+        ZIndex: =4
 
     AppTittle As label:
         Align: =Align.Center
@@ -182,7 +182,7 @@ login As screen:
         Width: =550
         X: =45
         Y: =47
-        ZIndex: =12
+        ZIndex: =5
 
     ButtonRegistration As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -208,7 +208,7 @@ login As screen:
             
             
             If(
-                Toggle_Cpf_Or_Cnpj.Value, 
+                togglePosition, 
                  Navigate(cadastro_empresa); NewForm(FormWorkerReg),
                  Navigate(cadastro_colaborador); NewForm(FormCompanyReg)
                  );
@@ -220,7 +220,7 @@ login As screen:
         Width: =230
         X: =81
         Y: =967
-        ZIndex: =13
+        ZIndex: =6
 
     ButtonLogin As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -261,7 +261,7 @@ login As screen:
         Width: =232
         X: =328
         Y: =967
-        ZIndex: =14
+        ZIndex: =7
 
     LabelLoginError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -285,7 +285,7 @@ login As screen:
         Width: =480
         X: =80
         Y: =782
-        ZIndex: =15
+        ZIndex: =8
 
     LabelPasswordError As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -313,7 +313,7 @@ login As screen:
         Width: =480
         X: =81
         Y: =903
-        ZIndex: =16
+        ZIndex: =9
 
     cmpLoginFail_1 As cmpLoginFail:
         Height: = Max(App.Height, App.DesignHeight)
@@ -322,13 +322,13 @@ login As screen:
             Tente novamente"
         Visible: =visibleTransitionFailFase1
         Width: = Max(App.Width, App.DesignWidth)
-        ZIndex: =20
+        ZIndex: =10
 
     rect As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        DisabledFill: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
         DisplayMode: |-
             =If(
                 visibleTransitionFailFase1,
@@ -346,11 +346,7 @@ login As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         Visible: =visibleTransitionFailFase1
         Width: = Max(App.Width, App.DesignWidth)
-        ZIndex: =21
-
-    cmpTransitionLoadLogin As cmpTransitionLoad:
-        Visible: =visibleTransitionFase1
-        ZIndex: =22
+        ZIndex: =11
 
     Label2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -367,7 +363,7 @@ login As screen:
         Width: =269
         X: =1
         Y: =924
-        ZIndex: =23
+        ZIndex: =12
 
     tempScreenTransitionFase1 As timer:
         AutoPause: =false
@@ -398,7 +394,7 @@ login As screen:
             =$"Timer loading {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
         Width: =234
         Y: =1066
-        ZIndex: =24
+        ZIndex: =13
 
     tempScreenTransitionFase2 As timer:
         BorderColor: =RGBA(0, 120, 212, 1)
@@ -427,7 +423,7 @@ login As screen:
         Width: =215
         X: =235
         Y: =1066
-        ZIndex: =25
+        ZIndex: =14
 
     tempScreenTransitionErrorFase As timer:
         AutoPause: =false
@@ -459,7 +455,7 @@ login As screen:
         Width: =215
         X: =425
         Y: =1066
-        ZIndex: =26
+        ZIndex: =15
 
     Label1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -475,7 +471,11 @@ login As screen:
         Text: ="Texto = " & visibleTransitionFailFase1
         Width: =560
         X: =45
-        ZIndex: =27
+        ZIndex: =16
+
+    cmpTransitionLoadLogin As cmpTransitionLoad:
+        Visible: =visibleTransitionFase1
+        ZIndex: =17
 
     cmpScreenSuccess_1 As cmpScreenSuccess:
         exito_texto: |-
@@ -484,6 +484,6 @@ login As screen:
                 $"Welcome, {currentUser.name}",
                 $"Welcome, {currentUser.email}"    
             )
-        Visible: =visibleTransitionFase2
-        ZIndex: =28
+        Visible: =visibleTransitionFase1
+        ZIndex: =18
 
