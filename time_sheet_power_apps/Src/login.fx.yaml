@@ -200,18 +200,13 @@ login As screen:
             =//ColorFade(RGBA(0; 120; 212; 1); -10%)
             RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =//If(Toggle_Cpf_Or_Cnpj.Value;
-             //   Navigate(cadastro_empresa);; NewForm(FormWorkerReg);;
-            //);;
-            
-            //If(Not(Toggle_Cpf_Or_Cnpj.Value); Navigate(cadastro_colaborador);; NewForm(FormCompanyReg));;
-            
-            
-            If(
-                togglePosition, 
-                 Navigate(cadastro_empresa); NewForm(FormWorkerReg),
-                 Navigate(cadastro_colaborador); NewForm(FormCompanyReg)
-                 );
+            =If(
+                togglePosition,
+                Navigate(FormWorkerReg,ScreenTransition.Fade,{});
+                //NewForm(FormWorkerReg);
+                Navigate(FormCompanyReg,ScreenTransition.Fade, {});
+                //NewForm(FormCompanyReg)
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -348,22 +343,19 @@ login As screen:
         Width: = Max(App.Width, App.DesignWidth)
         ZIndex: =11
 
-    Label2 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =33
-        Size: =21
-        Text: ="ID " & currentUser.ID & "estado = " & rect.DisplayMode
-        Width: =269
-        X: =1
-        Y: =924
+    cmpTransitionLoadLogin As cmpTransitionLoad:
+        Visible: =visibleTransitionFase1
         ZIndex: =12
+
+    cmpScreenSuccess_1 As cmpScreenSuccess:
+        exito_texto: |-
+            =If(
+                Not(IsBlank(currentUser.name)),
+                $"Welcome, {currentUser.name}",
+                $"Welcome, {currentUser.email}"    
+            )
+        Visible: =visibleTransitionFase1
+        ZIndex: =13
 
     tempScreenTransitionFase1 As timer:
         AutoPause: =false
@@ -394,7 +386,7 @@ login As screen:
             =$"Timer loading {Text(Time(0, 0, Self.Value/1000), "hh:mm:ss")}"
         Width: =234
         Y: =1066
-        ZIndex: =13
+        ZIndex: =14
 
     tempScreenTransitionFase2 As timer:
         BorderColor: =RGBA(0, 120, 212, 1)
@@ -423,7 +415,7 @@ login As screen:
         Width: =215
         X: =235
         Y: =1066
-        ZIndex: =14
+        ZIndex: =15
 
     tempScreenTransitionErrorFase As timer:
         AutoPause: =false
@@ -455,9 +447,9 @@ login As screen:
         Width: =215
         X: =425
         Y: =1066
-        ZIndex: =15
+        ZIndex: =16
 
-    Label1 As label:
+    Label2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -466,24 +458,12 @@ login As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
+        Height: =51
         Size: =21
-        Text: ="Texto = " & visibleTransitionFailFase1
-        Width: =560
-        X: =45
-        ZIndex: =16
-
-    cmpTransitionLoadLogin As cmpTransitionLoad:
-        Visible: =visibleTransitionFase1
-        ZIndex: =17
-
-    cmpScreenSuccess_1 As cmpScreenSuccess:
-        exito_texto: |-
-            =If(
-                Not(IsBlank(currentUser.name)),
-                $"Welcome, {currentUser.name}",
-                $"Welcome, {currentUser.email}"    
-            )
-        Visible: =visibleTransitionFase1
+        Text: |-
+            ="ID  logado: " & currentUser.ID & " estado: " & rect.DisplayMode
+        Width: =639
+        X: =1
+        Y: =903
         ZIndex: =18
 
