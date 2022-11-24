@@ -5404,19 +5404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.TitleCreateActivity.TabIndex"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.TitleCreateActivity.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.TitleCreateActivity.TabIndex",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.TitleCreateActivity.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.TitleCreateActivity"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.TitleCreateActivity"
               }
             }
           ],
@@ -5434,19 +5434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.DropdownCompany.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.DropdownCompany.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.DropdownCompany.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.DropdownCompany.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.DropdownCompany"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.DropdownCompany"
               }
             }
           ],
@@ -5464,19 +5464,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.DropdownProject.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.DropdownProject.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.DropdownProject.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.DropdownProject.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.DropdownProject"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.DropdownProject"
               }
             }
           ],
@@ -5494,19 +5494,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.FormActivity.name_DataCard5.DataCardValue17"
               }
             }
           ],
@@ -5524,19 +5524,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.FormActivity.description_DataCard1.DataCardValue18"
               }
             }
           ],
@@ -5554,19 +5554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.FormActivity.status_DataCard1.DataCardValue19"
               }
             }
           ],
@@ -5584,19 +5584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.FormActivity.date_DataCard1.DataCardValue20"
               }
             }
           ],
@@ -5614,19 +5614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21.AccessibleLabel"
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "inserir_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21.AccessibleLabel",
+                  "fullyQualifiedName": "registrar_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "inserir_atividade_colaborador",
-                "type": "inserir_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21"
+                "module": "registrar_atividade_colaborador",
+                "type": "registrar_atividade_colaborador.FormActivity.hours_DataCard1.DataCardValue21"
               }
             }
           ],
