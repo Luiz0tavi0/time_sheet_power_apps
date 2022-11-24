@@ -45,7 +45,7 @@
         "Name": "Rectangle2",
         "Parent": "testMudaEstadoInterno",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 584,
+        "PublishOrderIndex": 587,
         "Rules": [
           {
             "Category": "Design",
@@ -224,7 +224,7 @@
         "Name": "Label1",
         "Parent": "testMudaEstadoInterno",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 585,
+        "PublishOrderIndex": 588,
         "Rules": [
           {
             "Category": "Data",
@@ -541,7 +541,7 @@
         "Name": "Label1_1",
         "Parent": "testMudaEstadoInterno",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 586,
+        "PublishOrderIndex": 589,
         "Rules": [
           {
             "Category": "Data",
@@ -862,7 +862,7 @@
         "Name": "Button3",
         "Parent": "testMudaEstadoInterno",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 587,
+        "PublishOrderIndex": 590,
         "Rules": [
           {
             "Category": "Data",

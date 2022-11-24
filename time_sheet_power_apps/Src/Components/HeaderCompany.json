@@ -11,14 +11,7 @@
           "AccessibleLabel",
           "Tooltip",
           "ContentLanguage",
-          {
-            "AFDDataSourceName": "",
-            "AutoRuleBindingEnabled": false,
-            "AutoRuleBindingString": "RGBA(2, 4, 48, 1)",
-            "InvariantPropertyName": "Fill",
-            "IsLockable": false,
-            "NameMapSourceSchema": "?"
-          },
+          "Fill",
           "DisabledFill",
           "PressedFill",
           "HoverFill",
@@ -62,7 +55,7 @@
         "Name": "BackgroundHeaderDark",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 567,
+        "PublishOrderIndex": 571,
         "Rules": [
           {
             "Category": "Data",
@@ -174,7 +167,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "Parent.backgroundColor",
+            "InvariantScript": "RGBA(2, 4, 48, 1)",
             "Property": "Fill",
             "RuleProviderType": "Unknown"
           },
@@ -320,7 +313,7 @@
         "Name": "IconLogoff_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 568,
+        "PublishOrderIndex": 572,
         "Rules": [
           {
             "Category": "Design",
@@ -574,7 +567,7 @@
         "Name": "NameLogin_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 569,
+        "PublishOrderIndex": 573,
         "Rules": [
           {
             "Category": "Data",
@@ -910,14 +903,7 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "640",
-        "InvariantPropertyName": "Width",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "Width",
       "X",
       "Y",
       "ZIndex",
@@ -928,29 +914,15 @@
         "InvariantPropertyName": "name",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
-        "InvariantPropertyName": "backgroundColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638048630760416046",
+    "LastModifiedTimestamp": "638048440770086328",
     "Name": "HeaderCompany",
     "Rules": [
       {
         "Category": "Data",
         "InvariantScript": "\"Nome do Usuário Logado\"",
         "Property": "name",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "InvariantScript": "Blue",
-        "Property": "backgroundColor",
         "RuleProviderType": "System"
       },
       {
@@ -973,9 +945,9 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "App.Width",
+        "InvariantScript": "640",
         "Property": "Width",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
@@ -1028,7 +1000,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638048630760416046",
+  "LastModifiedTimestamp": "638048440770086328",
   "Name": "faecc12050bb4c9ca744ac80084ea13a",
   "OverridableProperties": {},
   "Version": "638045030137339720"

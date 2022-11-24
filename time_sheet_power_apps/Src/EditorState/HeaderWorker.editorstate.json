@@ -203,14 +203,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "640",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
         "X",
         "Y",
         "ZIndex",
@@ -219,22 +212,6 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "\"Texto\"",
           "InvariantPropertyName": "name",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Is_logged",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
-          "InvariantPropertyName": "backgroundColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -257,16 +234,6 @@
           "RuleProviderType": "System"
         },
         {
-          "Category": "Data",
-          "PropertyName": "Is_logged",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "backgroundColor",
-          "RuleProviderType": "System"
-        },
-        {
           "Category": "Design",
           "PropertyName": "Fill",
           "RuleProviderType": "System"
@@ -279,7 +246,7 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -490,14 +457,7 @@
     "IconLogoff_3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Icon.Leave",
-          "InvariantPropertyName": "Icon",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Icon",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -573,7 +533,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconLogoff_3",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
