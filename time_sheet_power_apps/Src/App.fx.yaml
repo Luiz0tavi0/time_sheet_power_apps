@@ -1,5 +1,9 @@
 App As appinfo:
     BackEnabled: =false
+    Formulas: |
+        =CONST_NAME_FOR_HEADER = currentUser.name;
+        CONST_BACKGROUND_COLABORADOR = RGBA(110, 164, 191, 1);
+        CONST_BACKGROUND_EMPRESA = RGBA(2,4,48,1);
     MinScreenHeight: =430
     MinScreenWidth: |
         =430

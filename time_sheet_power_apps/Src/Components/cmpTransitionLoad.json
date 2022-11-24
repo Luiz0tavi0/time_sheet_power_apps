@@ -90,7 +90,7 @@
             "Name": "rectContainer_1",
             "Parent": "mainContainer_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 564,
+            "PublishOrderIndex": 560,
             "Rules": [
               {
                 "Category": "Design",
@@ -259,7 +259,7 @@
             "Name": "Image1",
             "Parent": "mainContainer_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 565,
+            "PublishOrderIndex": 561,
             "Rules": [
               {
                 "Category": "Data",
@@ -567,7 +567,7 @@
             "Name": "lblLoadingMsgMiddleScreen",
             "Parent": "mainContainer_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 566,
+            "PublishOrderIndex": 562,
             "Rules": [
               {
                 "Category": "Data",
@@ -893,7 +893,7 @@
         "Name": "mainContainer_1",
         "Parent": "cmpTransitionLoad",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 563,
+        "PublishOrderIndex": 559,
         "Rules": [
           {
             "Category": "Design",

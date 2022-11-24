@@ -11,7 +11,14 @@
           "AccessibleLabel",
           "Tooltip",
           "ContentLanguage",
-          "Fill",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "RGBA(2, 4, 48, 1)",
+            "InvariantPropertyName": "Fill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "DisabledFill",
           "PressedFill",
           "HoverFill",
@@ -55,7 +62,7 @@
         "Name": "BackgroundHeaderDark",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 571,
+        "PublishOrderIndex": 567,
         "Rules": [
           {
             "Category": "Data",
@@ -167,7 +174,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "RGBA(2, 4, 48, 1)",
+            "InvariantScript": "Parent.backgroundColor",
             "Property": "Fill",
             "RuleProviderType": "Unknown"
           },
@@ -313,7 +320,7 @@
         "Name": "IconLogoff_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 572,
+        "PublishOrderIndex": 568,
         "Rules": [
           {
             "Category": "Design",
@@ -567,7 +574,7 @@
         "Name": "NameLogin_2",
         "Parent": "HeaderCompany",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 573,
+        "PublishOrderIndex": 569,
         "Rules": [
           {
             "Category": "Data",
@@ -903,7 +910,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "Width",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "X",
       "Y",
       "ZIndex",
@@ -914,15 +928,29 @@
         "InvariantPropertyName": "name",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+        "InvariantPropertyName": "backgroundColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638048440770086328",
+    "LastModifiedTimestamp": "638048630760416046",
     "Name": "HeaderCompany",
     "Rules": [
       {
         "Category": "Data",
         "InvariantScript": "\"Nome do Usuário Logado\"",
         "Property": "name",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "Blue",
+        "Property": "backgroundColor",
         "RuleProviderType": "System"
       },
       {
@@ -945,9 +973,9 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "640",
+        "InvariantScript": "App.Width",
         "Property": "Width",
-        "RuleProviderType": "Unknown"
+        "RuleProviderType": "System"
       },
       {
         "Category": "Design",
@@ -981,6 +1009,15 @@
       "PropertyDataTypeKey": "String",
       "Tooltip": "nome do usuário logado",
       "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "backgroundColor",
+      "Hidden": false,
+      "Name": "backgroundColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "backgroundColor",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -991,7 +1028,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638048440770086328",
+  "LastModifiedTimestamp": "638048630760416046",
   "Name": "faecc12050bb4c9ca744ac80084ea13a",
   "OverridableProperties": {},
   "Version": "638045030137339720"

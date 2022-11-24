@@ -189,5 +189,6 @@ Buscar_por_projeto_empresa As screen:
         ZIndex: =7
 
     HeaderCompany_13 As HeaderCompany:
+        name: =currentUser.name
         ZIndex: =8
 

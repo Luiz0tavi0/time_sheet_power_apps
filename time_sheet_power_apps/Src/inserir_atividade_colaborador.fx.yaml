@@ -801,5 +801,7 @@ inserir_atividade_colaborador As screen:
         ZIndex: =10
 
     HeaderWorker_6 As HeaderWorker:
+        Height: =117
+        Is_logged: =true
         ZIndex: =11
 

@@ -1,8 +1,9 @@
 HeaderCompany As CanvasComponent:
+    backgroundColor: =Blue
     Fill: =RGBA(0, 0, 0, 0)
     Height: =120
     name: ="Nome do Usuário Logado"
-    Width: =640
+    Width: =App.Width
     X: =0
     Y: =0
     ZIndex: =1
@@ -11,7 +12,7 @@ HeaderCompany As CanvasComponent:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(2, 4, 48, 1)
+        Fill: =Parent.backgroundColor
         FocusedBorderThickness: =4
         Height: =120
         HoverFill: =RGBA(0, 120, 212, 1)

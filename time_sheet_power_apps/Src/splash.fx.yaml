@@ -10,7 +10,7 @@
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =600
+        Duration: =450
         Fill: =RGBA(0, 120, 212, 1)
         Font: =Font.'Segoe UI'
         Height: =70

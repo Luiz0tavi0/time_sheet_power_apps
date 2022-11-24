@@ -235,5 +235,6 @@ inicial_colaborador As screen:
         ZIndex: =10
 
     HeaderWorker_1 As HeaderWorker:
+        backgroundColor: =CONST_BACKGROUND_COLABORADOR
         ZIndex: =11
 
