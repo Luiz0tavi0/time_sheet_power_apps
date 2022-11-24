@@ -1,6 +1,7 @@
 HeaderCompany As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =120
+    name: ="Nome do Usuário Logado"
     Width: =640
     X: =0
     Y: =0
@@ -17,28 +18,6 @@ HeaderCompany As CanvasComponent:
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =640
         ZIndex: =3
-
-    NameLogin_2 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Bold
-        Height: =39
-        LineHeight: =1.171875
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Size: =20
-        Text: =User().FullName
-        Width: =494
-        X: =46
-        Y: =41
-        ZIndex: =4
 
     IconLogoff_2 As icon.Leave:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -59,4 +38,26 @@ HeaderCompany As CanvasComponent:
         X: =553
         Y: =40
         ZIndex: =5
+
+    NameLogin_2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =43
+        LineHeight: =1.171875
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =20
+        Text: =HeaderCompany.name
+        Width: =480
+        X: =46
+        Y: =41
+        ZIndex: =6
 

@@ -958,7 +958,17 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [],
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "name",
+      "Hidden": false,
+      "Name": "name",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "Nome do usuário logado",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
